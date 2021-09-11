@@ -1,0 +1,41 @@
+---
+title: Relaxivity Podcast
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+   <style>
+
+   h1, h2, h3, h4, h5, h6 {
+    font-family:  Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+}
+
+</style>
+
+
+   <title>{{ title }}</title>
+  </head>
+  <body>
+  <div class="container p-md-5">
+ {% include 'components/navbars/navbar.njk' %}
+ </div>
+
+<main class="container">
+ {{ content | safe }}
+</main>
+
+        <!-- Footer-->
+        
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script> </script>
+    </body>
+</html>

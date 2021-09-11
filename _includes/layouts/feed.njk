@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:cc="http://web.resource.org/cc/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/"  xmlns:podcast="https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md"  xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<channel>
+	<title>{{title}}</title>
+	<lastBuildDate>{{ collections.podcast | rsslatest}}</lastBuildDate>
+	<generator>{{generator}}</generator>
+	<link>{{url}}</link>
+	<language>en</language>
+	<copyright><![CDATA[{{copyright}}]]></copyright>
+	<docs>{{url}}</docs>
+	<managingEditor>{{managingEditor}}</managingEditor>
+	<itunes:summary><![CDATA[{{summary}}]]></itunes:summary>
+	<image>
+		<url>{{coverart}}</url>
+		<title>{{title}}</title>
+		<link><![CDATA[{{url}}]]></link>
+	</image>
+			<itunes:author>{{author}}</itunes:author>
+	<itunes:category text="{{cat1}}">
+		<itunes:category text="{{subcat1}}"/>
+	</itunes:category>
+	<itunes:category text="{{cat2}}">
+		<itunes:category text="{{subcat2}}"/>
+	</itunes:category>
+	<itunes:category text="{{cat3}}">
+		<itunes:category text="{{subcat3}}"/>
+	</itunes:category>
+		<itunes:image href="{{coverart}}" />
+		<itunes:explicit>{{explicit}}</itunes:explicit>
+		<itunes:owner>
+			<itunes:name><![CDATA[Hugh Fraser]]></itunes:name>
+			<itunes:email>{{bertie@storynory.com}}</itunes:email>
+		</itunes:owner>
+		<description><![CDATA[{{summary}}]]></description>
+		<itunes:subtitle><![CDATA[{{subtitle}}]]></itunes:subtitle>	
+	       {% for post in collections.podcast %}
+
+			<item>
+           		 <title>{{post.data.title}}</title>
+					<pubDate>{{post.data.date | rssdate }}</pubDate>
+					<guid isPermaLink="true">{{ post.data.permalink}}</guid>
+					<link><![CDATA[{{ url }}{{ post.filePathStem}}]]></link>
+					<itunes:image href="{{post.data.coverart}}" />
+					<description><![CDATA[ {{ post.data.excerpt }} ]]></description>
+					<enclosure length="{{post.data.audio.length}} " type="audio/mpeg" url="{{ post.data.audio.mp3 }}" />
+					<itunes:duration>{{ post.data.audio.duration }}</itunes:duration>
+					<itunes:explicit>no</itunes:explicit>
+					<itunes:keywords />
+					<itunes:subtitle><![CDATA[ {{ post.data.excerpt }} ]]></itunes:subtitle>
+
+			</item>
+
+            {%  endfor %}
+
+	
+	</channel>	
+  </rss>

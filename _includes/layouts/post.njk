@@ -1,0 +1,33 @@
+---
+layout: layouts/base.njk
+---
+<main role="main" class="container">
+    <div class="row">
+        <div class="col-md-8 blog-main">
+        <h3 class="pb-3 mb-4 font-italic border-bottom">
+            From the Firehose
+        </h3>
+ <p class="text-capitalize">   
+{% set comma = joiner() %}
+{% for tag in tags -%}
+  {% if tag !== 'posts' %}
+    {{ comma() }} <a href="/tags/{{ tag }}">{{ tag }}</a>
+  {% endif %}
+{%- endfor %}
+</p>
+
+
+        <div class="blog-post">
+            <h2 class="blog-post-title">{{title}}</h2>
+            <p class="blog-post-meta">January 1, 2014 by <a href="#">{{author}}</a></p>
+{{ content | safe }}
+        </div> 
+    </div><!-- /.row -->
+
+</main>
+
+          
+        </div>
+
+
+  </main>

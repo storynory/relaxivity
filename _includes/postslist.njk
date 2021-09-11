@@ -1,0 +1,13 @@
+
+{% for post in postslist | reverse %}
+
+
+  <header>
+      <h3><a href="{{ post.url | url  }}">{{ post.data.title }}</a></h3> 
+    </header> 
+      
+      {{ post.data.excerpt }}
+   
+
+{% endfor %}
+

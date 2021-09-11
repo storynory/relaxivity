@@ -1,0 +1,35 @@
+{
+    "title": "Relaxivity Podcast",
+    "url": "https://www.storynory.com",
+    "description": "Relaxing Stories for You",
+    "feed": {
+        "subtitle": "Free audio stories for kids",
+        "filename": "feed.xml",
+        "path": "/feed/feed.xml",
+        "id": "https://myurl.com/",
+        "link": "https://myurl.com/",
+        "atom:link": "",
+        "title": "",
+        "generator": "",
+        "language": "en",
+        "copywrite": "Storynory Ltd",
+        "docs": "",
+        "managingEditor": "",
+        "itunes:summary": "",
+        "image": "",
+        "tunes:author": "",
+        "itunes:category-01": "",
+        "itunes:category-02": "",
+        "itunes:category-03": "",
+        "itunes:explicit": "no",
+        "itunes:name": "",
+        "itunes:email": "",
+        "description": "",
+        "itunes:subtitle": ""
+    },
+    "author": {
+        "name": "bertie fraser",
+        "email": "bertie@storynory.com"
+    },
+    "stories": []
+}
