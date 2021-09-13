@@ -10,7 +10,7 @@ audio:
     mp3: http://media.libsyn.com/media/blogrelations/harryrosie.mp3
     length: 09080
     duration: 12.14
-Series: metamorphosis 
+series: metamorphosis 
 tags: 
     - myths
     - metamorphosis

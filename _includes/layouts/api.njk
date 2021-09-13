@@ -1,0 +1,13 @@
+[
+{% set comma = joiner() %}
+ {% for post in collections.podcast %}
+  {{ comma() }}
+{
+    "title": "{{post.data.title}}",
+    "excerpt": "{{post.data.excerpt}}",
+    "series": "{{post.data.series}}"
+  } 
+
+{%  endfor %}
+
+]
