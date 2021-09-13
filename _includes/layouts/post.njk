@@ -7,13 +7,13 @@ layout: layouts/base.njk
         <h3 class="pb-3 mb-4 font-italic border-bottom text-capitalize">
             {{series}}
         </h3>
- <p class="text-capitalize">   
+     <p class="text-capitalize">   
 {% set comma = joiner() %}
-{% for tag in tags -%}
-  {% if tag !== 'posts' %}
-    {{ comma() }} <a href="/tags/{{ tag }}">{{ tag }}</a>
-  {% endif %}
-{%- endfor %}
+    {% for tag in tags -%}
+        {% if tag !== 'posts' %}
+         {{ comma() }} <a href="/tags/{{ tag }}">{{ tag }}</a>
+      {% endif %}
+    {%- endfor %}
 </p>
 
 
