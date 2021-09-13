@@ -1,17 +1,31 @@
 ---
 layout: layouts/base.njk
 ---
+
 {% include 'components/jumbotrons/jum.njk' %}
 
+<div class="container">
+
  {%- set i = 0 %}
+ <div class="row">
 {%- for post in collections.metamorphosis -%}
  {% set i = i + 1 %}
-<div class="row mb-2">
-    <div class="col-md-6">
-        {% card post.data.title, post.data.text, post.data.page.url, post.data.coverart.src, post.data.coverart.alt %}
-    </div>
-</div>
+<div class="col-md ">
+  <div class="card my-4" >
+  <img class="card-img-top" src="https://relaxivity.app/images/600/{{post.data.videoart.src}}" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">{{post.data.title}}</h5>
+    <p class="card-text">
+      {{post.data.excerpt}}
+    </p> 
+    <p>
+        <a href="{{ post.filePathStem}}" class="card-link">Read More</a>
+    </p>
+  </div>
+    </div>  
+</div>   
+          
 
-
-  
 {%- endfor -%}
+
+</div>

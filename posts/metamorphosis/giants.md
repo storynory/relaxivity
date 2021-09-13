@@ -16,11 +16,11 @@ tags:
     - metamorphosis
     - podcast
 coverart:
-    src: flood-coverart.jpg
-    alt: creation of the universe
+    src: giants-coverart.jpg
+    alt: giants attack olympus
 videoart: 
-    src: flood-videoart.jpg
-    alt: creation of the universe
+    src: giants-videoart.jpg
+    alt: giants attack olympus
 ---
 
 Now Ovid sometimes is in two minds  
