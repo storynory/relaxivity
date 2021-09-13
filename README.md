@@ -23,3 +23,16 @@ The base layout (layouts/base) contains the head, header and footer and is used 
 ## Home Page
 
 index.njk is at the top of the site. It uses layouts/homepage.njk. This loops through cards desplaying latest posts. The cards come from a shortcode type component (components/card.js).  homepage.njk also has a jumbotron.
+
+## CSS: Bootstrap
+
+We are using boostrap 5.
+
+### Responsive Breakpoints and css classes
+
+X-Small         none     <576px  
+Small             sm     ≥576px  
+Medium            md     ≥768px
+Large             lg     ≥992px  
+Extra large       xl     ≥1200px  
+Extra extra large xxl    ≥1400px  
