@@ -15,6 +15,12 @@ tags:
     - myths
     - metamorphosis
     - podcast
+coverart:
+    src: flood-coverart.jpg
+    alt: creation of the universe
+videoart: 
+    src: flood-videoart.jpg
+    alt: creation of the universe
 ---
 
 Now Ovid sometimes is in two minds  

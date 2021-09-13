@@ -1,0 +1,17 @@
+---
+layout: layouts/base.njk
+---
+{% include 'components/jumbotrons/jum.njk' %}
+
+ {%- set i = 0 %}
+{%- for post in collections.metamorphosis -%}
+ {% set i = i + 1 %}
+<div class="row mb-2">
+    <div class="col-md-6">
+        {% card post.data.title, post.data.text, post.data.page.url, post.data.coverart.src, post.data.coverart.alt %}
+    </div>
+</div>
+
+
+  
+{%- endfor -%}

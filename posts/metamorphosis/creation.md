@@ -12,6 +12,12 @@ tags:
     - metamorphosis
     - podcast
     - myths
+coverart:
+    src: creation-coverart.jpg
+    alt: creation of the universe
+videoart: 
+    src: creation-videoart.jpg
+    alt: creation of the universe
 credits:
     Narrator: Jana
     Author: Bertie Fraser based on Ovid

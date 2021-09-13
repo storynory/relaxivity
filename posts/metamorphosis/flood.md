@@ -14,6 +14,12 @@ tags:
     - myths
     - metamorphosis
     - podcast
+coverart:
+    src: flood-coverart.jpg
+    alt: creation of the universe
+videoart: 
+    src: flood-videoart.jpg
+    alt: creation of the universe
 ---
 
 But why by flood ? you might ask well
