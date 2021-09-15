@@ -6,5 +6,11 @@
         "name": "bertie fraser",
         "email": "bertie@storynory.com"
     },
-    "stories": []
+    "stories": [],
+    "tags": {
+        "metamorphosis": {
+            "description": "In the time of the Emperor Augustus, the poet Ovid composed this collection of Greek and Roman myths in verse. Each story involves some kind of transformation brought on by the gods. Ovid gives us a flavour of Roman and Greek religeon, from the Creation onward, with echoes of the Bible.  But Ovid's style is always fun, racy, and a little bit spicy.  Our own verse is an imitation rather than literal translation. We aim to stay true to the original tone, with its light and frivolous touch.",
+            "terms": "Ovid, Greek, Roman, Greece, Rome, ancient, classics, sexy,poem, mythology, myths, religeon, transformation, Augustus, verse, jana, origins, gods, goddesses, god, goddess"
+        }
+    }
 }

@@ -3,7 +3,7 @@
 
 <channel>
 	<title>Relaxivity</title>
-	<lastBuildDate>Mon Sep 27 2021 01:00:00 GMT+0100 (British Summer Time)</lastBuildDate>
+	<lastBuildDate>data</lastBuildDate>
 	<generator>relaxivity.app</generator>
 	<link>https://www.relaxivity.app</link>
 	<language>en</language>
@@ -38,7 +38,7 @@
 
 			<item>
            		 <title>The Creation</title>
-					<pubDate>2021-09-05T00:00:00Z</pubDate>
+					<pubDate>Sun Sep 05 2021 01:00:00 GMT+0100 (British Summer Time)</pubDate>
 					<guid isPermaLink="true"></guid>
 					<link><![CDATA[https://www.relaxivity.app/posts/metamorphosis/creation]]></link>
 					<itunes:image href="[object Object]" />
@@ -55,7 +55,7 @@
 
 			<item>
            		 <title>The Flood</title>
-					<pubDate>2021-09-05T00:00:00Z</pubDate>
+					<pubDate>Sun Sep 05 2021 01:00:00 GMT+0100 (British Summer Time)</pubDate>
 					<guid isPermaLink="true"></guid>
 					<link><![CDATA[https://www.relaxivity.app/posts/metamorphosis/flood]]></link>
 					<itunes:image href="[object Object]" />
@@ -72,7 +72,7 @@
 
 			<item>
            		 <title>The Giants</title>
-					<pubDate>2021-09-27T00:00:00Z</pubDate>
+					<pubDate>Mon Sep 27 2021 01:00:00 GMT+0100 (British Summer Time)</pubDate>
 					<guid isPermaLink="true"></guid>
 					<link><![CDATA[https://www.relaxivity.app/posts/metamorphosis/giants]]></link>
 					<itunes:image href="[object Object]" />

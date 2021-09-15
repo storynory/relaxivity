@@ -3,7 +3,7 @@
 
 <channel>
 	<title>{{title}}</title>
-	<lastBuildDate>{{ collections.podcast | rsslatest}}</lastBuildDate>
+	<lastBuildDate>data</lastBuildDate>
 	<generator>{{generator}}</generator>
 	<link>{{url}}</link>
 	<language>en</language>
@@ -38,7 +38,7 @@
 
 			<item>
            		 <title>{{post.data.title}}</title>
-					<pubDate>{{post.data.date | rssdate }}</pubDate>
+					<pubDate>{{post.data.date }}</pubDate>
 					<guid isPermaLink="true">{{ post.data.permalink}}</guid>
 					<link><![CDATA[{{ url }}{{ post.filePathStem}}]]></link>
 					<itunes:image href="{{post.data.coverart}}" />
