@@ -3,7 +3,7 @@ title: The Creation
 author: Bertie
 date: 2021-09-05
 series: metamorphosis
-excerpt: 'A modern Christmas story about how two children,  Harry and Rosie tricked Santa'
+excerpt: Let's go back to the very start of the world and there was nothing but chaos
 audio:
     mp3: http://media.libsyn.com/media/blogrelations/harryrosie.mp3
     length: 09080

@@ -4,16 +4,20 @@
   
 {
     "title": "The Creation",
-    "excerpt": "A modern Christmas story about how two children,  Harry and Rosie tricked Santa",
-    "series": "metamorphosis"
+    "excerpt": "Let&#39;s go back to the very start of the world and there was nothing but chaos",
+    "series": "metamorphosis",
+    "url": "/posts/metamorphosis/creation",
+    "img": "creation-videoart.jpg"
   } 
 
 
   ,
 {
     "title": "The Flood",
-    "excerpt": "A modern Christmas story about how two children,  Harry and Rosie tricked Santa",
-    "series": "metamorphosis"
+    "excerpt": "The world gets reather soggy",
+    "series": "metamorphosis",
+    "url": "/posts/metamorphosis/flood",
+    "img": "flood-videoart.jpg"
   } 
 
 
@@ -21,7 +25,9 @@
 {
     "title": "The Giants",
     "excerpt": "The Giants get above themselves and attack the gods on mount Olympus",
-    "series": "metamorphosis"
+    "series": "metamorphosis",
+    "url": "/posts/metamorphosis/giants",
+    "img": "giants-videoart.jpg"
   } 
 
 

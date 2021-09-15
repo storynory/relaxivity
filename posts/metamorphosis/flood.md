@@ -4,8 +4,8 @@ author: Bertie
 type: post
 date: 2021-09-05
 series: metamorphosis
-excerpt: 'A modern Christmas story about how two children,  Harry and Rosie tricked Santa'
-url: creation/
+excerpt: The world gets reather soggy
+url: creation
 audio:
     mp3: http://media.libsyn.com/media/blogrelations/harryrosie.mp3
     length: 09080
