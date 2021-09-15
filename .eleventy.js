@@ -1,9 +1,7 @@
 
 const card = require("./_includes/components/cards/card")
 //const pluginRss = require("@11ty/eleventy-plugin-rss");
-const rssdate = require("./_includes/filters/dateRfc3339");
-const rsslatest = require("./_includes/filters/getNewestCollectionItemDate");
-const datemod  = require("./_includes/filters/datenow");
+const webp  = require("./_includes/filters/webp");
 
 module.exports = function(eleventyConfig) {
 // eleventyConfig.addPlugin(pluginRss);
@@ -14,9 +12,8 @@ module.exports = function(eleventyConfig) {
     breaks: true,
     linkify: true
   };
-eleventyConfig.addNunjucksFilter("rssdate", rssdate);
-eleventyConfig.addNunjucksFilter("rsslatest", rsslatest);
-eleventyConfig.addNunjucksFilter("datemod", datemod);
+eleventyConfig.addNunjucksFilter("webp", webp);
+
 eleventyConfig.addNunjucksShortcode("card", card);
 
    // Get the first `n` elements of a collection.

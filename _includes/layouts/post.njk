@@ -3,7 +3,7 @@ layout: layouts/base.njk
 ---
 <main role="main" class="container">
     <div class="row">
-        <div class="col-md-8 blog-main">
+        <div class="col-md-12 blog-main">
         <h3 class="pb-3 mb-4 font-italic border-bottom text-capitalize">
             {{series}}
         </h3>
@@ -20,11 +20,19 @@ layout: layouts/base.njk
         <div class="blog-post">
             <h2 class="blog-post-title">{{title}}</h2>
 
-  <img class="img-fluid" src="https://relaxivity.app/images/600/{{videoart.src}}" alt="Card image cap">
-              
+      
+<picture class="img-fluid">
+ <source media="(max-width: 576px)" srcset="https://relaxivity.app/images/400/{{coverart.src | webp}}">
+  <source media="(min-width: 577px)" srcset="https://relaxivity.app/images/800/{{videoart.src | webp}}">
+  <source media="(max-width: 576px)" srcset="https://relaxivity.app/images/400/{{coverart.src}}">
+  <source media="(min-width: 577px)" srcset="https://relaxivity.app/images/800/{{videoart.src}}">
+  <img class="img-fluid" src="https://relaxivity.app/images/560/{{videoart.src}}" alt="videoart.alt">
+</picture>
 
-            <p class="blog-post-meta">January 1, 2014 by <a href="#">{{author}}</a></p>
-{{ content | safe }}
+
+
+
+  {{ content | safe }}
         </div> 
     </div><!-- /.row -->
 
