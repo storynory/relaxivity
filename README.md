@@ -36,3 +36,18 @@ Medium            md     ≥768px
 Large             lg     ≥992px  
 Extra large       xl     ≥1200px  
 Extra extra large xxl    ≥1400px  
+
+## Icons
+
+FSize	Name	         Purpose
+
+32×32	favicon-32.png 	 Standard for most desktop browsers
+128×128	favicon-128.png	 Chrome Web Store icon & Small Windows 8 Star Screen Icon*
+152×152	favicon-152.png	 iPad touch icon (Change for iOS 7: up from 144×144)
+167×167	favicon-167.png	 iPad Retina touch icon
+(change for iOS 10: up   from 152×152, not in action. iOS 10 will use 152×152)
+180×180	favicon-180.png	  iPhone Retina
+192×192	favicon-192.png	 Google Developer Web App Manifest Recommendation
+196×196	favicon-196.png	 Chrome for Android home screen icon
+
+https://www.npmjs.com/package/icon-gen

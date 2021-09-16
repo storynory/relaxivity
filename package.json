@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "boot": "node bootconfig.js"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,9 @@
     "@11ty/eleventy-plugin-rss": "^1.1.1"
   },
   "dependencies": {
-    "markdown-it": "^12.2.0"
+    "fibers": "^5.0.0",
+    "fs": "^0.0.1-security",
+    "markdown-it": "^12.2.0",
+    "sass": "^1.41.0"
   }
 }
