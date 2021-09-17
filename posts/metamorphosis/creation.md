@@ -31,12 +31,12 @@ By whim of gods when they will it so
 Nothing stays the same for long you know.  
 
 Lets begin before the start of time  
-Before the poet even thought to rhyme
+Before the poet even thought to rhyme  
 
 Before the ocean and the earth appeared  
 Before the dark of  night had cleared  
 All of nature was one and same  
-Empty, Chasmic,  Chaos was its name.
+Empty, Chasmic,  Chaos was its name.  
 
 No sun, no moon, no earth, no sky  
 No hot, no cold, no  wet, no dry  
@@ -44,31 +44,31 @@ All matter mingled in one lump
 One massive, seething, cosmic dump  
 
 But as I said before and was not wrong  
-Nothing stays the same for longer
+Nothing stays the same for longer  
 Than a trillion years or so  
 
 One day a god looked down below  
-And he or she or it if you prefer  
-Considered how all matters were  
-Dumped in one unseemly mess  
-And seeing the mess, the god felt stressed.  
+And he or she or it if you prefer    
+Considered how all matters were    
+Dumped in one unseemly mess    
+And seeing the mess, the god felt stressed.    
   
-It’s not nature that intended  
-for all matters to be upended.  
-Let’s tidy up and make it neat  
-Sky, earth, sea, that’s complete.
+It’s not nature that intended    
+for all matters to be upended.    
+Let’s tidy up and make it neat    
+Sky, earth, sea, that’s complete.  
 
-When the world was shining bright and new  
-Winds and fogs and morning dew  
-Rains and ice and  sunlit rays  
-Were gentle, never harsh always,
+When the world was shining bright and new    
+Winds and fogs and morning dew    
+Rains and ice and  sunlit rays    
+Were gentle, never harsh always,  
 
-It was perhaps  a very good start  
-But who on earth might appreciate this art?  
+It was perhaps  a very good start    
+But who on earth might appreciate this art?    
 One thing was lacking - a being with a mind  
-And so the god made human kind.
+And so the god made human kind.  
 
-Maybe you might say it was a big mistake  
-Or perhaps, another view you might take  
-But let me say that right at the beginning  
-The people of earth held back from sinning.
+Maybe you might say it was a big mistake    
+Or perhaps, another view you might take    
+But let me say that right at the beginning    
+The people of earth held back from sinning.  

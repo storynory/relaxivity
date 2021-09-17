@@ -5,7 +5,7 @@
                 <img class="card-img-top img-thumbnail" src="https://relaxivity.app/images/600/{{post.data.videoart.src | webp}}" alt="Card image cap">
                 </a>
                 <div class="card-body">
-                    <h5 class="card-title">{{post.data.title}}</h5>
+                    <h5 class="card-title">      <a class="text-decoration-none" href="{{ post.filePathStem}}">{{post.data.title}}</a></h5>
                     <p class="card-text">{{post.data.excerpt}}</p> 
                     <p><a href="{{ post.filePathStem}}" class="card-link">Read More</a></p>
                 </div>
