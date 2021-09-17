@@ -4,7 +4,12 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="manifest" href="manifest.json">
 
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="msapplication-starturl" content="/">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,6 +36,10 @@ h1,h2,h3,h4,h5,a.navbar-brand {
   color: #8FADE6;
 }
 
+.cntr {
+  margin: auto
+}
+
 </style>
 
 
@@ -48,14 +57,12 @@ h1,h2,h3,h4,h5,a.navbar-brand {
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav me-auto mb-2 mb-md-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">Home</a>
+          <a class="nav-link" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="/pages/about/">About</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
+
       </ul>
 <style>
 .sch input {
@@ -87,7 +94,7 @@ h1,h2,h3,h4,h5,a.navbar-brand {
 
  </div>
 
-<main class="container">
+<main class="container-xl">
  <main role="main" class="container bg-light">
     <div class="row">
         <div class="col-md-12 blog-main">
@@ -157,6 +164,17 @@ Bang! Whiz! He fired them up with holy lights</p>
         <!-- Core theme JS-->
         <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
 
-        <script> </script>
+        <script> 
+  if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/serviceworker.js', {scope: '/'})
+  .then((reg) => {
+    // registration worked
+    console.log('Registration succeeded. Scope is ' + reg.scope);
+  }).catch((error) => {
+    // registration failed
+    console.log('Registration failed with ' + error);
+  });
+}
+        </script>
     </body>
 </html>

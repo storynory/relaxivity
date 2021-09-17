@@ -4,7 +4,12 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="manifest" href="manifest.json">
 
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="msapplication-starturl" content="/">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,6 +36,10 @@ h1,h2,h3,h4,h5,a.navbar-brand {
   color: #8FADE6;
 }
 
+.cntr {
+  margin: auto
+}
+
 </style>
 
 
@@ -48,14 +57,12 @@ h1,h2,h3,h4,h5,a.navbar-brand {
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav me-auto mb-2 mb-md-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">Home</a>
+          <a class="nav-link" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="/pages/about/">About</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
+
       </ul>
 <style>
 .sch input {
@@ -87,7 +94,7 @@ h1,h2,h3,h4,h5,a.navbar-brand {
 
  </div>
 
-<main class="container">
+<main class="container-xl">
  <div class="container p-4 bg-white">
     <h1>Tagged “all”</h1>
     
@@ -95,6 +102,18 @@ h1,h2,h3,h4,h5,a.navbar-brand {
       
       <div class="row">
             
+            <div class="col-sm">
+              <div class="card my-4" >
+             <a class="text-decoration-none" href="/pages/about">
+                <img class="card-img-top img-thumbnail" src="https://relaxivity.app/images/600/creation-videoart.jpg" alt="Card image cap">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title"><a class="text-decoration-none" href="/pages/about">About</a></h5>
+                    <p class="card-text">Relaxivity is a podcast with intelligent and relaxing stories</p> 
+                    <p><a href="/pages/about" class="card-link">Read More</a></p>
+                </div>
+              </div>  
+            </div> 
             <div class="col-sm">
               <div class="card my-4" >
              <a class="text-decoration-none" href="/posts/metamorphosis/creation">
@@ -118,7 +137,10 @@ h1,h2,h3,h4,h5,a.navbar-brand {
                     <p><a href="/posts/metamorphosis/flood" class="card-link">Read More</a></p>
                 </div>
               </div>  
-            </div> 
+            </div>
+          </div>
+      <div class="row">
+            
             <div class="col-sm">
               <div class="card my-4" >
              <a class="text-decoration-none" href="/README">
@@ -130,10 +152,7 @@ h1,h2,h3,h4,h5,a.navbar-brand {
                     <p><a href="/README" class="card-link">Read More</a></p>
                 </div>
               </div>  
-            </div>
-          </div>
-      <div class="row">
-            
+            </div> 
             <div class="col-sm">
               <div class="card my-4" >
              <a class="text-decoration-none" href="/tags">
@@ -157,7 +176,10 @@ h1,h2,h3,h4,h5,a.navbar-brand {
                     <p><a href="/index" class="card-link">Read More</a></p>
                 </div>
               </div>  
-            </div> 
+            </div>
+          </div>
+      <div class="row">
+            
             <div class="col-sm">
               <div class="card my-4" >
              <a class="text-decoration-none" href="/pages/search">
@@ -169,10 +191,7 @@ h1,h2,h3,h4,h5,a.navbar-brand {
                     <p><a href="/pages/search" class="card-link">Read More</a></p>
                 </div>
               </div>  
-            </div>
-          </div>
-      <div class="row">
-            
+            </div> 
             <div class="col-sm">
               <div class="card my-4" >
              <a class="text-decoration-none" href="/posts/metamorphosis/giants">
@@ -195,6 +214,17 @@ h1,h2,h3,h4,h5,a.navbar-brand {
         <!-- Core theme JS-->
         <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
 
-        <script> </script>
+        <script> 
+  if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/serviceworker.js', {scope: '/'})
+  .then((reg) => {
+    // registration worked
+    console.log('Registration succeeded. Scope is ' + reg.scope);
+  }).catch((error) => {
+    // registration failed
+    console.log('Registration failed with ' + error);
+  });
+}
+        </script>
     </body>
 </html>

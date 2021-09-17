@@ -10,7 +10,7 @@ This folder is where the layouts and components are kept (templates). Some are t
 
 ### Shortcodes
 
-Shortcodes are components that allow you to pass contextual data into them - from a loop for example. They use js files which use template literals with the backtick and dollar syntax.
+Shortcodes are components that allow you to pass contextual data into them. They use js files which use template literals with the backtick and dollar syntax.
 
 ### Filters
 
@@ -36,6 +36,12 @@ Medium            md     ≥768px
 Large             lg     ≥992px  
 Extra large       xl     ≥1200px  
 Extra extra large xxl    ≥1400px  
+
+## Web Manifest 
+
+https://www.simicart.com/manifest-generator.html/
+Background color #0D1B3F
+Theme Color #8FADE7
 
 ## Icons
 
