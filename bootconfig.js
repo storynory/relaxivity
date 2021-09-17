@@ -9,7 +9,7 @@ var Fiber = require("fibers");
 //var result = sass.renderSync({file: "./scss/bootstrap.scss"});
 //console.log(result);
 
-sass.render({file: "./css/scss/bootstrap.scss", outputStyle: "compressed",  fiber: Fiber},  function(err, result) { 
+sass.render({file: "./css/styles.scss", outputStyle: "compressed",  fiber: Fiber},  function(err, result) { 
  fs.writeFile('./_site/styles/app.css', result.css, () => true)
           
 

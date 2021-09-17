@@ -5,24 +5,13 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+
 // scss-docs-start import-stack
 // Configuration
 @import "functions";
-
-
-
-// Default variable overrides
-//$body-bg: #000;
-//$body-color: #111;
-$spacer: 1rem;
-$navbar-dark-brand-color: #90ADE4;
-$dark: rgb(13, 27, 63);
-
 @import "variables";
 @import "mixins";
 @import "utilities";
-
-
 
 // Layout & components
 @import "root";
@@ -63,7 +52,3 @@ $dark: rgb(13, 27, 63);
 // Utilities
 @import "utilities/api";
 // scss-docs-end import-stack
-
-.bg-dark {
-    background-color: #0D1B3F;
-}
