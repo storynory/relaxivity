@@ -7,7 +7,6 @@
     "name": "Relaxivity - Relaxing Stories",
     "short_name": "Relaxivity",
     "description": "Relax to intelligent stories",
-    "prefer_related_applications": true,
     "icons": [
         {
             "src": "/manifest/icon-192x192.png",
