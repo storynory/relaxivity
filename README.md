@@ -44,7 +44,7 @@ Background color #0D1B3F
 Theme Color #8FADE7
 
 ## Icons
-
+https://maskable.app/editor
 FSize	Name	         Purpose
 
 32×32	favicon-32.png 	 Standard for most desktop browsers

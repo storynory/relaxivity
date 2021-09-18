@@ -1,76 +1,107 @@
-      /*
-Copyright 2015, 2019 Google Inc. All Rights Reserved.
- Licensed under the Apache License, Version 2.0 (the "License");
- you may not use this file except in compliance with the License.
- You may obtain a copy of the License at
- http://www.apache.org/licenses/LICENSE-2.0
- Unless required by applicable law or agreed to in writing, software
- distributed under the License is distributed on an "AS IS" BASIS,
- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- See the License for the specific language governing permissions and
- limitations under the License.
-*/
+'use strict';
 
-// Incrementing OFFLINE_VERSION will kick off the install event and force
-// previously cached resources to be updated from the network.
-const OFFLINE_VERSION = 1;
-const CACHE_NAME = 'offline';
-// Customize this with a different URL if needed.
-const OFFLINE_URL = 'offline.html';
+// Licensed under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+// http://creativecommons.org/publicdomain/zero/1.0/
 
-self.addEventListener('install', (event) => {
-  event.waitUntil((async () => {
-    const cache = await caches.open(CACHE_NAME);
-    // Setting {cache: 'reload'} in the new request will ensure that the response
-    // isn't fulfilled from the HTTP cache; i.e., it will be from the network.
-    await cache.add(new Request(OFFLINE_URL, {cache: 'reload'}));
-  })());
-});
+(function () {
 
-self.addEventListener('activate', (event) => {
-  event.waitUntil((async () => {
-    // Enable navigation preload if it's supported.
-    // See https://developers.google.com/web/updates/2017/02/navigation-preload
-    if ('navigationPreload' in self.registration) {
-      await self.registration.navigationPreload.enable();
-    }
-  })());
+    // Update 'version' if you need to refresh the cache
+    var staticCacheName = 'static';
+    var version = 'v1::';
 
-  // Tell the active service worker to take control of the page immediately.
-  self.clients.claim();
-});
+    // Store core files in a cache (including a page to display when offline)
+    function updateStaticCache() {
+        return caches.open(version + staticCacheName)
+            .then(function (cache) {
+                return cache.addAll([
+                    "/index.html",
+                    "https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js",
+                    "/styles/app.css"
 
-self.addEventListener('fetch', (event) => {
-  // We only want to call event.respondWith() if this is a navigation request
-  // for an HTML page.
-  if (event.request.mode === 'navigate') {
-    event.respondWith((async () => {
-      try {
-        // First, try to use the navigation preload response if it's supported.
-        const preloadResponse = await event.preloadResponse;
-        if (preloadResponse) {
-          return preloadResponse;
+                ]);
+            });
+    };
+
+    self.addEventListener('install', function (event) {
+        event.waitUntil(updateStaticCache());
+    });
+
+    self.addEventListener('activate', function (event) {
+        event.waitUntil(
+            caches.keys()
+                .then(function (keys) {
+                    // Remove caches whose name is no longer valid
+                    return Promise.all(keys
+                        .filter(function (key) {
+                            return key.indexOf(version) !== 0;
+                        })
+                        .map(function (key) {
+                            return caches.delete(key);
+                        })
+                    );
+                })
+        );
+    });
+
+    self.addEventListener('fetch', function (event) {
+        var request = event.request;
+        // Always fetch non-GET requests from the network
+        if (request.method !== 'GET') {
+            event.respondWith(
+                fetch(request)
+                    .catch(function () {
+                        return caches.match('/offline.html');
+                    })
+            );
+            return;
         }
 
-        const networkResponse = await fetch(event.request);
-        return networkResponse;
-      } catch (error) {
-        // catch is only triggered if an exception is thrown, which is likely
-        // due to a network error.
-        // If fetch() returns a valid HTTP response with a response code in
-        // the 4xx or 5xx range, the catch() will NOT be called.
-        console.log('Fetch failed; returning offline page instead.', error);
+        // For HTML requests, try the network first, fall back to the cache, finally the offline page
+        if (request.headers.get('Accept').indexOf('text/html') !== -1) {
+            // Fix for Chrome bug: https://code.google.com/p/chromium/issues/detail?id=573937
+            if (request.mode != 'navigate') {
+                request = new Request(request.url, {
+                    method: 'GET',
+                    headers: request.headers,
+                    mode: request.mode,
+                    credentials: request.credentials,
+                    redirect: request.redirect
+                });
+            }
+            event.respondWith(
+                fetch(request)
+                    .then(function (response) {
+                        // Stash a copy of this page in the cache
+                        var copy = response.clone();
+                        caches.open(version + staticCacheName)
+                            .then(function (cache) {
+                                cache.put(request, copy);
+                            });
+                        return response;
+                    })
+                    .catch(function () {
+                        return caches.match(request)
+                            .then(function (response) {
+                                return response || caches.match('/offline.html');
+                            })
+                    })
+            );
+            return;
+        }
 
-        const cache = await caches.open(CACHE_NAME);
-        const cachedResponse = await cache.match(OFFLINE_URL);
-        return cachedResponse;
-      }
-    })());
-  }
+        // For non-HTML requests, look in the cache first, fall back to the network
+        event.respondWith(
+            caches.match(request)
+                .then(function (response) {
+                    return response || fetch(request)
+                        .catch(function () {
+                            // If the request is for an image, show an offline placeholder
+                            if (request.headers.get('Accept').indexOf('image') !== -1) {
+                                return new Response('<svg width="400" height="300" role="img" aria-labelledby="offline-title" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg"><title id="offline-title">Offline</title><g fill="none" fill-rule="evenodd"><path fill="#D8D8D8" d="M0 0h400v300H0z"/><text fill="#9B9B9B" font-family="Helvetica Neue,Arial,Helvetica,sans-serif" font-size="72" font-weight="bold"><tspan x="93" y="172">offline</tspan></text></g></svg>', { headers: { 'Content-Type': 'image/svg+xml' } });
+                            }
+                        });
+                })
+        );
+    });
 
-  // If our if() condition is false, then this fetch handler won't intercept the
-  // request. If there are any other fetch handlers registered, they will get a
-  // chance to call event.respondWith(). If no fetch handlers call
-  // event.respondWith(), the request will be handled by the browser as if there
-  // were no service worker involvement.
-});
+})();
