@@ -5,8 +5,10 @@ var CURRENT_CACHES = {
 
 self.addEventListener('install', function (event) {
     var urlsToPrefetch = [
-        './static/pre_fetched.txt',
-        './static/pre_fetched.html'
+        "/index.html",
+        "https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js",
+        "/styles/app.css"
+
     ];
 
     event.waitUntil(
