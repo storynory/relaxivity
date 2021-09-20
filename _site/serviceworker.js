@@ -1,4 +1,4 @@
-var CACHE_VERSION = 3;
+var CACHE_VERSION = 4;
 var CURRENT_CACHES = {
     prefetch: 'static' + CACHE_VERSION
 };
@@ -38,6 +38,18 @@ self.addEventListener('activate', function (event) {
     var expectedCacheNames = Object.keys(CURRENT_CACHES).map(function (key) {
         return CURRENT_CACHES[key];
     });
+
+    event.respondWith(async function () {
+        try {
+            var res = await fetch(event.request);
+            var cache = await caches.open('cache');
+            cache.put(event.request.url, res.clone());
+            return res;
+        }
+        catch (error) {
+            return caches.match(event.request);
+        }
+    }());
 
     event.waitUntil(
         caches.keys().then(function (cacheNames) {
