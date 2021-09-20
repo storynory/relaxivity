@@ -19,7 +19,7 @@ const plugins = [
 sass.render({ file: "./css/styles.scss", outputStyle: "compressed", fiber: Fiber }, function (err, result) {
    //fs.writeFile('./_site/styles/app.css', result.css, () => true)
    let code = result.css.toString();
-   //console.log(code)s
+
 
    postcss(plugins).process(code, { from: "./css/styles.scss", to: './_includes/styles/app3.css' }).then(result => {
 
