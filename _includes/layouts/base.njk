@@ -49,6 +49,20 @@ h1,h2,h3,h4,h5,a.navbar-brand {
 
 
    <title>{{ title }}</title>
+    <script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/serviceworker.js').then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
+}
+</script>
+
   </head>
   <body>
   <div class="container p-md-5">
@@ -66,18 +80,6 @@ h1,h2,h3,h4,h5,a.navbar-brand {
          <!-- Core theme JS-->
         <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
 
-    <script>
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', function() {
-    navigator.serviceWorker.register('/serviceworker.js').then(function(registration) {
-      // Registration was successful
-      console.log('ServiceWorker registration successful with scope: ', registration.scope);
-    }, function(err) {
-      // registration failed :(
-      console.log('ServiceWorker registration failed: ', err);
-    });
-  });
-}
-</script>
+
     </body>
 </html>
