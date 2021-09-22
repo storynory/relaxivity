@@ -5,27 +5,20 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "boot": "node bootconfig.js"
+    "boot": "node bootconfig.js",
+    "build": "eleventy"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
-    "@11ty/eleventy-plugin-rss": "^1.1.1",
     "@fullhuman/postcss-purgecss": "^4.0.3",
-    "postcss": "^8.3.6"
-  },
-  "dependencies": {
+    "postcss": "^8.3.6",
     "autoprefixer": "^10.3.4",
-    "critical": "^4.0.1",
     "eleventy": "^1.0.6",
-    "eleventy-plugin-pwa": "^1.0.8",
     "fibers": "^5.0.0",
     "fs": "^0.0.1-security",
-    "html-minifier": "^4.0.0",
-    "icon-gen": "^2.1.0",
-    "markdown-it": "^12.2.0",
     "sass": "^1.41.1"
   }
 }

@@ -2,19 +2,14 @@
 
 const webp = require("./_includes/filters/webp");
 //const pluginRss = require("@11ty/eleventy-plugin-rss");
-const htmlmin = require('html-minifier')
+//const htmlmin = require('html-minifier')
 
 
 module.exports = function (eleventyConfig) {
 
   // eleventyConfig.addPlugin(pluginRss);
 
-  let markdownIt = require("markdown-it");
-  let options = {
-    html: true,
-    breaks: true,
-    linkify: true
-  };
+
 
 
   eleventyConfig.addNunjucksFilter("webp", webp);
@@ -30,20 +25,21 @@ module.exports = function (eleventyConfig) {
     return array.slice(0, n);
   });
 
-  eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
-
-    if (outputPath.endsWith('.html')) {
-
-      let minified = htmlmin.minify(content, {
-        useShortDoctype: true,
-        removeComments: true,
-        collapseWhitespace: true
-      });
-      return minified;
-
-    }
-
-    return content;
-  });
+  /** 
+    eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
+  
+      if (outputPath.endsWith('.html')) {
+  
+        let minified = htmlmin.minify(content, {
+          useShortDoctype: true,
+          removeComments: true,
+          collapseWhitespace: true
+        });
+        return minified;
+      }
+  
+      return content;
+    });
+   **/
 
 };
