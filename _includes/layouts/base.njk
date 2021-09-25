@@ -41,7 +41,9 @@ title: Relaxivity Podcast for relaxing stories
 
 <!-- Core theme JS-->
 <!-- Core theme JS-->
-<script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
+  {%- if js %}
+   {% include 'js/fuse.js' %} 
+  {%- endif %}
 
 
     </body>

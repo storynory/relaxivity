@@ -1,5 +1,6 @@
 ---
 layout: layouts/search.njk
-Title: Search Page
+title: Search Page
+js: fuse.js
 ---
 
