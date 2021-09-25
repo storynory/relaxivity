@@ -2,7 +2,7 @@
 
 ## css
 
-We are using bootstrap 5. It's not beautiful out of the box, but it's really easy to use and can be made to look nice. It's very comprehesive. It also downloads really fast and won't slow down the site.
+We are using bootstrap 5 and running it against purge.js. To compile boostrap use "npm run boot" which is short for "node bootconfig.js" Bootconfig  compiles the bootstrap scss and uses postcss for autoprefixer and purge.  Change variables in CSS/Scss/styles.css
 
 ## _includes
 
@@ -57,3 +57,10 @@ FSize	Name	         Purpose
 196×196	favicon-196.png	 Chrome for Android home screen icon
 
 https://www.npmjs.com/package/icon-gen
+
+## menu toggle js
+
+Instead of downloading all of bootstrap's js, we have simple JS in the head which toggles the "open" class on the menu.
+
+## Search
+Search uses Fuse JS and a simple API page.  The Search pages is under pages and conditionally includes FUSE js. 

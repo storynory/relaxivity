@@ -1,6 +1,6 @@
 <h1>Page header</h1>
 <h2>css</h2>
-<p>We are using bootstrap 5. It's not beautiful out of the box, but it's really easy to use and can be made to look nice. It's very comprehesive. It also downloads really fast and won't slow down the site.</p>
+<p>We are using bootstrap 5 and running it against purge.js. To compile boostrap use &quot;npm run boot&quot; which is short for &quot;node bootconfig.js&quot; Bootconfig  compiles the bootstrap scss and uses postcss for autoprefixer and purge.  Change variables in CSS/Scss/styles.css</p>
 <h2>_includes</h2>
 <p>This folder is where the layouts and components are kept (templates). Some are templates that use the .njk suffix (nunjucks template language).  Other files here (shortcodes and filters) use .js. Shortcodes and filters need to be registerd in eleventy.js.  You need to restart eleventy everytime you change a shortcode or filter. (browser sync does not show changes)</p>
 <h3>Shortcodes</h3>
@@ -36,3 +36,7 @@ FSize	Name	         Purpose</p>
 192×192	favicon-192.png	 Google Developer Web App Manifest Recommendation
 196×196	favicon-196.png	 Chrome for Android home screen icon</p>
 <p>https://www.npmjs.com/package/icon-gen</p>
+<h2>menu toggle js</h2>
+<p>Instead of downloading all of bootstrap's js, we have simple JS in the head which toggles the &quot;open&quot; class on the menu.</p>
+<h2>Search</h2>
+<p>Search uses Fuse JS and a simple API page.  The Search pages is under pages and conditionally includes FUSE js.</p>

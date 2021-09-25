@@ -1,14 +1,43 @@
 // Your variable overrides
-$body-bg: #212529;
-$body-color: #111;
+$body-bg: #0D1B3F;
+
+
+$blue: #0d6efd;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #d63384;
+$red: #dc3545;
+$orange: #fd7e14;
+$yellow: #ffc107;
+$green: #198754;
+$teal: #20c997;
+$cyan: #0dcaf0;
+
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
+
+$primary: $blue;
+$secondary: $gray-600;
+$success: $green;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+$light: $gray-100;
+$dark: $gray-900;
 
 // typography
 
 
 $scale: 1.618;
-
-
-
 // $font-size-root affects the value of `rem`, which is used for as well font sizes, paddings, and margins
 // $font-size-base affects the font size of the body text
 $font-size-root: null;
@@ -37,6 +66,10 @@ $h5-font-size: $font-size-base * 1.25 * $scale;
 ;
 $h6-font-size: $font-size-base;
 
+.brand {
+    background-color: #0D1B3F;
+    color: #8FADE6;
+}
 
 // Bootstrap and its default variables
 @import "scss/bootstrap";
@@ -82,6 +115,12 @@ a.navbar-brand {
 .txt-lg {
     font-size: 20px;
 }
+
+.text-jumbo {
+    font-size: $h3-font-size;
+}
+
+.jumbotron .lead {}
 
 .img-thumbnail {
     background-color: white;
