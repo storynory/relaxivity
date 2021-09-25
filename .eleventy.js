@@ -1,6 +1,7 @@
 
 
 const webp = require("./_includes/filters/webp");
+const datenow = require("./_includes/filters/getlatest");
 //const pluginRss = require("@11ty/eleventy-plugin-rss");
 //const htmlmin = require('html-minifier')
 
@@ -13,6 +14,7 @@ module.exports = function (eleventyConfig) {
 
 
   eleventyConfig.addNunjucksFilter("webp", webp);
+  eleventyConfig.addNunjucksFilter("datenow", datenow);
 
 
   // Get the first `n` elements of a collection.

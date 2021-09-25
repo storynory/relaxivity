@@ -3,7 +3,8 @@
 
 <channel>
 	<title>{{title}}</title>
-	<lastBuildDate>data</lastBuildDate>
+	
+	<lastBuildDate>{{ podast |  datenow }}</lastBuildDate>
 	<generator>{{generator}}</generator>
 	<link>{{url}}</link>
 	<language>en</language>
@@ -30,7 +31,7 @@
 		<itunes:explicit>{{explicit}}</itunes:explicit>
 		<itunes:owner>
 			<itunes:name><![CDATA[{{author}}]]></itunes:name>
-			<itunes:email>{{email}</itunes:email>
+			<itunes:email>{{email}}</itunes:email>
 		</itunes:owner>
 		<description><![CDATA[{{summary}}]]></description>
 		<itunes:subtitle><![CDATA[{{subtitle}}]]></itunes:subtitle>	

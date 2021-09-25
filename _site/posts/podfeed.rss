@@ -3,20 +3,21 @@
 
 <channel>
 	<title>Relaxivity</title>
-	<lastBuildDate>data</lastBuildDate>
+	
+	<lastBuildDate>Sat Sep 25 2021 20:25:52 GMT+0100 (British Summer Time)</lastBuildDate>
 	<generator>relaxivity.app</generator>
 	<link>https://www.relaxivity.app</link>
 	<language>en</language>
-	<copyright><![CDATA[2021 Storynory ltd]]></copyright>
+	<copyright><![CDATA[2021 Storynory ltd w]]></copyright>
 	<docs>https://www.relaxivity.app</docs>
 	<managingEditor>bertie@storynory.com (bertie@storynory.com)</managingEditor>
 	<itunes:summary><![CDATA[Give yourself a little time to relax!]]></itunes:summary>
 	<image>
-		<url>https://www.relaxivity.app/images/coverart.jpg</url>
+		<url>https://www.relaxivity.app/images/relaxivity-coverart.jpg</url>
 		<title>Relaxivity</title>
 		<link><![CDATA[https://www.relaxivity.app]]></link>
 	</image>
-			<itunes:author>Storynory</itunes:author>
+			<itunes:author>Storynory Ltd</itunes:author>
 	<itunes:category text="Fiction">
 		<itunes:category text="Drama"/>
 	</itunes:category>
@@ -26,11 +27,11 @@
 	<itunes:category text="Health &amp; Fitness">
 		<itunes:category text="Mental Health"/>
 	</itunes:category>
-		<itunes:image href="https://www.relaxivity.app/images/coverart.jpg" />
+		<itunes:image href="https://www.relaxivity.app/images/relaxivity-coverart.jpg" />
 		<itunes:explicit>no</itunes:explicit>
 		<itunes:owner>
-			<itunes:name><![CDATA[Hugh Fraser]]></itunes:name>
-			<itunes:email></itunes:email>
+			<itunes:name><![CDATA[Storynory Ltd]]></itunes:name>
+			<itunes:email>bertie@storynory.com</itunes:email>
 		</itunes:owner>
 		<description><![CDATA[Give yourself a little time to relax!]]></description>
 		<itunes:subtitle><![CDATA[Relax with Stories]]></itunes:subtitle>	
@@ -43,7 +44,7 @@
 					<link><![CDATA[https://www.relaxivity.app/posts/metamorphosis/creation]]></link>
 					<itunes:image href="[object Object]" />
 					<description><![CDATA[ Let&#39;s go back to the very start of the world and there was nothing but chaos ]]></description>
-					<enclosure length="09080 " type="audio/mpeg" url="http://media.libsyn.com/media/blogrelations/harryrosie.mp3" />
+					<enclosure length="09080 " type="audio/mpeg" url="https://traffic.libsyn.com/blogrelations/wicked-uncle-school-days-storynory.mp3" />
 					<itunes:duration>12.14</itunes:duration>
 					<itunes:explicit>no</itunes:explicit>
 					<itunes:keywords />
@@ -60,7 +61,7 @@
 					<link><![CDATA[https://www.relaxivity.app/posts/metamorphosis/flood]]></link>
 					<itunes:image href="[object Object]" />
 					<description><![CDATA[ The world gets reather soggy ]]></description>
-					<enclosure length="09080 " type="audio/mpeg" url="http://media.libsyn.com/media/blogrelations/harryrosie.mp3" />
+					<enclosure length="09080 " type="audio/mpeg" url="https://traffic.libsyn.com/forcedn/blogrelations/unwilling-mermaid-storynory-v2b.mp3" />
 					<itunes:duration>12.14</itunes:duration>
 					<itunes:explicit>no</itunes:explicit>
 					<itunes:keywords />
