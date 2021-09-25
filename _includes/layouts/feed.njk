@@ -40,15 +40,15 @@
 			<item>
            		 <title>{{post.data.title}}</title>
 					<pubDate>{{post.data.date }}</pubDate>
-					<guid isPermaLink="true">{{ post.data.permalink}}</guid>
+					<guid isPermaLink="true">{{  url }}{{ post.filePathStem}}</guid>
 					<link><![CDATA[{{ url }}{{ post.filePathStem}}]]></link>
-					<itunes:image href="{{post.data.coverart}}" />
-					<description><![CDATA[ {{ post.data.excerpt }} ]]></description>
+					<itunes:image href="{{post.data.coverart.src}}" />
+					<description><![CDATA[ {{ post.data.excerpt | safe }} ]]></description>
 					<enclosure length="{{post.data.audio.length}} " type="audio/mpeg" url="{{ post.data.audio.mp3 }}" />
 					<itunes:duration>{{ post.data.audio.duration }}</itunes:duration>
 					<itunes:explicit>no</itunes:explicit>
 					<itunes:keywords />
-					<itunes:subtitle><![CDATA[ {{ post.data.excerpt }} ]]></itunes:subtitle>
+					
 
 			</item>
 

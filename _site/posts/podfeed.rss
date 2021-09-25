@@ -4,7 +4,7 @@
 <channel>
 	<title>Relaxivity</title>
 	
-	<lastBuildDate>Sat Sep 25 2021 20:25:52 GMT+0100 (British Summer Time)</lastBuildDate>
+	<lastBuildDate>Sat Sep 25 2021 20:35:38 GMT+0100 (British Summer Time)</lastBuildDate>
 	<generator>relaxivity.app</generator>
 	<link>https://www.relaxivity.app</link>
 	<language>en</language>
@@ -40,15 +40,15 @@
 			<item>
            		 <title>The Creation</title>
 					<pubDate>Sun Sep 05 2021 01:00:00 GMT+0100 (British Summer Time)</pubDate>
-					<guid isPermaLink="true"></guid>
+					<guid isPermaLink="true">https://www.relaxivity.app/posts/metamorphosis/creation</guid>
 					<link><![CDATA[https://www.relaxivity.app/posts/metamorphosis/creation]]></link>
-					<itunes:image href="[object Object]" />
-					<description><![CDATA[ Let&#39;s go back to the very start of the world and there was nothing but chaos ]]></description>
+					<itunes:image href="creation-coverart.jpg" />
+					<description><![CDATA[ Let's go back to the very start of the world and there was nothing but chaos ]]></description>
 					<enclosure length="09080 " type="audio/mpeg" url="https://traffic.libsyn.com/blogrelations/wicked-uncle-school-days-storynory.mp3" />
 					<itunes:duration>12.14</itunes:duration>
 					<itunes:explicit>no</itunes:explicit>
 					<itunes:keywords />
-					<itunes:subtitle><![CDATA[ Let&#39;s go back to the very start of the world and there was nothing but chaos ]]></itunes:subtitle>
+					<itunes:subtitle><![CDATA[  ]]></itunes:subtitle>
 
 			</item>
 
@@ -57,15 +57,15 @@
 			<item>
            		 <title>The Flood</title>
 					<pubDate>Sun Sep 05 2021 01:00:00 GMT+0100 (British Summer Time)</pubDate>
-					<guid isPermaLink="true"></guid>
+					<guid isPermaLink="true">https://www.relaxivity.app/posts/metamorphosis/flood</guid>
 					<link><![CDATA[https://www.relaxivity.app/posts/metamorphosis/flood]]></link>
-					<itunes:image href="[object Object]" />
+					<itunes:image href="flood-coverart.jpg" />
 					<description><![CDATA[ The world gets reather soggy ]]></description>
 					<enclosure length="09080 " type="audio/mpeg" url="https://traffic.libsyn.com/forcedn/blogrelations/unwilling-mermaid-storynory-v2b.mp3" />
 					<itunes:duration>12.14</itunes:duration>
 					<itunes:explicit>no</itunes:explicit>
 					<itunes:keywords />
-					<itunes:subtitle><![CDATA[ The world gets reather soggy ]]></itunes:subtitle>
+					<itunes:subtitle><![CDATA[  ]]></itunes:subtitle>
 
 			</item>
 
@@ -74,15 +74,15 @@
 			<item>
            		 <title>The Giants</title>
 					<pubDate>Mon Sep 27 2021 01:00:00 GMT+0100 (British Summer Time)</pubDate>
-					<guid isPermaLink="true"></guid>
+					<guid isPermaLink="true">https://www.relaxivity.app/posts/metamorphosis/giants</guid>
 					<link><![CDATA[https://www.relaxivity.app/posts/metamorphosis/giants]]></link>
-					<itunes:image href="[object Object]" />
+					<itunes:image href="giants-coverart.jpg" />
 					<description><![CDATA[ The Giants get above themselves and attack the gods on mount Olympus ]]></description>
 					<enclosure length="09080 " type="audio/mpeg" url="http://media.libsyn.com/media/blogrelations/harryrosie.mp3" />
 					<itunes:duration>12.14</itunes:duration>
 					<itunes:explicit>no</itunes:explicit>
 					<itunes:keywords />
-					<itunes:subtitle><![CDATA[ The Giants get above themselves and attack the gods on mount Olympus ]]></itunes:subtitle>
+					<itunes:subtitle><![CDATA[  ]]></itunes:subtitle>
 
 			</item>
 
