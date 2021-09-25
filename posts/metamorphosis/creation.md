@@ -5,7 +5,7 @@ date: 2021-09-05
 series: metamorphosis
 excerpt: Let's go back to the very start of the world and there was nothing but chaos
 audio:
-    mp3: http://media.libsyn.com/media/blogrelations/harryrosie.mp3
+    mp3: https://traffic.libsyn.com/blogrelations/wicked-uncle-school-days-storynory.mp3
     length: 09080
     duration: 12.14
 tags: 

@@ -7,7 +7,7 @@ series: metamorphosis
 excerpt: The world gets reather soggy
 url: creation
 audio:
-    mp3: http://media.libsyn.com/media/blogrelations/harryrosie.mp3
+    mp3: https://traffic.libsyn.com/forcedn/blogrelations/unwilling-mermaid-storynory-v2b.mp3
     length: 09080
     duration: 12.14
 tags: 
