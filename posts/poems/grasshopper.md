@@ -4,7 +4,7 @@ author: Anacreon
 type: post
 date: 2021-09-28
 series: poems
-excerpt: Welcome to Relaxivity  - the new Podcast that brings you atmsopheric and relaxing stories.  Our debut episode is a peom from ancient Greece that celebrates the devine in the tiny. 
+excerpt: Welcome to Relaxivity  - the new Podcast that brings you atmsopheric and relaxing stories.  Our debut episode is a poem from ancient Greece that celebrates the devine in the tiny. 
 url: grasshopper
 audio:
     mp3: https://traffic.libsyn.com/secure/relaxivity/happy-grasshopper-relaxivity.mp3

@@ -4,7 +4,7 @@
 <channel>
 	<title>Relaxivity</title>
 	
-	<lastBuildDate>Tue Sep 28 2021 20:54:55 GMT+0100 (British Summer Time)</lastBuildDate>
+	<lastBuildDate>Tue Sep 28 2021 20:58:22 GMT+0100 (British Summer Time)</lastBuildDate>
 	<generator>relaxivity.app</generator>
 	<link>https://www.relaxivity.app</link>
 	<language>en</language>
@@ -43,7 +43,7 @@
 					<guid isPermaLink="true">https://www.relaxivity.app/posts/poems/grasshopper</guid>
 					<link><![CDATA[https://www.relaxivity.app/posts/poems/grasshopper]]></link>
 					<itunes:image href="grasshopper-coverart.jpg" />
-					<description><![CDATA[ Welcome to Relaxivity  - the new Podcast that brings you atmsopheric and relaxing stories.  Our debut episode is a peom from ancient Greece that celebrates the devine in the tiny. ]]></description>
+					<description><![CDATA[ Welcome to Relaxivity  - the new Podcast that brings you atmsopheric and relaxing stories.  Our debut episode is a poem from ancient Greece that celebrates the devine in the tiny. ]]></description>
 					<enclosure length="8751521 " type="audio/mpeg" url="https://traffic.libsyn.com/secure/relaxivity/happy-grasshopper-relaxivity.mp3" />
 					<itunes:duration>05.08</itunes:duration>
 					<itunes:explicit>no</itunes:explicit>
