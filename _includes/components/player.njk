@@ -1,0 +1,323 @@
+<style>
+      figure.player {
+         position: relative;
+         width: 90%;
+         display: block;
+         margin: auto;
+         background: #5a6886;
+         border-radius: 8px;
+         position: relative;
+         font-size: 16px;
+         text-align: center;
+         overflow: hidden;
+         color: #fff
+      }
+
+      .player label {
+         position: absolute;
+         left: -3000px
+      }
+
+      .wind {
+         font-size: 32px;
+         display: block;
+         color: #efd480
+      }
+
+      .wind:hover {
+         color: #fff
+      }
+
+      .left {
+         float: left
+      }
+
+      .right {
+         float: right
+      }
+
+      .playbtn {
+         width: 100%;
+         text-align: center;
+         height: 52px
+      }
+
+      #range {
+         width: 100%
+      }
+
+      #play {
+         border: 0;
+         background: 0 0;
+         box-sizing: border-box;
+         width: 0;
+         height: 48px;
+         overflow: hidden;
+         border-color: transparent transparent transparent #efd480;
+         transition: .1s all ease;
+         cursor: pointer;
+         border-style: solid;
+         border-width: 24px 0 24px 38px
+      }
+
+      #play:hover {
+         border-color: transparent transparent transparent #fff
+      }
+
+      #play.paused {
+         border-style: double;
+         border-width: 0 0 0 38px
+      }
+
+      #play:active {
+         border-color: transparent transparent transparent #404040
+      }
+
+      button#play:active {
+         background-color: #00f
+      }
+
+      #time {
+         width: 60px;
+         text-align: left
+      }
+
+      #dur {
+         float: right
+      }
+
+      #range::-webkit-slider-thumb {
+         background: #4caf50;
+         cursor: pointer
+      }
+
+      #status {
+         margin-left: -30px;
+      }
+
+      .slider {
+         -webkit-appearance: none;
+         appearance: none;
+         width: 100%;
+         height: 8px;
+         background: #efd480;
+         outline: 0;
+         opacity: .7;
+         -webkit-transition: .2s;
+         transition: opacity .2s
+      }
+
+      .slider:hover {
+         opacity: 1
+      }
+
+      .slider::-webkit-slider-thumb {
+         -webkit-appearance: none;
+         appearance: none;
+         width: 16px;
+         height: 16px;
+         border-radius: 100%;
+         background: #4caf50;
+         cursor: pointer
+      }
+
+      .slider::-moz-range-thumb {
+         width: 12px;
+         height: 12px;
+         background: #4caf50;
+         cursor: pointer
+      }
+
+      .lds-ripple {
+
+         display: inline-block;
+         position: absolute;
+         left: 50%;
+         margin-left: -50px;
+         bottom: 2px;
+         width: 40px;
+         height: 40px;
+      }
+
+      .lds-ripple div {
+         position: absolute;
+         border: 2px solid #fff;
+         opacity: 1;
+         border-radius: 50%;
+         animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+      }
+
+      .lds-ripple div:nth-child(2) {
+         animation-delay: -0.5s;
+      }
+
+      @keyframes lds-ripple {
+         0% {
+            top: 18px;
+            left: 18px;
+            width: 0;
+            height: 0;
+            opacity: 1;
+         }
+
+         100% {
+            top: 0px;
+            left: 0px;
+            width: 35px;
+            height: 36px;
+            opacity: 0;
+         }
+      }
+   </style>
+   <script>
+
+   </script>
+
+   <figure id="figure" class="player container py-3"
+      data-src="{{audio.mp3}}" >
+
+
+      <div class="playbtn">
+         <span id="back" class="wind left">⟲</span>
+
+         <div id="lds" class="lds-ripple">
+            <div></div>
+            <div></div>
+         </div>
+         <button class="center" name="audio_player" id="play"></button>
+         <span id="forward" class="wind right">⟳</span>
+      </div>
+      <input class="slider" type="range" id="range" min="0" max="100" value="0" />
+      <label for="seek">seek</label>
+      <span class="left" id="time">00.00.00</span>
+      <span class="right" id="dur">00.00.00</span>
+      <span id="status">loading</span>
+   </figure>
+
+   <script>
+
+      const player = {
+         data: {
+            audio: undefined
+
+         },
+         computed: {
+            convertTimeHHMMSS(secs) {
+               return new Date(secs * 1000).toISOString().substr(11, 8)
+
+            },
+
+            percentComplete(currentSeconds, durationSeconds) {
+               return parseInt((currentSeconds / durationSeconds) * 100);
+            },
+            muted() {
+               return player.data.volume / 100 === 0;
+            }
+         },
+
+
+      }
+
+
+      // player.data.audio = document.getElementById('mp3');
+      const figure = document.getElementById('figure');
+      const btn = document.getElementById('play');
+      const tm = document.getElementById('time');
+      const range = document.getElementById('range');
+      const dur = document.getElementById('dur');
+      const back = document.getElementById('back');
+      const forward = document.getElementById('forward');
+      const lds = document.getElementById('lds');
+      const status = document.getElementById('status');
+
+      player.data.audio = document.createElement('audio');
+      player.data.audio.src = figure.dataset.src;
+
+      btn.addEventListener("click", function () {
+
+         if (player.data.audio.paused || player.data.audio.loadstart) {
+            this.classList.add("paused");
+            player.data.audio.play();
+
+
+         }
+         else {
+            this.classList.remove("paused");
+            player.data.audio.pause();
+         }
+      }, true);
+
+
+
+
+
+      player.data.audio.onloadedmetadata = () => {
+         range.max = player.data.audio.duration;
+         dur.innerHTML = player.computed.convertTimeHHMMSS(player.data.audio.duration);
+		 lds.classList.remove("lds-ripple");
+         status.innerHTML = "ready"
+
+      }
+
+
+
+
+      range.oninput = () => {
+         player.data.audio.currentTime = range.value;
+         tm.innerHTML = player.computed.convertTimeHHMMSS(player.data.audio.currentTime)
+      }
+
+
+
+      player.data.audio.ontimeupdate = () => {
+         range.value = player.data.audio.currentTime;
+         range.setAttribute('value', range.value);
+         tm.innerHTML = player.computed.convertTimeHHMMSS(player.data.audio.currentTime)
+      }
+
+      player.data.audio.addEventListener("waiting", function (e) {
+ 			status.innerHTML = "waiting"
+
+      });
+
+
+
+      player.data.audio.addEventListener("canplaythrough", function (e) {
+			status.innerHTML = "loaded"
+        
+      });
+
+
+      player.data.audio.addEventListener("error", function (e) {
+
+         status.innerHTML = "Error"
+      });
+
+
+
+
+
+
+      back.addEventListener("click", function () {
+         if (player.data.audio.currentTime >= 30) {
+            player.data.audio.currentTime -= 30.0;
+         }
+         else {
+            player.data.audio.currentTime = 0;
+         }
+      });
+
+
+      forward.addEventListener("click", function () {
+         if (player.data.audio.currentTime += 30 <= player.data.audio.duration) {
+            player.data.audio.currentTime += 30.0;
+         }
+         else {
+            player.data.audio.currentTime = player.data.audio.duration;
+         }
+      });
+
+   </script>	
+<ul class="one-whole list-group cf py-3">
+    <li class="small left box-tiny-top-bottom box-tiny-top"><a href="{{audio.mp3}}" download="true" ><b class="icon icon-download" ></b>  Download</a></li>  
+	</ul>	

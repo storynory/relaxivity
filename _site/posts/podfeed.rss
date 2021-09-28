@@ -4,7 +4,7 @@
 <channel>
 	<title>Relaxivity</title>
 	
-	<lastBuildDate>Sat Sep 25 2021 20:40:07 GMT+0100 (British Summer Time)</lastBuildDate>
+	<lastBuildDate>Tue Sep 28 2021 20:28:31 GMT+0100 (British Summer Time)</lastBuildDate>
 	<generator>relaxivity.app</generator>
 	<link>https://www.relaxivity.app</link>
 	<language>en</language>
@@ -38,48 +38,14 @@
 	       
 
 			<item>
-           		 <title>The Creation</title>
-					<pubDate>Sun Sep 05 2021 01:00:00 GMT+0100 (British Summer Time)</pubDate>
-					<guid isPermaLink="true">https://www.relaxivity.app/posts/metamorphosis/creation</guid>
-					<link><![CDATA[https://www.relaxivity.app/posts/metamorphosis/creation]]></link>
-					<itunes:image href="creation-coverart.jpg" />
-					<description><![CDATA[ Let's go back to the very start of the world and there was nothing but chaos ]]></description>
-					<enclosure length="09080 " type="audio/mpeg" url="https://traffic.libsyn.com/blogrelations/wicked-uncle-school-days-storynory.mp3" />
-					<itunes:duration>12.14</itunes:duration>
-					<itunes:explicit>no</itunes:explicit>
-					<itunes:keywords />
-					
-
-			</item>
-
-            
-
-			<item>
-           		 <title>The Flood</title>
-					<pubDate>Sun Sep 05 2021 01:00:00 GMT+0100 (British Summer Time)</pubDate>
-					<guid isPermaLink="true">https://www.relaxivity.app/posts/metamorphosis/flood</guid>
-					<link><![CDATA[https://www.relaxivity.app/posts/metamorphosis/flood]]></link>
-					<itunes:image href="flood-coverart.jpg" />
-					<description><![CDATA[ The world gets reather soggy ]]></description>
-					<enclosure length="09080 " type="audio/mpeg" url="https://traffic.libsyn.com/forcedn/blogrelations/unwilling-mermaid-storynory-v2b.mp3" />
-					<itunes:duration>12.14</itunes:duration>
-					<itunes:explicit>no</itunes:explicit>
-					<itunes:keywords />
-					
-
-			</item>
-
-            
-
-			<item>
-           		 <title>The Giants</title>
-					<pubDate>Mon Sep 27 2021 01:00:00 GMT+0100 (British Summer Time)</pubDate>
-					<guid isPermaLink="true">https://www.relaxivity.app/posts/metamorphosis/giants</guid>
-					<link><![CDATA[https://www.relaxivity.app/posts/metamorphosis/giants]]></link>
-					<itunes:image href="giants-coverart.jpg" />
-					<description><![CDATA[ The Giants get above themselves and attack the gods on mount Olympus ]]></description>
-					<enclosure length="09080 " type="audio/mpeg" url="http://media.libsyn.com/media/blogrelations/harryrosie.mp3" />
-					<itunes:duration>12.14</itunes:duration>
+           		 <title>The Grasshopper</title>
+					<pubDate>Tue Sep 28 2021 01:00:00 GMT+0100 (British Summer Time)</pubDate>
+					<guid isPermaLink="true">https://www.relaxivity.app/posts/poems/grasshopper</guid>
+					<link><![CDATA[https://www.relaxivity.app/posts/poems/grasshopper]]></link>
+					<itunes:image href="grasshopper-coverart.jpg" />
+					<description><![CDATA[ Welcome to Relaxivity  - the new Podcast that brings you atmsopheric and relaxing stories.  Our debut episode is a peom from ancient Greece that celebrates the devine in the tiny. ]]></description>
+					<enclosure length="8751521 " type="audio/mpeg" url="https://traffic.libsyn.com/secure/relaxivity/happy-grasshopper-relaxivity.mp3" />
+					<itunes:duration>05.08</itunes:duration>
 					<itunes:explicit>no</itunes:explicit>
 					<itunes:keywords />
 					

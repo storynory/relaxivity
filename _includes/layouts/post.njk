@@ -19,7 +19,7 @@ layout: layouts/base.njk
 
         <div class="blog-post">
             <h2 class="blog-post-title">{{title}}</h2>
-
+{% include 'components/player.njk' %}
       
 <picture class="img-fluid">
  <source media="(max-width: 576px)" srcset="https://relaxivity.app/images/400/{{coverart.src | webp}}">

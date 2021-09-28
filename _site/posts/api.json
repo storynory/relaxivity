@@ -3,31 +3,11 @@
  
   
 {
-    "title": "The Creation",
-    "excerpt": "Let&#39;s go back to the very start of the world and there was nothing but chaos",
-    "series": "metamorphosis",
-    "url": "/posts/metamorphosis/creation",
-    "img": "creation-videoart.jpg"
-  } 
-
-
-  ,
-{
-    "title": "The Flood",
-    "excerpt": "The world gets reather soggy",
-    "series": "metamorphosis",
-    "url": "/posts/metamorphosis/flood",
-    "img": "flood-videoart.jpg"
-  } 
-
-
-  ,
-{
-    "title": "The Giants",
-    "excerpt": "The Giants get above themselves and attack the gods on mount Olympus",
-    "series": "metamorphosis",
-    "url": "/posts/metamorphosis/giants",
-    "img": "giants-videoart.jpg"
+    "title": "The Grasshopper",
+    "excerpt": "Welcome to Relaxivity  - the new Podcast that brings you atmsopheric and relaxing stories.  Our debut episode is a peom from ancient Greece that celebrates the devine in the tiny.",
+    "series": "poems",
+    "url": "/posts/poems/grasshopper",
+    "img": "grasshopper-videoart.jpg"
   } 
 
 
