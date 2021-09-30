@@ -1,0 +1,4 @@
+Sitemap: https://www.relaxivity.app/sitemap.xml
+
+User-agent: *
+Disallow:
