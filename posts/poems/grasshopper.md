@@ -41,43 +41,34 @@ Socrates, the famous philosopher, whose life was written up by Plato,   taught t
 So now you know some background, let's get ready to listen to this enchanting poem, composed some 2,500 years ago.
 
 The Grasshopper, by Anacreon
+Happy insect! all agree  
+None can be more bless'd than thee;  
+Thou, for joy and pleasure born,  
+Sipp'st the honey'd dew of morn.  
+Happier than the sceptred king,  
+Mid the boughs we hear thee sing.  
+All the season's varied store,  
+All thy little eyes explore,  
+Fruits that tempt, and flowers that shine,  
+Happy insect! all are thine.  
+Injuring nothing, blamed by none,  
+Farmers love thee—pretty one!  
+All rejoice thy voice to hear  
+Singing blithe when summer's near.  
+Thee the tuneful Muses love,  
+Sweetly chirping in the grove;  
+Thee the great Apollo bless'd  
+With a voice above the rest.  
+Thou from wasting age art free,  
+Time has naught to do with thee.
+Skilful creature, child of song,  
+Though to earth thou dost belong,  
+Free from Nature's woes and pains,  
+Free from flesh, or blood-fill'd veins,  
+Happy thing! thou seem'st to me  
+Almost a little god to be!  
 
-HAPPY insect! what can be  
-In happiness compar'd to thee?  
-Fed with nourishment divine,  
-The dewy morning's gentle wine!  
-Nature waits upon thee still,  
-And thy verdant cup does fill;  
-'Tis filled wherever thou dost tread,  
-Nature self's thy Ganymede.  
-Thou dost drink, and dance, and sing;  
-Happier than the happiest king!  
-All the fields which thou dost see,  
-All the plants belong to thee;  
-All that summer hours produce;  
-Fertile made with early juice.  
-Man for thee does sow and plow;  
-Farmer he, and landlord thou!  
-Thou dost innocently joy;  
-Nor does thy luxury destroy;  
-The shepherd gladly heareth thee,  
-More harmonious than he.  
-Thee country-hinds with gladness hear,  
-Prophet of the ripen'd year!  
-Thee Phoebus loves, and does inspire;  
-Phoebus is himself thy sire.  
-To thee, of all things upon earth,  
-Life's no longer than thy mirth.  
-Happy insect, happy, thou  
-Dost neither age nor winter know;  
-But, when thou'st drunk, and danc'd and sung  
-Thy fill, the flowery leaves among,  
-(Voluptuous and wise withal,  
-Epicurean animal!)--  
-Sated with thy summer feast,  
-Thou retir'st to endless rest.  
-
-And you have been listening to The Grasshopper, written by Anacreon,  And TRANSLATED BY ABRAHAM COWLEY  in the 17th century.
+And you have been listening to The Grasshopper, written by Anacreon,  And TRANSLATED BY Thomas Bourne  in the 17th century.
 
 We do hope that you have enjoyed this first episode of Relaxivity and are now feeling nice and relaxed and ready to recharge yourself with positive energy.  
 
