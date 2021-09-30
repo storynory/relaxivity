@@ -42,40 +42,40 @@ So now you know some background, let's get ready to listen to this enchanting po
 
 The Grasshopper, by Anacreon
 
-HAPPY insect! what can be
-In happiness compar'd to thee?
-Fed with nourishment divine,
-The dewy morning's gentle wine!
-Nature waits upon thee still,
-And thy verdant cup does fill;
-'Tis filled wherever thou dost tread,
-Nature self's thy Ganymede.
-Thou dost drink, and dance, and sing;
-Happier than the happiest king!
-All the fields which thou dost see,
-All the plants belong to thee;
-All that summer hours produce;
-Fertile made with early juice.
-Man for thee does sow and plow;
-Farmer he, and landlord thou!
-Thou dost innocently joy;
-Nor does thy luxury destroy;
-The shepherd gladly heareth thee,
-More harmonious than he.
-Thee country-hinds with gladness hear,
-Prophet of the ripen'd year!
-Thee Phoebus loves, and does inspire;
-Phoebus is himself thy sire.
-To thee, of all things upon earth,
-Life's no longer than thy mirth.
-Happy insect, happy, thou
-Dost neither age nor winter know;
-But, when thou'st drunk, and danc'd and sung
-Thy fill, the flowery leaves among,
-(Voluptuous and wise withal,
-Epicurean animal!)--
-Sated with thy summer feast,
-Thou retir'st to endless rest.
+HAPPY insect! what can be  
+In happiness compar'd to thee?  
+Fed with nourishment divine,  
+The dewy morning's gentle wine!  
+Nature waits upon thee still,  
+And thy verdant cup does fill;  
+'Tis filled wherever thou dost tread,  
+Nature self's thy Ganymede.  
+Thou dost drink, and dance, and sing;  
+Happier than the happiest king!  
+All the fields which thou dost see,  
+All the plants belong to thee;  
+All that summer hours produce;  
+Fertile made with early juice.  
+Man for thee does sow and plow;  
+Farmer he, and landlord thou!  
+Thou dost innocently joy;  
+Nor does thy luxury destroy;  
+The shepherd gladly heareth thee,  
+More harmonious than he.  
+Thee country-hinds with gladness hear,  
+Prophet of the ripen'd year!  
+Thee Phoebus loves, and does inspire;  
+Phoebus is himself thy sire.  
+To thee, of all things upon earth,  
+Life's no longer than thy mirth.  
+Happy insect, happy, thou  
+Dost neither age nor winter know;  
+But, when thou'st drunk, and danc'd and sung  
+Thy fill, the flowery leaves among,  
+(Voluptuous and wise withal,  
+Epicurean animal!)--  
+Sated with thy summer feast,  
+Thou retir'st to endless rest.  
 
 And you have been listening to The Grasshopper, written by Anacreon,  And TRANSLATED BY ABRAHAM COWLEY  in the 17th century.
 
