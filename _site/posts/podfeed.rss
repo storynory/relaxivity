@@ -4,7 +4,7 @@
 <channel>
 	<title>Relaxivity</title>
 	
-	<lastBuildDate>Thu Sep 30 2021 23:40:04 GMT+0100 (British Summer Time)</lastBuildDate>
+	<lastBuildDate>Tue Nov 02 2021 20:14:45 GMT+0000 (Greenwich Mean Time)</lastBuildDate>
 	<generator>relaxivity.app</generator>
 	<link>https://www.relaxivity.app</link>
 	<language>en</language>
@@ -46,6 +46,23 @@
 					<description><![CDATA[ Welcome to Relaxivity  - the new Podcast that brings you atmsopheric and relaxing stories.  Our debut episode is a poem from ancient Greece that celebrates the devine in the tiny. ]]></description>
 					<enclosure length="8751521 " type="audio/mpeg" url="https://traffic.libsyn.com/secure/relaxivity/happy-grasshopper-relaxivity.mp3" />
 					<itunes:duration>05.08</itunes:duration>
+					<itunes:explicit>no</itunes:explicit>
+					<itunes:keywords />
+					
+
+			</item>
+
+            
+
+			<item>
+           		 <title>The Green Willow</title>
+					<pubDate>Tue Nov 02 2021 00:00:00 GMT+0000 (Greenwich Mean Time)</pubDate>
+					<guid isPermaLink="true">https://www.relaxivity.app/posts/japan/willow</guid>
+					<link><![CDATA[https://www.relaxivity.app/posts/japan/willow]]></link>
+					<itunes:image href="green-willow-coverart.jpg" />
+					<description><![CDATA[ An etherial story from Japan about a Sumurai Knight and a beautiful but ghostly woman connected to a willow tree ]]></description>
+					<enclosure length="20904757 " type="audio/mpeg" url="https://traffic.libsyn.com/relaxivity/green-willow-mix-relaxivity.mp3" />
+					<itunes:duration>12.52</itunes:duration>
 					<itunes:explicit>no</itunes:explicit>
 					<itunes:keywords />
 					

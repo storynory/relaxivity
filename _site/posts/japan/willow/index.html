@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="en">
   <head>
-<title>Relaxivity: Relaxivity Podcast for relaxing stories</title>
-<meta name="descripton" content=""/>
+<title>Relaxivity: The Green Willow</title>
+<meta name="descripton" content="An etherial story from Japan about a Sumurai Knight and a beautiful but ghostly woman connected to a willow tree"/>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <link rel="manifest" href="/manifest.json"/>
@@ -67,38 +67,442 @@ var activate = function (el) { toggleClass(el, "show"); return; }
 
  </div>
  <main class="container-xl">
- <div class="container p-4 bg-white">
-    <h1>Tagged “podcast”</h1>
+ <main role="main" class="container bg-light">
+    <div class="row">
+        <div class="col-md-12 blog-main">
+        <h3 class="pb-3 mb-4 font-italic border-bottom text-capitalize">
+            poems
+        </h3>
+     <p class="text-capitalize">   
+
     
+          <a href="/tags/japan">japan</a>
       
+         , <a href="/tags/myths">myths</a>
       
-      <div class="row">
-            
-            <div class="col-sm">
-              <div class="card my-4" >
-             <a class="text-decoration-none" href="/posts/poems/grasshopper">
-                <img class="card-img-top img-thumbnail" src="https://relaxivity.app/images/600/grasshopper-videoart.jpg" alt="Card image cap">
-                </a>
-                <div class="card-body">
-                    <h5 class="card-title"><a class="text-decoration-none" href="/posts/poems/grasshopper">The Grasshopper</a></h5>
-                    <p class="card-text">Welcome to Relaxivity  - the new Podcast that brings you atmsopheric and relaxing stories.  Our debut episode is a poem from ancient Greece that celebrates the devine in the tiny.</p> 
-                    <p><a href="/posts/poems/grasshopper" class="card-link">Read More</a></p>
-                </div>
-              </div>  
-            </div> 
-            <div class="col-sm">
-              <div class="card my-4" >
-             <a class="text-decoration-none" href="/posts/japan/willow">
-                <img class="card-img-top img-thumbnail" src="https://relaxivity.app/images/600/green-willow-videoart.jpg" alt="Card image cap">
-                </a>
-                <div class="card-body">
-                    <h5 class="card-title"><a class="text-decoration-none" href="/posts/japan/willow">The Green Willow</a></h5>
-                    <p class="card-text">An etherial story from Japan about a Sumurai Knight and a beautiful but ghostly woman connected to a willow tree</p> 
-                    <p><a href="/posts/japan/willow" class="card-link">Read More</a></p>
-                </div>
-              </div>  
-            </div>
-          </div>
+         , <a href="/tags/podcast">podcast</a>
+      
+</p>
+
+
+        <div class="blog-post">
+            <h2 class="blog-post-title">The Green Willow</h2>
+   <style>
+      figure.player {
+         position: relative;
+         width: 90%;
+         display: block;
+         margin: auto;
+         background: #5a6886;
+         border-radius: 8px;
+         position: relative;
+         font-size: 16px;
+         text-align: center;
+         overflow: hidden;
+         color: #fff
+      }
+
+      .player label {
+         position: absolute;
+         left: -3000px
+      }
+
+      .wind {
+         font-size: 32px;
+         display: block;
+         color: #efd480
+      }
+
+      .wind:hover {
+         color: #fff
+      }
+
+      .left {
+         float: left
+      }
+
+      .right {
+         float: right
+      }
+
+      .playbtn {
+         width: 100%;
+         text-align: center;
+         height: 52px
+      }
+
+      #range {
+         width: 100%
+      }
+
+      #play {
+         border: 0;
+         background: 0 0;
+         box-sizing: border-box;
+         width: 0;
+         height: 48px;
+         overflow: hidden;
+         border-color: transparent transparent transparent #efd480;
+         transition: .1s all ease;
+         cursor: pointer;
+         border-style: solid;
+         border-width: 24px 0 24px 38px
+      }
+
+      #play:hover {
+         border-color: transparent transparent transparent #fff
+      }
+
+      #play.paused {
+         border-style: double;
+         border-width: 0 0 0 38px
+      }
+
+      #play:active {
+         border-color: transparent transparent transparent #404040
+      }
+
+      button#play:active {
+         background-color: #00f
+      }
+
+      #time {
+         width: 60px;
+         text-align: left
+      }
+
+      #dur {
+         float: right
+      }
+
+      #range::-webkit-slider-thumb {
+         background: #4caf50;
+         cursor: pointer
+      }
+
+      #status {
+         margin-left: -30px;
+      }
+
+      .slider {
+         -webkit-appearance: none;
+         appearance: none;
+         width: 100%;
+         height: 8px;
+         background: #efd480;
+         outline: 0;
+         opacity: .7;
+         -webkit-transition: .2s;
+         transition: opacity .2s
+      }
+
+      .slider:hover {
+         opacity: 1
+      }
+
+      .slider::-webkit-slider-thumb {
+         -webkit-appearance: none;
+         appearance: none;
+         width: 16px;
+         height: 16px;
+         border-radius: 100%;
+         background: #4caf50;
+         cursor: pointer
+      }
+
+      .slider::-moz-range-thumb {
+         width: 12px;
+         height: 12px;
+         background: #4caf50;
+         cursor: pointer
+      }
+
+      .lds-ripple {
+
+         display: inline-block;
+         position: absolute;
+         left: 50%;
+         margin-left: -50px;
+         bottom: 2px;
+         width: 40px;
+         height: 40px;
+      }
+
+      .lds-ripple div {
+         position: absolute;
+         border: 2px solid #fff;
+         opacity: 1;
+         border-radius: 50%;
+         animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+      }
+
+      .lds-ripple div:nth-child(2) {
+         animation-delay: -0.5s;
+      }
+
+      @keyframes lds-ripple {
+         0% {
+            top: 18px;
+            left: 18px;
+            width: 0;
+            height: 0;
+            opacity: 1;
+         }
+
+         100% {
+            top: 0px;
+            left: 0px;
+            width: 35px;
+            height: 36px;
+            opacity: 0;
+         }
+      }
+   </style>
+   <script>
+
+   </script>
+
+   <figure id="figure" class="player container py-3"
+      data-src="https://traffic.libsyn.com/relaxivity/green-willow-mix-relaxivity.mp3" >
+
+
+      <div class="playbtn">
+         <span id="back" class="wind left">⟲</span>
+
+         <div id="lds" class="lds-ripple">
+            <div></div>
+            <div></div>
+         </div>
+         <button class="center" name="audio_player" id="play"></button>
+         <span id="forward" class="wind right">⟳</span>
+      </div>
+      <input class="slider" type="range" id="range" min="0" max="100" value="0" />
+      <label for="seek">seek</label>
+      <span class="left" id="time">00.00.00</span>
+      <span class="right" id="dur">00.00.00</span>
+      <span id="status">loading</span>
+   </figure>
+
+   <script>
+
+      const player = {
+         data: {
+            audio: undefined
+
+         },
+         computed: {
+            convertTimeHHMMSS(secs) {
+               return new Date(secs * 1000).toISOString().substr(11, 8)
+
+            },
+
+            percentComplete(currentSeconds, durationSeconds) {
+               return parseInt((currentSeconds / durationSeconds) * 100);
+            },
+            muted() {
+               return player.data.volume / 100 === 0;
+            }
+         },
+
+
+      }
+
+
+      // player.data.audio = document.getElementById('mp3');
+      const figure = document.getElementById('figure');
+      const btn = document.getElementById('play');
+      const tm = document.getElementById('time');
+      const range = document.getElementById('range');
+      const dur = document.getElementById('dur');
+      const back = document.getElementById('back');
+      const forward = document.getElementById('forward');
+      const lds = document.getElementById('lds');
+      const status = document.getElementById('status');
+
+      player.data.audio = document.createElement('audio');
+      player.data.audio.src = figure.dataset.src;
+
+      btn.addEventListener("click", function () {
+
+         if (player.data.audio.paused || player.data.audio.loadstart) {
+            this.classList.add("paused");
+            player.data.audio.play();
+
+
+         }
+         else {
+            this.classList.remove("paused");
+            player.data.audio.pause();
+         }
+      }, true);
+
+
+
+
+
+      player.data.audio.onloadedmetadata = () => {
+         range.max = player.data.audio.duration;
+         dur.innerHTML = player.computed.convertTimeHHMMSS(player.data.audio.duration);
+		 lds.classList.remove("lds-ripple");
+         status.innerHTML = "ready"
+
+      }
+
+
+
+
+      range.oninput = () => {
+         player.data.audio.currentTime = range.value;
+         tm.innerHTML = player.computed.convertTimeHHMMSS(player.data.audio.currentTime)
+      }
+
+
+
+      player.data.audio.ontimeupdate = () => {
+         range.value = player.data.audio.currentTime;
+         range.setAttribute('value', range.value);
+         tm.innerHTML = player.computed.convertTimeHHMMSS(player.data.audio.currentTime)
+      }
+
+      player.data.audio.addEventListener("waiting", function (e) {
+ 			status.innerHTML = "waiting"
+
+      });
+
+
+
+      player.data.audio.addEventListener("canplaythrough", function (e) {
+			status.innerHTML = "loaded"
+        
+      });
+
+
+      player.data.audio.addEventListener("error", function (e) {
+
+         status.innerHTML = "Error"
+      });
+
+
+
+
+
+
+      back.addEventListener("click", function () {
+         if (player.data.audio.currentTime >= 30) {
+            player.data.audio.currentTime -= 30.0;
+         }
+         else {
+            player.data.audio.currentTime = 0;
+         }
+      });
+
+
+      forward.addEventListener("click", function () {
+         if (player.data.audio.currentTime += 30 <= player.data.audio.duration) {
+            player.data.audio.currentTime += 30.0;
+         }
+         else {
+            player.data.audio.currentTime = player.data.audio.duration;
+         }
+      });
+
+   </script>	
+<ul class="one-whole list-group cf py-3">
+    <li class="small left box-tiny-top-bottom box-tiny-top"><a href="https://traffic.libsyn.com/relaxivity/green-willow-mix-relaxivity.mp3" download="true" ><b class="icon icon-download" ></b>  Download</a></li>  
+	</ul>	
+         
+
+      
+<picture class="img-fluid">
+ <source media="(max-width: 576px)" srcset="https://relaxivity.app/images/400/green-willow-coverart.webp">
+  <source media="(min-width: 577px)" srcset="https://relaxivity.app/images/600/green-willow-videoart.webp">
+  <source media="(max-width: 576px)" srcset="https://relaxivity.app/images/400/green-willow-coverart.jpg">
+  <source media="(min-width: 577px)" srcset="https://relaxivity.app/images/600/green-willow-videoart.jpg">
+  <img class="img-fluid" src="https://relaxivity.app/images/560/green-willow-videoart.jpg" alt="videoart.alt">
+</picture>
+
+
+<div class="txt-lg">
+
+  <p>Adapted by Bertie for Relaxivity
+And read by Jana</p>
+<p>The Green Willow</p>
+<p>Hello, this is Jana, and welcome to Relaxivity, a place where you can spend a little time for yourself.  We bring you stories of a quiet, spiritual nature, as well as poems and meditations.  Listen when you want to relax or fall asleep.</p>
+<p>This traditional story about a Samurai knight and his love comes from Japan.  It is about an age-old question: should you follow your duty or your heart?  The atmosphere is romantic and ethereal, with a touch of ghostliness.</p>
+<p>Make yourself comfortable, take a few deep breaths, and listen on:</p>
+<p>There was once a young Samurai knight who worked in the service of Lord Noto.  His name was Tomodata, and he was respected by all who knew him, for he lived his life by the strict honour of the Samurai.</p>
+<p>One day, Lord Noto summoned Tomodata and asked:</p>
+<p>“Are you loyal?”
+“My lord, you know it,” answered Tomodata.
+“Do you love me, then?” asked  Lord Noto.
+“Yes, my good lord,” said Tomodata, kneeling before him.</p>
+<p>Then carry my message,” said the Lord. “Ride and do not spare your horse. Ride straight, and let neither mountains nor bandits hinder you. Lose your life, but do not betray my faith in you. Above all, do not look into any young girl’s eyes, for they pose the greatest threat of all to a young man. Ride, and bring me the reply quickly.”</p>
+<p>And so Tomodata mounted his horse and rode away on his quest. He did not spare his horse, and he took a straight path over mountains and through bandit country.</p>
+<p>Towards the end of his third day on the road, the rain began.  Soon it was pouring down in a torrent. Tomodata bowed his head and rode on. The wind moaned in the pine trees like lost souls.  His horse stumbled more than a few times, but Tomodata spoke to the faithful animal and urged it on. He no longer knew where he was or what was the time of day. All was pitch black. He could feel that the ground under his feet was marshy and squelchy. Soon he had to dismount from his horse and lead it along on foot.</p>
+<p>“Alas! I must die in this wilderness before I have finished my mission for Lord Noto!” he called out in despair.</p>
+<p>A few moments later, the winds blew the clouds across the sky.  The moon found a space to shine through, and in the welcome light, Tomodata saw a hill to his right. He made out the shapes of a cottage and three trees. He turned and headed straight up the hill towards it. Soon he could make out chinks of light through the cottage door.</p>
+<p>“Thanks be to the gods!” he said out loud.  As he drew closer, he saw that the three trees were willows swaying, and their tassels of leaves were flying in the wind.  He threw his horse’s rein over the branch of one of the trees before standing at the door and calling out, “Do not be afraid.  I mean no harm.  I am lost and seek shelter from the storm!”
+An old woman opened the door and asked, “What honest person would be out on such a night?”</p>
+<p>“Madam.  My name is Tomodata. I am a samurai in the service of Lord Noto.  If I do not find shelter for myself and my horse, I shall surely perish.”</p>
+<p>“Well you had better come in then,” replied the old woman. “Stand by the fire and dry those clothes out. My daughter will take care of your horse.”</p>
+<p>Tomodata stepped into the house and greeted an old man who was sitting by the fire.</p>
+<p>The old lady warmed some rice wine. He wondered where was the daughter, but not for long.  Soon he felt a sudden draught as the door flew open. He turned around and saw a young woman in the doorway, her long hair streaming in the wind. She came in and disappeared behind a screen from where she emerged in bare feet wearing a blue robe. Her long hair fell down to her knees. She was slender and graceful, and Tomodota thought she was the most beautiful girl he had ever seen.</p>
+<p>She knelt at his side to pour wine from a bottle into his cup. When she had finished pouring, their eyes met for a few seconds.</p>
+<p>“What is your name?” asked Tomodata</p>
+<p>And she replied:</p>
+<p>“Green  Willow.”</p>
+<p>Tomodata took another glance into her eyes and thought guiltily, “I am disobeying my orders, but how could I not?”</p>
+<p>He sat by the fire with his wine, thinking only of Green Willow. When she returned to refill his cup, he had some lines ready for her.</p>
+<p>“Long-haired maiden, do you know
+That with the red dawn I must go?
+Do you wish me far away?
+Cruel long-haired maiden, say—
+Long-haired maiden, if you know
+That with the red dawn I must go,
+Why, oh why, do you blush so?”</p>
+<p>And  Green Willow answered:
+“The dawn comes if I will or no;
+Never leave me, never go.
+My sleeve shall hide the blush away.
+The dawn comes if I will or no;
+Never leave me, never go.
+Lord, I lift my long sleeve so....”</p>
+<p>“Oh, Green Willow, Green Willow ...” sighed Tomodata.</p>
+<p>That night he lay before the fire with eyes wide open, for no sleep came to him even though he was weary. He was sick for the love of Green Willow. Yet by the rules of his service, he was bound to think only of his mission for Lord Noto.</p>
+<p>At the first peep of daylight, he rose. He looked upon the kind old man who had been his host and left a purse of gold at his side as he slept. The maiden and her mother lay behind the screen.</p>
+<p>Tomodata saddled and bridled his horse, and rode slowly away through the mist of the early morning. The storm was quite over, and it was as still as Paradise. The green grass and the leaves shone with the wet. The sky was clear, and the path bright with autumn flowers, but Tomodata was sad.</p>
+<p>“Ah, Green Willow, Green Willow,” he sighed.  At noon his sigh was the same, and that evening it had not changed. That night he lay in a deserted shrine, a still, holy place, and he slept profoundly.  At dawn, he rose, meaning to wash in a stream that flowed nearby.  When he reached the gateway to the shrine, his way was blocked.  A slender girl lay face down across his path,  her long, black hair flung about her.<br>
+Tomodata knelt beside her.  She slowly lifted herself and held him by the sleeve.  They gazed into each other’s eyes.</p>
+<p>He took her in his arms without a word, and soon he set her on his horse before him.  They rode the whole day. The heat and the cold were nothing to them. They felt not the sun nor the rain.  Tomodata did not think of his Samurai honour in the service of Lord Noto.  Green Willow had forgotten her duty to her parents.  They knew but one thing. Love.</p>
+<p>At last, they came to a  city where they stayed. Tomodata carried gold and jewels in his saddlebag, and he used it to pay for a house of white wood, spread with mats. In every room, they could hear the sound of the garden waterfall.   Now and then, a swallow flitted across the screen of a paper lattice.</p>
+<p>Here they lived,  knowing but one thing, for three happy years that were like garlands of sweet flowers.</p>
+<p>One evening, in the autumn of the third year, the two went out into the garden at dusk to watch the round moon rise.  As they watched, Green Willow began to shake and shiver. Tomodata wrapped his arm around her.  “It is cold, my darling, come inside,” he said.</p>
+<p>But she was faint and dropped her head onto her lover’s chest.</p>
+<p>“Tomodata,” she whispered, “Say a prayer for me; I die.”</p>
+<p>“Do not utter  such words, my sweet! You are feeling tired, that is all.”</p>
+<p>He carried her to the bubbling stream, where the iris grew like swords, and the lotus leaves like shields.  He gently bathed her forehead with water.</p>
+<p>“The tree,” she moaned, “the tree ... they have cut down my tree. Remember the Green Willow.”</p>
+<p>With that, she slipped from his arms.  He was left holding an empty blue robe that was warm and sweet.</p>
+<p>Years later, when Tomodata was a holy man, he travelled from shrine to shrine, painfully upon his feet and acquired much merit.</p>
+<p>One time, at nightfall, he found himself upon a lonely moor. On his right hand, he saw a little hill, and on it, the sad ruins of a poor thatched cottage. The door swung to and fro with a broken latch and creaking hinge. Three old stumps of willow trees stood beside the house.  Tomodata waited for a long while,  still and silent. Then he sang gently to himself:
+“Long-haired maiden, do you know
+That with the red dawn I must go?</p>
+<p>Do you wish me far away?
+Cruel long-haired maiden, say—
+Long-haired maiden, if you know
+That with the red dawn I must go,
+Why, oh why, do you blush so?”</p>
+
+        </div> 
+    </div><!-- /.row -->
+</div>
+</main>
+
+          
+        </div>
+
+
+  </main>
 </main>
 
 <!-- Footer-->
