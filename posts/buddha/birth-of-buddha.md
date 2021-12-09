@@ -1,3 +1,4 @@
+---
 title: The Birth of Buddha
 author: Bertie
 type: post
