@@ -23,9 +23,7 @@ If you are interested in myths and religions from around the world, you've come 
 
 In early 2022 we will start our retelling of Ovid's Metamorphosis.  This will cover a large number of the myths from Greece and Rome, many of which are a bit too spicy for Storynory.  Our retelling will be in verse and aims to capture the light and sometimes irrelevant touch of the original.  
 
-To date, our most ambitious story is the Birth of Buddha, featuring chants and music that we created ourselves.   
-
-We make quite a bit of the music and sound effects ourselves - sometimes with a little help from  commercial loops.  But you will hear us chanting and strumming, and even tapping on the odd drum!   
+To date, our most ambitious story is the Birth of Buddha, featuring chants and music that we created ourselves. We make use of the occasional loop, but in many stories, you will hear us chanting and strumming, and even tapping on the odd drum such as an Indian tabla.   
 
 Each episode has many hours of of work put into it - including research, writing, recording and post production.   
 
