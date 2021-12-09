@@ -10,7 +10,7 @@ layout: layouts/base.njk
     <h1>Tagged “{{ tag }}”</h1>
     
       {% set taglist = collections[ tag ] %}
-      {% for row in taglist  | batch(3) %}
+      {% for row in taglist | reverse | batch(3) %}
       <div class="row">
    {% include 'components/cards/cardTag.njk' %}
           </div>
