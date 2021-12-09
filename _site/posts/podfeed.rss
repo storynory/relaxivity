@@ -4,7 +4,7 @@
 <channel>
 	<title>Relaxivity</title>
 	
-	<lastBuildDate>Thu Dec 09 2021 14:32:47 GMT+0000 (Greenwich Mean Time)</lastBuildDate>
+	<lastBuildDate>Thu Dec 09 2021 17:20:52 GMT+0000 (Greenwich Mean Time)</lastBuildDate>
 	<generator>relaxivity.app</generator>
 	<link>https://www.relaxivity.app</link>
 	<language>en</language>
@@ -38,14 +38,14 @@
 	       
 
 			<item>
-           		 <title>The Grasshopper</title>
-					<pubDate>Tue Sep 28 2021 01:00:00 GMT+0100 (British Summer Time)</pubDate>
-					<guid isPermaLink="true">https://www.relaxivity.app/posts/poems/grasshopper</guid>
-					<link><![CDATA[https://www.relaxivity.app/posts/poems/grasshopper]]></link>
-					<itunes:image href="grasshopper-coverart.jpg" />
-					<description><![CDATA[ Welcome to Relaxivity  - the new Podcast that brings you atmsopheric and relaxing stories.  Our debut episode is a poem from ancient Greece that celebrates the devine in the tiny. ]]></description>
-					<enclosure length="8751521 " type="audio/mpeg" url="https://traffic.libsyn.com/secure/relaxivity/happy-grasshopper-relaxivity.mp3" />
-					<itunes:duration>05.08</itunes:duration>
+           		 <title>The Birth of Buddha</title>
+					<pubDate>Thu Dec 09 2021 00:00:00 GMT+0000 (Greenwich Mean Time)</pubDate>
+					<guid isPermaLink="true">https://www.relaxivity.app/posts/buddha/birth-of-buddha</guid>
+					<link><![CDATA[https://www.relaxivity.app/posts/buddha/birth-of-buddha]]></link>
+					<itunes:image href="buddha-coverart.jpg" />
+					<description><![CDATA[ The Birth of Buddha is an emmersive, spiritual story, that goes to the origins of one of the world's great religeons.  The Four Signs that prompted a pampered prince to retreat from the world were an old man, a sick man, a corpse, and a monk or a yogin.  Buddha was born Siddhartha Gautama, a prince of Kapilavastu (on the Indian-Nepalese border) in the 5th century BCE. Soothsayers predicted he would become either a universal king or a buddha (awakened one).  Jana tells the story and chants too. ]]></description>
+					<enclosure length="30697239 " type="audio/mpeg" url="https://traffic.libsyn.com/relaxivity/birth-of-buddha-relaxivity.mp3" />
+					<itunes:duration>19.51</itunes:duration>
 					<itunes:explicit>no</itunes:explicit>
 					<itunes:keywords />
 					
@@ -72,14 +72,14 @@
             
 
 			<item>
-           		 <title>The Birth of Buddha</title>
-					<pubDate>Thu Dec 09 2021 00:00:00 GMT+0000 (Greenwich Mean Time)</pubDate>
-					<guid isPermaLink="true">https://www.relaxivity.app/posts/buddha/birth-of-buddha</guid>
-					<link><![CDATA[https://www.relaxivity.app/posts/buddha/birth-of-buddha]]></link>
-					<itunes:image href="buddha-coverart.jpg" />
-					<description><![CDATA[ The Birth of Buddha is an emmersive, spiritual story, that goes to the origins of one of the world's great religeons.  The Four Signs that prompted a pampered prince to retreat from the world were an old man, a sick man, a corpse, and a monk or a yogin.  Buddha was born Siddhartha Gautama, a prince of Kapilavastu (on the Indian-Nepalese border) in the 5th century BCE. Soothsayers predicted he would become either a universal king or a buddha (awakened one).  Jana tells the story and chants too. ]]></description>
-					<enclosure length="30697239 " type="audio/mpeg" url="https://traffic.libsyn.com/relaxivity/birth-of-buddha-relaxivity.mp3" />
-					<itunes:duration>19.51</itunes:duration>
+           		 <title>The Grasshopper</title>
+					<pubDate>Tue Sep 28 2021 01:00:00 GMT+0100 (British Summer Time)</pubDate>
+					<guid isPermaLink="true">https://www.relaxivity.app/posts/poems/grasshopper</guid>
+					<link><![CDATA[https://www.relaxivity.app/posts/poems/grasshopper]]></link>
+					<itunes:image href="grasshopper-coverart.jpg" />
+					<description><![CDATA[ Welcome to Relaxivity  - the new Podcast that brings you atmsopheric and relaxing stories.  Our debut episode is a poem from ancient Greece that celebrates the devine in the tiny. ]]></description>
+					<enclosure length="8751521 " type="audio/mpeg" url="https://traffic.libsyn.com/secure/relaxivity/happy-grasshopper-relaxivity.mp3" />
+					<itunes:duration>05.08</itunes:duration>
 					<itunes:explicit>no</itunes:explicit>
 					<itunes:keywords />
 					

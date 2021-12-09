@@ -35,7 +35,7 @@
 		</itunes:owner>
 		<description><![CDATA[{{summary}}]]></description>
 		<itunes:subtitle><![CDATA[{{subtitle}}]]></itunes:subtitle>	
-	       {% for post in collections.podcast %}
+	       {% for post in collections.podcast | reverse %}
 
 			<item>
            		 <title>{{post.data.title}}</title>

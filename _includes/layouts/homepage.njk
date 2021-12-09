@@ -4,7 +4,7 @@ excerpt: Relax and listen to atmospheric stories
 ---
 <div class="container">
 {% include 'components/jumbotrons/jum.njk' %}
-    {%- for row in collections.podcast | batch(3) -%}
+    {%- for row in collections.podcast | batch(3) | reverse -%}
      <div class="row">
 {% include 'components/cards/card.njk' %}
     </div>
