@@ -21,6 +21,11 @@ videoart:
     src: buddha-videoart.jpg
     alt: resting buddha
 ---
+Read by Jana
+Chants by Jana
+Adaptation and production by Bertie
+Buddha images courtesy of <a href="https://depositphotos.com/">Deposit Photos</a>
+
 
  The Birth of Buddha and the four signs
 
