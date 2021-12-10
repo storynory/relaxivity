@@ -4,7 +4,7 @@
 <channel>
 	<title>Relaxivity</title>
 	
-	<lastBuildDate>Thu Dec 09 2021 18:42:45 GMT+0000 (Greenwich Mean Time)</lastBuildDate>
+	<lastBuildDate>Fri Dec 10 2021 02:24:58 GMT+0000 (Greenwich Mean Time)</lastBuildDate>
 	<generator>relaxivity.app</generator>
 	<link>https://www.relaxivity.app</link>
 	<language>en</language>
@@ -38,8 +38,8 @@
 	       
 
 			<item>
-           		 <title>The Birth of Buddha</title>
-					<pubDate>Thu Dec 09 2021 00:00:00 GMT+0000 (Greenwich Mean Time)</pubDate>
+           		 <title>The Birth of Buddha </title>
+					<pubDate>Thu, 09 Dec 2021 00:00:00 GMT</pubDate>
 					<guid isPermaLink="true">https://www.relaxivity.app/posts/buddha/birth-of-buddha</guid>
 					<link><![CDATA[https://www.relaxivity.app/posts/buddha/birth-of-buddha]]></link>
 					<itunes:image href="buddha-coverart.jpg" />
@@ -55,8 +55,8 @@
             
 
 			<item>
-           		 <title>The Green Willow</title>
-					<pubDate>Tue Nov 02 2021 00:00:00 GMT+0000 (Greenwich Mean Time)</pubDate>
+           		 <title>The Green Willow </title>
+					<pubDate>Tue, 02 Nov 2021 00:00:00 GMT</pubDate>
 					<guid isPermaLink="true">https://www.relaxivity.app/posts/japan/willow</guid>
 					<link><![CDATA[https://www.relaxivity.app/posts/japan/willow]]></link>
 					<itunes:image href="green-willow-coverart.jpg" />
@@ -72,8 +72,8 @@
             
 
 			<item>
-           		 <title>The Grasshopper</title>
-					<pubDate>Tue Sep 28 2021 01:00:00 GMT+0100 (British Summer Time)</pubDate>
+           		 <title>The Grasshopper </title>
+					<pubDate>Tue, 28 Sep 2021 00:00:00 GMT</pubDate>
 					<guid isPermaLink="true">https://www.relaxivity.app/posts/poems/grasshopper</guid>
 					<link><![CDATA[https://www.relaxivity.app/posts/poems/grasshopper]]></link>
 					<itunes:image href="grasshopper-coverart.jpg" />

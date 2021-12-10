@@ -38,8 +38,8 @@
 	       {% for post in collections.podcast | reverse %}
 
 			<item>
-           		 <title>{{post.data.title}}</title>
-					<pubDate>{{post.data.date }}</pubDate>
+           		 <title>{{post.data.title}} </title>
+					<pubDate>{{post.data.date.toUTCString() }}</pubDate>
 					<guid isPermaLink="true">{{  url }}{{ post.filePathStem}}</guid>
 					<link><![CDATA[{{ url }}{{ post.filePathStem}}]]></link>
 					<itunes:image href="{{post.data.coverart.src}}" />
