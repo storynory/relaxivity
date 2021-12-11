@@ -17,7 +17,7 @@ Relaxivity is the big sibling of the Storynory podcast.  Storynory  - audio stor
 
 We wanted to do something a little more grown up to complement our stories for a younger audience. Not all stories are completely kid friendly.  Some of the best stories reflect the more earthy aspects of human nature.  
 
-As the name suggests, the stories for Relaxivity are presented in a relaxing and atmospheric way. But we hope they are interesting too!  We don't want to bore you to sleep.  The idea is to give you a little time to yourself. Pull on your headphones, put up your feet, puff up your pillow, and relax with stories. 
+As the name suggests, the stories for Relaxivity are presented in a relaxing and atmospheric way. But we hope they are interesting too!  We don't want to bore you to sleep.  The idea is to give you a little time to yourself. Pull on your headphones, put up your feet, puff up your pillow, and enjoy some realaxivity. 
 
 If you are interested in myths and religions from around the world, you've come to the right place. We love spiritual stories.  
 
@@ -32,6 +32,6 @@ We hope that the quality shows through.  We aim to be the best - by far!!!
 Yours 
 
 Jana and Bertie
-
+Contact bertie@storynory.com
 
 
