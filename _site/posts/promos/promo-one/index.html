@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="en">
   <head>
-<title>Relaxivity: Relaxivity Podcast for relaxing stories</title>
-<meta name="descripton" content=""/>
+<title>Relaxivity: Welcome to Relaxivity</title>
+<meta name="descripton" content="Pull-on your headphones, put up your feet, lie back and enjoy some Relaxivity."/>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <link rel="manifest" href="/manifest.json"/>
@@ -67,65 +67,374 @@ var activate = function (el) { toggleClass(el, "show"); return; }
 
  </div>
  <main class="container-xl">
- <div class="container p-4 bg-white">
-    <h1>Tagged “podcast”</h1>
+ <main role="main" class="container bg-light">
+    <div class="row">
+        <div class="col-md-12 blog-main">
+        <h3 class="pb-3 mb-4 font-italic border-bottom text-capitalize">
+            promos
+        </h3>
+     <p class="text-capitalize">   
+
     
+          <a href="/tags/promo">promo</a>
       
+         , <a href="/tags/podcast">podcast</a>
       
-      <div class="row">
-            
-            <div class="col-sm">
-              <div class="card my-4" >
-             <a class="text-decoration-none" href="/posts/promos/promo-one">
-                <img class="card-img-top img-thumbnail" src="https://relaxivity.app/images/600/creation-videoart.jpg" alt="Card image cap">
-                </a>
-                <div class="card-body">
-                    <h5 class="card-title"><a class="text-decoration-none" href="/posts/promos/promo-one">Welcome to Relaxivity</a></h5>
-                    <p class="card-text">Pull-on your headphones, put up your feet, lie back and enjoy some Relaxivity.</p> 
-                    <p><a href="/posts/promos/promo-one" class="card-link">Read More</a></p>
-                </div>
-              </div>  
-            </div> 
-            <div class="col-sm">
-              <div class="card my-4" >
-             <a class="text-decoration-none" href="/posts/buddha/birth-of-buddha">
-                <img class="card-img-top img-thumbnail" src="https://relaxivity.app/images/600/buddha-videoart.jpg" alt="Card image cap">
-                </a>
-                <div class="card-body">
-                    <h5 class="card-title"><a class="text-decoration-none" href="/posts/buddha/birth-of-buddha">The Birth of Buddha</a></h5>
-                    <p class="card-text">The Birth of Buddha is an emmersive, spiritual story, that goes to the origins of one of the world&#39;s great religeons.  The Four Signs that prompted a pampered prince to retreat from the world were an old man, a sick man, a corpse, and a monk or a yogin.  Buddha was born Siddhartha Gautama, a prince of Kapilavastu (on the Indian-Nepalese border) in the 5th century BCE. Soothsayers predicted he would become either a universal king or a buddha (awakened one).  Jana tells the story and chants too.</p> 
-                    <p><a href="/posts/buddha/birth-of-buddha" class="card-link">Read More</a></p>
-                </div>
-              </div>  
-            </div> 
-            <div class="col-sm">
-              <div class="card my-4" >
-             <a class="text-decoration-none" href="/posts/japan/willow">
-                <img class="card-img-top img-thumbnail" src="https://relaxivity.app/images/600/green-willow-videoart.jpg" alt="Card image cap">
-                </a>
-                <div class="card-body">
-                    <h5 class="card-title"><a class="text-decoration-none" href="/posts/japan/willow">The Green Willow</a></h5>
-                    <p class="card-text">An etherial story from Japan about a Sumurai Knight and a beautiful but ghostly woman connected to a willow tree</p> 
-                    <p><a href="/posts/japan/willow" class="card-link">Read More</a></p>
-                </div>
-              </div>  
-            </div>
-          </div>
-      <div class="row">
-            
-            <div class="col-sm">
-              <div class="card my-4" >
-             <a class="text-decoration-none" href="/posts/poems/grasshopper">
-                <img class="card-img-top img-thumbnail" src="https://relaxivity.app/images/600/grasshopper-videoart.jpg" alt="Card image cap">
-                </a>
-                <div class="card-body">
-                    <h5 class="card-title"><a class="text-decoration-none" href="/posts/poems/grasshopper">The Grasshopper</a></h5>
-                    <p class="card-text">Welcome to Relaxivity  - the new Podcast that brings you atmsopheric and relaxing stories.  Our debut episode is a poem from ancient Greece that celebrates the devine in the tiny.</p> 
-                    <p><a href="/posts/poems/grasshopper" class="card-link">Read More</a></p>
-                </div>
-              </div>  
-            </div>
-          </div>
+</p>
+
+
+        <div class="blog-post">
+            <h2 class="blog-post-title">Welcome to Relaxivity</h2>
+   <style>
+      figure.player {
+         position: relative;
+         width: 90%;
+         display: block;
+         margin: auto;
+         background: #5a6886;
+         border-radius: 8px;
+         position: relative;
+         font-size: 16px;
+         text-align: center;
+         overflow: hidden;
+         color: #fff
+      }
+
+      .player label {
+         position: absolute;
+         left: -3000px
+      }
+
+      .wind {
+         font-size: 32px;
+         display: block;
+         color: #efd480
+      }
+
+      .wind:hover {
+         color: #fff
+      }
+
+      .left {
+         float: left
+      }
+
+      .right {
+         float: right
+      }
+
+      .playbtn {
+         width: 100%;
+         text-align: center;
+         height: 52px
+      }
+
+      #range {
+         width: 100%
+      }
+
+      #play {
+         border: 0;
+         background: 0 0;
+         box-sizing: border-box;
+         width: 0;
+         height: 48px;
+         overflow: hidden;
+         border-color: transparent transparent transparent #efd480;
+         transition: .1s all ease;
+         cursor: pointer;
+         border-style: solid;
+         border-width: 24px 0 24px 38px
+      }
+
+      #play:hover {
+         border-color: transparent transparent transparent #fff
+      }
+
+      #play.paused {
+         border-style: double;
+         border-width: 0 0 0 38px
+      }
+
+      #play:active {
+         border-color: transparent transparent transparent #404040
+      }
+
+      button#play:active {
+         background-color: #00f
+      }
+
+      #time {
+         width: 60px;
+         text-align: left
+      }
+
+      #dur {
+         float: right
+      }
+
+      #range::-webkit-slider-thumb {
+         background: #4caf50;
+         cursor: pointer
+      }
+
+      #status {
+         margin-left: -30px;
+      }
+
+      .slider {
+         -webkit-appearance: none;
+         appearance: none;
+         width: 100%;
+         height: 8px;
+         background: #efd480;
+         outline: 0;
+         opacity: .7;
+         -webkit-transition: .2s;
+         transition: opacity .2s
+      }
+
+      .slider:hover {
+         opacity: 1
+      }
+
+      .slider::-webkit-slider-thumb {
+         -webkit-appearance: none;
+         appearance: none;
+         width: 16px;
+         height: 16px;
+         border-radius: 100%;
+         background: #4caf50;
+         cursor: pointer
+      }
+
+      .slider::-moz-range-thumb {
+         width: 12px;
+         height: 12px;
+         background: #4caf50;
+         cursor: pointer
+      }
+
+      .lds-ripple {
+
+         display: inline-block;
+         position: absolute;
+         left: 50%;
+         margin-left: -50px;
+         bottom: 2px;
+         width: 40px;
+         height: 40px;
+      }
+
+      .lds-ripple div {
+         position: absolute;
+         border: 2px solid #fff;
+         opacity: 1;
+         border-radius: 50%;
+         animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+      }
+
+      .lds-ripple div:nth-child(2) {
+         animation-delay: -0.5s;
+      }
+
+      @keyframes lds-ripple {
+         0% {
+            top: 18px;
+            left: 18px;
+            width: 0;
+            height: 0;
+            opacity: 1;
+         }
+
+         100% {
+            top: 0px;
+            left: 0px;
+            width: 35px;
+            height: 36px;
+            opacity: 0;
+         }
+      }
+   </style>
+   <script>
+
+   </script>
+
+   <figure id="figure" class="player container py-3"
+      data-src="https://traffic.libsyn.com/relaxivity/promo-relaxivity-jana.mp3" >
+
+
+      <div class="playbtn">
+         <span id="back" class="wind left">⟲</span>
+
+         <div id="lds" class="lds-ripple">
+            <div></div>
+            <div></div>
+         </div>
+         <button class="center" name="audio_player" id="play"></button>
+         <span id="forward" class="wind right">⟳</span>
+      </div>
+      <input class="slider" type="range" id="range" min="0" max="100" value="0" />
+      <label for="seek">seek</label>
+      <span class="left" id="time">00.00.00</span>
+      <span class="right" id="dur">00.00.00</span>
+      <span id="status">loading</span>
+   </figure>
+
+   <script>
+
+      const player = {
+         data: {
+            audio: undefined
+
+         },
+         computed: {
+            convertTimeHHMMSS(secs) {
+               return new Date(secs * 1000).toISOString().substr(11, 8)
+
+            },
+
+            percentComplete(currentSeconds, durationSeconds) {
+               return parseInt((currentSeconds / durationSeconds) * 100);
+            },
+            muted() {
+               return player.data.volume / 100 === 0;
+            }
+         },
+
+
+      }
+
+
+      // player.data.audio = document.getElementById('mp3');
+      const figure = document.getElementById('figure');
+      const btn = document.getElementById('play');
+      const tm = document.getElementById('time');
+      const range = document.getElementById('range');
+      const dur = document.getElementById('dur');
+      const back = document.getElementById('back');
+      const forward = document.getElementById('forward');
+      const lds = document.getElementById('lds');
+      const status = document.getElementById('status');
+
+      player.data.audio = document.createElement('audio');
+      player.data.audio.src = figure.dataset.src;
+
+      btn.addEventListener("click", function () {
+
+         if (player.data.audio.paused || player.data.audio.loadstart) {
+            this.classList.add("paused");
+            player.data.audio.play();
+
+
+         }
+         else {
+            this.classList.remove("paused");
+            player.data.audio.pause();
+         }
+      }, true);
+
+
+
+
+
+      player.data.audio.onloadedmetadata = () => {
+         range.max = player.data.audio.duration;
+         dur.innerHTML = player.computed.convertTimeHHMMSS(player.data.audio.duration);
+		 lds.classList.remove("lds-ripple");
+         status.innerHTML = "ready"
+
+      }
+
+
+
+
+      range.oninput = () => {
+         player.data.audio.currentTime = range.value;
+         tm.innerHTML = player.computed.convertTimeHHMMSS(player.data.audio.currentTime)
+      }
+
+
+
+      player.data.audio.ontimeupdate = () => {
+         range.value = player.data.audio.currentTime;
+         range.setAttribute('value', range.value);
+         tm.innerHTML = player.computed.convertTimeHHMMSS(player.data.audio.currentTime)
+      }
+
+      player.data.audio.addEventListener("waiting", function (e) {
+ 			status.innerHTML = "waiting"
+
+      });
+
+
+
+      player.data.audio.addEventListener("canplaythrough", function (e) {
+			status.innerHTML = "loaded"
+        
+      });
+
+
+      player.data.audio.addEventListener("error", function (e) {
+
+         status.innerHTML = "Error"
+      });
+
+
+
+
+
+
+      back.addEventListener("click", function () {
+         if (player.data.audio.currentTime >= 30) {
+            player.data.audio.currentTime -= 30.0;
+         }
+         else {
+            player.data.audio.currentTime = 0;
+         }
+      });
+
+
+      forward.addEventListener("click", function () {
+         if (player.data.audio.currentTime += 30 <= player.data.audio.duration) {
+            player.data.audio.currentTime += 30.0;
+         }
+         else {
+            player.data.audio.currentTime = player.data.audio.duration;
+         }
+      });
+
+   </script>	
+<ul class="one-whole list-group cf py-3">
+    <li class="small left box-tiny-top-bottom box-tiny-top"><a href="https://traffic.libsyn.com/relaxivity/promo-relaxivity-jana.mp3" download="true" ><b class="icon icon-download" ></b>  Download</a></li>  
+	</ul>	
+         
+
+      
+<picture class="img-fluid">
+ <source media="(max-width: 576px)" srcset="https://relaxivity.app/images/400/creation-coverart.webp">
+  <source media="(min-width: 577px)" srcset="https://relaxivity.app/images/600/creation-videoart.webp">
+  <source media="(max-width: 576px)" srcset="https://relaxivity.app/images/400/creation-coverart.jpg">
+  <source media="(min-width: 577px)" srcset="https://relaxivity.app/images/600/creation-videoart.jpg">
+  <img class="img-fluid" src="https://relaxivity.app/images/560/creation-videoart.jpg" alt="videoart.alt">
+</picture>
+
+
+<div class="txt-lg">
+
+  <p>Relaxivity is a new podcast from the makers Storynory.
+This is where you can hear our most mature and sophisticated stories. As the name suggests, the stories are presented in a relaxing and atmospheric style. But that doesn’t mean they aren’t interesting too! We aim to be relaxing and fascinating at the same time! Unwind while you feed your mind. Myths, spirituality and poetry are our main themes. Our music and sound effects enhance the immersive experience. Relaxivity is a special time for yourself.  Pull-on your headphones, put up your feet, lie back and enjoy some Relaxivity.</p>
+
+        </div> 
+    </div><!-- /.row -->
+</div>
+</main>
+
+          
+        </div>
+
+
+  </main>
 </main>
 
 <!-- Footer-->

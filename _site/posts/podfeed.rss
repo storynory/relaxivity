@@ -4,7 +4,7 @@
 <channel>
 	<title>Relaxivity</title>
 	
-	<lastBuildDate>Tue Jan 04 2022 21:28:30 GMT+0000 (Greenwich Mean Time)</lastBuildDate>
+	<lastBuildDate>Tue Jan 04 2022 21:34:41 GMT+0000 (Greenwich Mean Time)</lastBuildDate>
 	<generator>relaxivity.app</generator>
 	<link>https://www.relaxivity.app</link>
 	<language>en</language>
@@ -36,6 +36,23 @@
 		<description><![CDATA[Our stories and verses have a spiritual and diverting nature, and a good dose of humour. The sources come from all over the world, past and present, but especially the past.Relaxivity is a diversion that will lead you far from anything that you might normally  think or obsess about. This little time out during your day will leave you feeling refreshed and full of positive energy.]]></description>
 		<itunes:subtitle><![CDATA[Relaxing and Atmospheric Stories]]></itunes:subtitle>	
 	       
+
+			<item>
+           		 <title>Welcome to Relaxivity </title>
+					<pubDate>Tue, 04 Jan 2022 00:00:00 GMT</pubDate>
+					<guid isPermaLink="true">https://www.relaxivity.app/posts/promos/promo-one</guid>
+					<link><![CDATA[https://www.relaxivity.app/posts/promos/promo-one]]></link>
+					<itunes:image href="creation-coverart.jpg" />
+					<description><![CDATA[ Pull-on your headphones, put up your feet, lie back and enjoy some Relaxivity. ]]></description>
+					<enclosure length="3707583 " type="audio/mpeg" url="https://traffic.libsyn.com/relaxivity/promo-relaxivity-jana.mp3" />
+					<itunes:duration>01.36</itunes:duration>
+					<itunes:explicit>no</itunes:explicit>
+					<itunes:keywords />
+					
+
+			</item>
+
+            
 
 			<item>
            		 <title>The Birth of Buddha </title>

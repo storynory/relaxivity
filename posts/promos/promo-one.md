@@ -2,8 +2,8 @@
 title: Welcome to Relaxivity
 author: Bertie
 type: post
-date: 2022-01-0904
-series: Promos
+date: 2022-01-04
+series: promos
 excerpt: Pull-on your headphones, put up your feet, lie back and enjoy some Relaxivity. 
 url: promo
 audio:
