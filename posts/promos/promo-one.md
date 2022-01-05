@@ -2,6 +2,7 @@
 title: Welcome to Relaxivity
 author: Bertie
 type: post
+episodeType: trailer
 date: 2022-01-04
 series: promos
 excerpt: Pull-on your headphones, put up your feet, lie back and enjoy some Relaxivity. 

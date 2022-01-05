@@ -4,7 +4,7 @@
 <channel>
 	<title>Relaxivity</title>
 	
-	<lastBuildDate>Tue Jan 04 2022 21:34:41 GMT+0000 (Greenwich Mean Time)</lastBuildDate>
+	<lastBuildDate>Wed Jan 05 2022 04:50:27 GMT+0000 (Greenwich Mean Time)</lastBuildDate>
 	<generator>relaxivity.app</generator>
 	<link>https://www.relaxivity.app</link>
 	<language>en</language>
@@ -48,10 +48,9 @@
 					<itunes:duration>01.36</itunes:duration>
 					<itunes:explicit>no</itunes:explicit>
 					<itunes:keywords />
+ 				    <itunes:episodeType>trailer</itunes:episodeType>
 					
-
 			</item>
-
             
 
 			<item>
@@ -65,10 +64,9 @@
 					<itunes:duration>19.51</itunes:duration>
 					<itunes:explicit>no</itunes:explicit>
 					<itunes:keywords />
+ 					<itunes:episodeType>full</itunes:episodeType>
 					
-
 			</item>
-
             
 
 			<item>
@@ -82,10 +80,9 @@
 					<itunes:duration>12.52</itunes:duration>
 					<itunes:explicit>no</itunes:explicit>
 					<itunes:keywords />
+ 					<itunes:episodeType>full</itunes:episodeType>
 					
-
 			</item>
-
             
 
 			<item>
@@ -99,12 +96,9 @@
 					<itunes:duration>05.08</itunes:duration>
 					<itunes:explicit>no</itunes:explicit>
 					<itunes:keywords />
+ 					<itunes:episodeType>full</itunes:episodeType>
 					
-
 			</item>
-
             
-
-	
 	</channel>	
   </rss>
