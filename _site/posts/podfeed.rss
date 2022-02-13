@@ -4,7 +4,7 @@
 <channel>
 	<title>Relaxivity</title>
 	
-	<lastBuildDate>Wed Jan 05 2022 04:50:27 GMT+0000 (Greenwich Mean Time)</lastBuildDate>
+	<lastBuildDate>Sun Feb 13 2022 16:06:25 GMT+0000 (Greenwich Mean Time)</lastBuildDate>
 	<generator>relaxivity.app</generator>
 	<link>https://www.relaxivity.app</link>
 	<language>en</language>
@@ -36,6 +36,22 @@
 		<description><![CDATA[Our stories and verses have a spiritual and diverting nature, and a good dose of humour. The sources come from all over the world, past and present, but especially the past.Relaxivity is a diversion that will lead you far from anything that you might normally  think or obsess about. This little time out during your day will leave you feeling refreshed and full of positive energy.]]></description>
 		<itunes:subtitle><![CDATA[Relaxing and Atmospheric Stories]]></itunes:subtitle>	
 	       
+
+			<item>
+           		 <title>The Elephant is Slow to Mate </title>
+					<pubDate>Sun, 13 Feb 2022 00:00:00 GMT</pubDate>
+					<guid isPermaLink="true">https://www.relaxivity.app/posts/poems/elephant</guid>
+					<link><![CDATA[https://www.relaxivity.app/posts/poems/elephant]]></link>
+					<itunes:image href="elephant-love-coverart.jpg" />
+					<description><![CDATA[ This is a love poem by DH Lawrence - just in time for Valentine’s day.  But it isn’t about fiery passion, it’s about a slow-burning and long-lasting love. ]]></description>
+					<enclosure length="6840810 " type="audio/mpeg" url="https://traffic.libsyn.com/relaxivity/elephant-slow-to-mate-relaxivity.mp3" />
+					<itunes:duration>04.06</itunes:duration>
+					<itunes:explicit>no</itunes:explicit>
+					<itunes:keywords />
+ 					<itunes:episodeType>full</itunes:episodeType>
+					
+			</item>
+            
 
 			<item>
            		 <title>Welcome to Relaxivity </title>
