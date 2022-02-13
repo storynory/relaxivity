@@ -21,7 +21,7 @@ videoart:
     src: elephant-love-videoart.jpg
     alt: elephant love
 ---
-A poem by DH Lawrence 
+A poem by DH Lawrence   
 Picture by Adobe Stock
 
 
