@@ -21,8 +21,6 @@ videoart:
     src: elephant-love-videoart.jpg
     alt: elephant love
 ---
-The Elephant is Slow to Mate
-
 A poem by DH Lawrence 
 Picture by Adobe Stock
 
@@ -31,8 +29,11 @@ Hello, this is Jana, and welcome to Relaxivity, a place where you can spend a li
 
 This is a love poem by DH Lawrence - just in time for Valentine’s day.  But it isn’t about fiery passion, it’s about a slow-burning and long-lasting love. 
 
+## The Elephant is Slow to Mate
+
 The elephant, the huge old beast,is slow to mate;  
-He finds a female, they show no haste they wait  
+He finds a female, they show no haste they wait
+
 For the sympathy in their vast shy hearts slowly, slowly to rouse  
 As they loiter along the river-beds and drink and browse  
 
