@@ -31,35 +31,22 @@ Hello, this is Jana, and welcome to Relaxivity, a place where you can spend a li
 
 This is a love poem by DH Lawrence - just in time for Valentine’s day.  But it isn’t about fiery passion, it’s about a slow-burning and long-lasting love. 
 
-The elephant, the huge old beast,
-     is slow to mate;
-he finds a female, they show no haste
-     they wait
+The elephant, the huge old beast,is slow to mate;  
+He finds a female, they show no haste they wait  
+For the sympathy in their vast shy hearts slowly, slowly to rouse  
+As they loiter along the river-beds and drink and browse  
 
-for the sympathy in their vast shy hearts
-     slowly, slowly to rouse
-as they loiter along the river-beds
-     and drink and browse
+And dash in panic through the brake of forest with the herd,  
+And sleep in massive silence, and wake together, without a word.  
 
-and dash in panic through the brake
-     of forest with the herd,
-and sleep in massive silence, and wake
-     together, without a word.
+So slowly the great hot elephant hearts grow full of desire,  
+And the great beasts mate in secret at last hiding their fire.  
 
-So slowly the great hot elephant hearts
-     grow full of desire,
-and the great beasts mate in secret at last,
-     hiding their fire.
+Oldest they are and the wisest of beasts so they know at last  
+How to wait for the loneliest of feasts for the full repast.  
 
-Oldest they are and the wisest of beasts
-     so they know at last
-how to wait for the loneliest of feasts
-     for the full repast.
-
-They do not snatch, they do not tear;
-     their massive blood
-moves as the moon-tides, near, more near
-     till they touch in flood.
+They do not snatch, they do not tear; their massive blood  
+Moves as the moon-tides, near, more near till they touch in flood.
 
 And you have been listening to the Elephant is Slow to Mate, a love poem by DH Lawrence. 
 
