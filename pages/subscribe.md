@@ -26,7 +26,7 @@ Alexa "Alexa play the relaxivity podcast"
 
 [Stitcher](https://www.stitcher.com/show/relaxivity)
 
-[Podtail] (https://podtail.com/en/podcast/relaxivity/)
+[Podtail](https://podtail.com/en/podcast/relaxivity/)
 
 [Our RSS Feed](https://relaxivity.app/posts/podfeed.rss)
 
