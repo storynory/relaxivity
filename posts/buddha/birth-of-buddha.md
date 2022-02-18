@@ -4,7 +4,7 @@ author: Bertie
 type: post
 date: 2021-12-09
 series: Buddha
-excerpt: The Birth of Buddha is an emmersive, spiritual story, that goes to the origins of one of the world's great religeons.  The Four Signs that prompted a pampered prince to retreat from the world were an old man, a sick man, a corpse, and a monk or a yogin.  Buddha was born Siddhartha Gautama, a prince of Kapilavastu (on the Indian-Nepalese border) in the 5th century BCE. Soothsayers predicted he would become either a universal king or a buddha (awakened one).  Jana tells the story and chants too. 
+excerpt: The Birth of Buddha is an emmersive, spiritual story, that goes to the origins of one of the world's great religeons.  
 url: birth-buddha
 audio:
     mp3: https://traffic.libsyn.com/relaxivity/birth-of-buddha-relaxivity.mp3
