@@ -1,9 +1,9 @@
 ---
-title: Subscribe to Podcasts
+title: Subscribe to our Podcast
 author: Bertie
 date: 2022-02-16
 series: about
-excerpt: Subscribe to our Relaxivity podcast
+excerpt: Catch Relaxivity's lastest episodes in all good podcast apps for free
 tags: 
     - about
 coverart:
@@ -23,6 +23,10 @@ You can catch our latest episodes on all good podcast apps including the followi
 Alexa "Alexa play the relaxivity podcast"
 
 [Podcast Addict](https://podcastaddict.com/podcast/3644581)
+
+[Stitcher](https://www.stitcher.com/show/relaxivity)
+
+[Podtail] (https://podtail.com/en/podcast/relaxivity/)
 
 [Our RSS Feed](https://relaxivity.app/posts/podfeed.rss)
 
