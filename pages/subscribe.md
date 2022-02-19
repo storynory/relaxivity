@@ -24,6 +24,8 @@ You can catch our latest episodes on all good podcast apps including the followi
 
 Alexa "Alexa play the relaxivity podcast"
 
+[Tunin](https://tunein.com/radio/Relaxivity-p1628606/?topicId=169942964)
+
 [Podcast Addict](https://podcastaddict.com/podcast/3644581)
 
 [Stitcher](https://www.stitcher.com/show/relaxivity)
