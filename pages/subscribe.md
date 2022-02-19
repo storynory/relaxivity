@@ -14,10 +14,10 @@ videoart:
     alt: creation of the universe
 ---
   
-  
+
 [Our RSS Feed](https://relaxivity.app/posts/podfeed.rss)
 
-You can catch our latest episodes on all good podcast apps including the following:
+You can catch our latest episodes in all good podcast apps including the following:
 
 [Apple Podcasts](https://podcasts.apple.com/gb/podcast/relaxivity/id1587506734)
 
