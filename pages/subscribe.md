@@ -13,7 +13,8 @@ videoart:
     src: podcast-videoart.jpg
     alt: creation of the universe
 ---
-
+  
+  
 [Our RSS Feed](https://relaxivity.app/posts/podfeed.rss)
 
 You can catch our latest episodes on all good podcast apps including the following:
@@ -34,5 +35,4 @@ Alexa "Alexa, play the relaxivity podcast"
 
 [Podtail](https://podtail.com/en/podcast/relaxivity/)
 
-
-
+Let us know if your favourite podcast app is not listed here: bertie@storynory.com
