@@ -7,7 +7,7 @@ series: Buddha
 excerpt: We continue the story of the life of Buddha.   
 url: buddha-enlightenment
 audio:
-    mp3: https://traffic.libsyn.com/relaxivity/buddha-enlightenment.mp3
+    mp3: https://traffic.libsyn.com/relaxivity/budda-enlightenment-relaxivity.mp3
     length: 46001436
     duration: 31.38
 tags: 
