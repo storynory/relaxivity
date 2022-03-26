@@ -7,7 +7,7 @@ series: Buddha
 excerpt: We continue the story of the life of Buddha.   
 url: buddha-enlightenment
 audio:
-    mp3: https://traffic.libsyn.com/relaxivity/budda-enlightenment-relaxivity.mp3
+    mp3: https://traffic.libsyn.com/relaxivity/budda-enlightenment-relaxivity2.mp3
     length: 46001436
     duration: 31.38
 tags: 
@@ -15,11 +15,11 @@ tags:
     - India
     - podcast
 coverart:
-    src: bbuddha-tree-coverart.jpg
-    alt: resting buddha
+    src: buddha-tree-coverart.jpg
+    alt: buddha tree
 videoart: 
     src: buddha-tree-videoart.jpg
-    alt: resting buddha
+    alt: buddha tree
 Recorded: At Bridge Road using K2 Mic 
 ---
 Read by Jana <br />
