@@ -4,7 +4,7 @@
 <channel>
 	<title>Relaxivity</title>
 	
-	<lastBuildDate>Sat Mar 26 2022 17:19:41 GMT+0000 (Greenwich Mean Time)</lastBuildDate>
+	<lastBuildDate>Sat Mar 26 2022 18:11:45 GMT+0000 (Greenwich Mean Time)</lastBuildDate>
 	<generator>relaxivity.app</generator>
 	<link>https://www.relaxivity.app</link>
 	<language>en</language>
@@ -44,8 +44,8 @@
 					<link><![CDATA[https://www.relaxivity.app/posts/buddha/buddha-enlightenment]]></link>
 					<itunes:image href="buddha-tree-coverart.jpg" />
 					<description><![CDATA[ We continue the story of the life of Buddha. ]]></description>
-					<enclosure length="46001436 " type="audio/mpeg" url="https://traffic.libsyn.com/relaxivity/budda-enlightenment-relaxivity.mp3" />
-					<itunes:duration>31.38</itunes:duration>
+					<enclosure length="45828401 " type="audio/mpeg" url="https://traffic.libsyn.com/relaxivity/budda-enlightenment-relaxivityb.mp3" />
+					<itunes:duration>31.3</itunes:duration>
 					<itunes:explicit>no</itunes:explicit>
 					<itunes:keywords />
  					<itunes:episodeType>full</itunes:episodeType>
