@@ -4,7 +4,7 @@
 <channel>
 	<title>Relaxivity</title>
 	
-	<lastBuildDate>Thu Apr 14 2022 21:03:43 GMT+0100 (British Summer Time)</lastBuildDate>
+	<lastBuildDate>Thu Apr 14 2022 21:05:20 GMT+0100 (British Summer Time)</lastBuildDate>
 	<generator>relaxivity.app</generator>
 	<link>https://www.relaxivity.app</link>
 	<language>en</language>
@@ -43,7 +43,7 @@
 					<guid isPermaLink="true">https://www.relaxivity.app/posts/Music/easter</guid>
 					<link><![CDATA[https://www.relaxivity.app/posts/Music/easter]]></link>
 					<itunes:image href="easter-coverart.jpg" />
-					<description><![CDATA[ This is an Easter song sung in Urdu. Word by Rev Massey. Music composed by Alvat Garewal.Sung by Emma Garewal. Amber Roshni helped with the musical arrangement. Thanks to Mr. Majeed Masih from Pakistan for arranging the violinist and flautist. ]]></description>
+					<description><![CDATA[ This is an Easter song sung in Urdu. Words by Rev Massey. Music composed by Alvat Garewal.Sung by Emma Garewal. Amber Roshni helped with the musical arrangement. Thanks to Mr. Majeed Masih from Pakistan for arranging the violinist and flautist. ]]></description>
 					<enclosure length="59525 " type="audio/mpeg" url="https://traffic.libsyn.com/relaxivity/easter.mp3" />
 					<itunes:duration>06.57</itunes:duration>
 					<itunes:explicit>no</itunes:explicit>
