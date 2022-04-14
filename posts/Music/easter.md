@@ -4,7 +4,7 @@ author: Emma Garewal
 type: post
 date: 2022-04-14
 series: easter
-excerpt: This is an a song for Easter with an Indian vibe
+excerpt: This is an Easter song sung in Urdu. Word by Rev Massey. Music composed by Alvat Garewal.Sung by Emma Garewal. Amber Roshni helped with the musical arrangement. Thanks to Mr. Majeed Masih from Pakistan for arranging the violinist and flautist.
 audio:
     mp3: https://traffic.libsyn.com/relaxivity/easter.mp3
     length: 0164205
@@ -12,7 +12,7 @@ audio:
 tags: 
     - songs
     - easter
-    - christianity
+    - christianitys
     - podcast
 coverart:
     src: easter-coverart.jpg
