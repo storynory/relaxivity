@@ -4,7 +4,7 @@
 <channel>
 	<title>Relaxivity</title>
 	
-	<lastBuildDate>Thu Apr 14 2022 20:42:52 GMT+0100 (British Summer Time)</lastBuildDate>
+	<lastBuildDate>Thu Apr 14 2022 20:47:38 GMT+0100 (British Summer Time)</lastBuildDate>
 	<generator>relaxivity.app</generator>
 	<link>https://www.relaxivity.app</link>
 	<language>en</language>
@@ -36,6 +36,22 @@
 		<description><![CDATA[Our stories and verses have a spiritual and diverting nature, and a good dose of humour. The sources come from all over the world, past and present, but especially the past.Relaxivity is a diversion that will lead you far from anything that you might normally  think or obsess about. This little time out during your day will leave you feeling refreshed and full of positive energy.]]></description>
 		<itunes:subtitle><![CDATA[Relaxing and Atmospheric Stories]]></itunes:subtitle>	
 	       
+
+			<item>
+           		 <title>Our Saviour Christ (Munji Masiha Shafi) </title>
+					<pubDate>Thu, 14 Apr 2022 00:00:00 GMT</pubDate>
+					<guid isPermaLink="true">https://www.relaxivity.app/posts/Music/easter</guid>
+					<link><![CDATA[https://www.relaxivity.app/posts/Music/easter]]></link>
+					<itunes:image href="easter-coverart.jpg" />
+					<description><![CDATA[ This is an a song for Easter with an Indian vibe ]]></description>
+					<enclosure length="59525 " type="audio/mpeg" url="https://traffic.libsyn.com/relaxivity/easter.mp3" />
+					<itunes:duration>06.57</itunes:duration>
+					<itunes:explicit>no</itunes:explicit>
+					<itunes:keywords />
+ 					<itunes:episodeType>full</itunes:episodeType>
+					
+			</item>
+            
 
 			<item>
            		 <title>Buddha&#39;s Path to Enlightenment </title>

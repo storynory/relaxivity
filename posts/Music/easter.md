@@ -3,7 +3,7 @@ title: Our Saviour Christ (Munji Masiha Shafi)
 author: Emma Garewal
 type: post
 date: 2022-04-14
-series: poems
+series: easter
 excerpt: This is an a song for Easter with an Indian vibe
 audio:
     mp3: https://traffic.libsyn.com/relaxivity/easter.mp3
@@ -13,6 +13,7 @@ tags:
     - songs
     - easter
     - christianity
+    - podcast
 coverart:
     src: easter-coverart.jpg
     alt: easter Christ
@@ -20,6 +21,7 @@ videoart:
     src: easter-videoart.jpg
     alt: Easter Christ
 ---
+
 A song for Easter with an Indian vibe sung by Emma Garewal.
 
 Jana was born in Oxford, England. Her family come from Northern India and are Christian. This song is composed and sung by members of Jana's family. 
@@ -37,7 +39,7 @@ Pyare kahan gaye where have you gone
 
 Munji masiha shaafi Our Saviour Christ
 
-1. Zahir hue thay jism par dhage guna mere
+Zahir hue thay jism par dhage guna mere
 Your body bore the marks of our sins
 
 Zahir hue thay jism par dhage guna mere
@@ -55,7 +57,7 @@ Is gone
 Munji masiha shaafi
 Our Saviour Christ
 
-2. Kehate thay jaan kar denge aapni nisar hum
+Kehate thay jaan kar denge aapni nisar hum
 They said that they will sacrifice their lives for you
 
 Kehate thay jaan kar denge aapni nisar hum
@@ -79,7 +81,8 @@ Where are they now
 Munji masiha shaafi
 Our Saviour Christ
 
-3. Rahe najaat paakay kiun gumrah tu ho gaye
+ Rahe najaat paakay kiun gumrah tu ho gaye
+
 Oh sinner after finding your way to Salvation, why did you lose your way
 
 Rahe najaat paakay kiun gumrah tu ho gaye
