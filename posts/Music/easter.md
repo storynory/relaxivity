@@ -26,6 +26,8 @@ A song for Easter with an Indian vibe sung by Emma Garewal.
 
 Jana was born in Oxford, England. Her family come from Northern India and are Christian. This song is composed and sung by members of Jana's family. 
 
+Gospel song about Jesus Christ's journey to the cross. The song is an Urdu Ghazal, written by Rev. S. H. Massey (Oxford). The melody is composed by Alvat Garewal (Oxford). The singer is Emma Garewal. The musical arrangement is by Alvat assisted by Amber Roshni. A special thanks to Mr. Majeed Masih from Pakistan for arranging the violinist and flautist.
+
 (Alaap)
 Munji masiha shaafi Our Saviour Christ
 Munji masiha shaafi Our Saviour Christ
