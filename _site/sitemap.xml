@@ -22,21 +22,6 @@
         </url>
     
         <url>
-            <loc>https://relaxivity.app/</loc>
-            <lastmod>2021-12-09T13:57:48.640Z</lastmod>
-        </url>
-    
-        <url>
-            <loc>https://relaxivity.app/pages/search/</loc>
-            <lastmod>2021-12-09T13:57:48.647Z</lastmod>
-        </url>
-    
-        <url>
-            <loc>https://relaxivity.app/tags/all/</loc>
-            <lastmod>2021-12-09T13:57:48.649Z</lastmod>
-        </url>
-    
-        <url>
             <loc>https://relaxivity.app/posts/promos/promo-one/</loc>
             <lastmod>2022-01-04T00:00:00.000Z</lastmod>
         </url>
@@ -59,6 +44,21 @@
         <url>
             <loc>https://relaxivity.app/posts/Music/easter/</loc>
             <lastmod>2022-04-14T00:00:00.000Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://relaxivity.app/</loc>
+            <lastmod>2023-04-21T13:24:38.738Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://relaxivity.app/pages/search/</loc>
+            <lastmod>2023-04-21T13:24:38.741Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://relaxivity.app/tags/all/</loc>
+            <lastmod>2023-04-21T13:24:38.742Z</lastmod>
         </url>
     
 </urlset>

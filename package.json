@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "boot": "node bootconfig.js",
     "build": "eleventy",
-    "serve": "eleventy --serve"
+    "serve": "npx @11ty/eleventy --serve"
   },
   "keywords": [],
   "author": "",
