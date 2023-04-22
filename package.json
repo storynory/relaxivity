@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "boot": "node bootconfig.js",
     "build": "eleventy",
     "serve": "npx @11ty/eleventy --serve"
@@ -13,13 +12,16 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy": "^2.0.1",
     "@fullhuman/postcss-purgecss": "^4.0.3",
-    "postcss": "^8.3.6",
     "autoprefixer": "^10.3.4",
     "eleventy": "^1.0.6",
-    "fibers": "^5.0.0",
     "fs": "^0.0.1-security",
+    "postcss": "^8.3.6",
     "sass": "^1.41.1"
+  },
+  "dependencies": {
+    "@tinacms/cli": "^1.5.6",
+    "tinacms": "^1.4.6"
   }
 }
