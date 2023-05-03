@@ -123,4 +123,4 @@ And that was the story of The Birth of Buddha and the Four Signs read by me, Jan
 
 Source for our adaptation: Buddhism in Translations, by Henry Clarke Warren (1854-1899), published in 1896 as Volume III of the Harvard Oriental Series.
 
-end
+ends
