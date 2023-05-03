@@ -111,4 +111,3 @@ Your loved ones are calling you
 Pyare kahan gaye where have you gone
 Munji masiha shaafi Our Saviour Christ
 
-end
