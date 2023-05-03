@@ -2,10 +2,9 @@
 <html lang="en">
   <head>
 <title>Relaxivity: The Birth of Buddha</title>
-<meta name="descripton" content="The Birth of Buddha is an emmersive, spiritual story, that goes to the origins of one of the world's great religeons."/>
+<meta name="descripton" content="The Birth of Buddha is an immersive, spiritual story, that goes to the origins of one of the world's great religions."/>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<link rel="manifest" href="/manifest.json"/>
 <link rel="alternate" type="application/rss+xml" title="Relaxivity Podcast Feed" href="https://relaxivity.app/posts/podfeed.rss" />
 <meta name="theme-color" content="#8FADE7"/>
 <meta name="background-color" content="#0D1B3F"/>
@@ -264,9 +263,11 @@ var activate = function (el) { toggleClass(el, "show"); return; }
 
    </script>
 
+  
+
    <figure id="figure" class="player container py-3"
       data-src="https://traffic.libsyn.com/relaxivity/birth-of-buddha-relaxivity.mp3" >
-
+ 
 
       <div class="playbtn">
          <span id="back" class="wind left">⟲</span>
@@ -283,10 +284,11 @@ var activate = function (el) { toggleClass(el, "show"); return; }
       <span class="left" id="time">00.00.00</span>
       <span class="right" id="dur">00.00.00</span>
       <span id="status">loading</span>
+       <audio id="storyplayer" src="https://traffic.libsyn.com/relaxivity/birth-of-buddha-relaxivity.mp3"</audio>
    </figure>
 
    <script>
-
+// add a timestamp on the url new Audio('/audioSync?_=' + Date.now()); 
       const player = {
          data: {
             audio: undefined
@@ -321,8 +323,10 @@ var activate = function (el) { toggleClass(el, "show"); return; }
       const lds = document.getElementById('lds');
       const status = document.getElementById('status');
 
-      player.data.audio = document.createElement('audio');
-      player.data.audio.src = figure.dataset.src;
+   player.data.audio = document.createElement('audio');  
+   player.data.audio.src = figure.dataset.src + "?_=" + Date.now(); 
+
+      //player.data.audio = document.getElementById('storyplayer')
 
       btn.addEventListener("click", function () {
 
@@ -412,17 +416,14 @@ var activate = function (el) { toggleClass(el, "show"); return; }
 <ul class="one-whole list-group cf py-3">
     <li class="small left box-tiny-top-bottom box-tiny-top"><a href="https://traffic.libsyn.com/relaxivity/birth-of-buddha-relaxivity.mp3" download="true" ><b class="icon icon-download" ></b>  Download</a></li>  
 	</ul>	
-         
 
-      
 <picture class="img-fluid">
  <source media="(max-width: 576px)" srcset="https://relaxivity.app/images/400/buddha-coverart.webp">
   <source media="(min-width: 577px)" srcset="https://relaxivity.app/images/600/buddha-videoart.webp">
   <source media="(max-width: 576px)" srcset="https://relaxivity.app/images/400/buddha-coverart.jpg">
   <source media="(min-width: 577px)" srcset="https://relaxivity.app/images/600/buddha-videoart.jpg">
   <img class="img-fluid" src="https://relaxivity.app/images/560/buddha-videoart.jpg" alt="videoart.alt">
-</picture>
-
+</picture>  
 
 <div class="txt-lg">
 
@@ -430,7 +431,6 @@ var activate = function (el) { toggleClass(el, "show"); return; }
 Chants by Jana</br>
 Adaptation and production by Bertie</br>
 Buddha images courtesy of <a href="https://depositphotos.com/">Deposit Photos</a></p>
-<p>The Birth of Buddha and the four signs</p>
 <p>Hello, this is Jana, and welcome to Relaxivity. In this episode, I will tell you the story of the birth of Buddha. But first, what is the difference between a Buddha and the Buddha?</p>
 <p>“Buddha” is an ancient Sanskrit word that means “a person who is awake.” A buddha is awake to the true nature of reality, and free from the fog of daily illusions, such as hate, greed, and folly. To become a Buddha, you must reach Nirvana, a transcendent state where there is  no sense of self.  It is a place of happiness and peace.</p>
 <p>When we talk about The Buddha, we are referring to Prince Siddharttha Gautama who was born about two and half thousand years ago. The birthplace of Gautama Buddha was the land of Shakya, which would now be in southern Nepal, along the border with India. He grew up to become both a Buddha and the founder of the Buddhist religion.</p>
@@ -471,7 +471,8 @@ And again, on his way to the park, the Future Buddha saw a dead man.</p>
 &quot;Pray, who is this man walking peacefully along the road, wearing an orange robe and carrying a bowl? &quot;</p>
 <p>&quot;Sir,&quot; replied the driver, &quot;This man has retired from the world.&quot;
 And after what he had learned about the sadness of life, the idea of retiring from the World intrigued the young man. The Future Buddha returned to his palace, but the splendour no longer uplifted him. Straightaway, richly dressed women, as beautiful as celestial nymphs, gathered about him with all kinds of musical instruments, and with dance, song, and music, they tried to please him. But the Future Buddha was not interested, and he fell into a brief slumber. When the women saw the eyes of the master shut, they, too, lay down while the lamps, fed with sweet-smelling oil, continued to burn.  A little later, the Future Buddha awoke and saw these women asleep, with their musical instruments scattered about them on the floor. He noticed some of them were wet with sweat and saliva; some of them with their mouths open, snoring, grinding teeth, and muttering in their sleep; and some of them with their dresses falling apart to reveal their nakedness. This change in their appearance increased his aversion to sensual pleasures. To him, that magnificent apartment seemed like a cemetery filled with dead bodies left to rot.</p>
-<p>&quot;How oppressive and stifling it all is!&quot; he exclaimed. He called his faithful attendant, Channa, to ready his mighty horse, Kanthaka. And when Kanthaka felt how Channa saddled him up tightly, he realised it was not a typical day when he went for a ride in the park.</p>
+<pre><code>&quot;How oppressive and stifling it all is!&quot; he exclaimed. He called his faithful attendant, Channa, to ready his mighty horse, Kanthaka. And when Kanthaka felt how Channa saddled him up tightly, he realised it was not a typical day when he went for a ride in the park. 
+</code></pre>
 <p>&quot;It must be that today my master will retire from the world,&quot; he thought. And in his delight, he neighed loudly.</p>
 <p>Meanwhile, the Future Buddha visited his rooms to take one last glance at his wife and son. He opened the door of his wife's chamber, where a lamp was burning with sweet-smelling oil. The mother of Rahula was sleeping on a couch strewn deep with jasmine, her hand resting on the head of her son.
 He thought, &quot;If I were to raise my wife's hand from off the child's head and take him up, she would awake and prevent my departure. I will first become a Buddha and then come back and see my son.&quot; So saying, he departed from the palace and headed for the stables. There he vaulted onto the back of Kanthaka. The future Buddha rode out on his mighty horse and made his attendant, Channa, hold onto his tail. At midnight, they arrived at the great gates of the city. The King had ordered the gates to be so heavy that it would take a thousand men to open them. But the future Buddha possessed the strength of many thousands of elephants. He was ready to pick up both his horse and his servant and leap over the gates carrying them both. But there was no need, because the divinity who inhabited the gates flung them open. .</p>

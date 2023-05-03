@@ -6,12 +6,13 @@ const datenow = require("./_includes/filters/getlatest");
 //const htmlmin = require('html-minifier')
 
 
+
 module.exports = function (eleventyConfig) {
 
   // eleventyConfig.addPlugin(pluginRss);
 
 
-
+  eleventyConfig.addPassthroughCopy({ "public/images": "images" });
 
   eleventyConfig.addNunjucksFilter("webp", webp);
   eleventyConfig.addNunjucksFilter("datenow", datenow);

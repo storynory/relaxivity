@@ -4,11 +4,11 @@
 <channel>
 	<title>Relaxivity</title>
 	
-	<lastBuildDate>Sat Apr 22 2023 08:10:04 GMT+0100 (British Summer Time)</lastBuildDate>
+	<lastBuildDate>Wed May 03 2023 12:59:05 GMT+0100 (British Summer Time)</lastBuildDate>
 	<generator>relaxivity.app</generator>
 	<link>https://www.relaxivity.app</link>
 	<language>en</language>
-	<copyright><![CDATA[2021 Storynory ltd w]]></copyright>
+	<copyright><![CDATA[2021 Storynory ltd]]></copyright>
 	<docs>https://www.relaxivity.app</docs>
 	<managingEditor>bertie@storynory.com (bertie@storynory.com)</managingEditor>
 	<itunes:summary><![CDATA[Our stories and verses have a spiritual and diverting nature, and a good dose of humour. The sources come from all over the world, past and present, but especially the past.Relaxivity is a diversion that will lead you far from anything that you might normally  think or obsess about. This little time out during your day will leave you feeling refreshed and full of positive energy.]]></itunes:summary>
@@ -86,28 +86,12 @@
             
 
 			<item>
-           		 <title>Welcome to Relaxivity </title>
-					<pubDate>Tue, 04 Jan 2022 00:00:00 GMT</pubDate>
-					<guid isPermaLink="true">https://www.relaxivity.app/posts/promos/promo-one</guid>
-					<link><![CDATA[https://www.relaxivity.app/posts/promos/promo-one]]></link>
-					<itunes:image href="creation-coverart.jpg" />
-					<description><![CDATA[ Pull-on your headphones, put up your feet, lie back and enjoy some Relaxivity. ]]></description>
-					<enclosure length="3707583 " type="audio/mpeg" url="https://traffic.libsyn.com/relaxivity/promo-relaxivity-jana.mp3" />
-					<itunes:duration>01.36</itunes:duration>
-					<itunes:explicit>no</itunes:explicit>
-					<itunes:keywords />
- 				    <itunes:episodeType>trailer</itunes:episodeType>
-					
-			</item>
-            
-
-			<item>
            		 <title>The Birth of Buddha </title>
 					<pubDate>Thu, 09 Dec 2021 00:00:00 GMT</pubDate>
 					<guid isPermaLink="true">https://www.relaxivity.app/posts/buddha/birth-of-buddha</guid>
 					<link><![CDATA[https://www.relaxivity.app/posts/buddha/birth-of-buddha]]></link>
 					<itunes:image href="buddha-coverart.jpg" />
-					<description><![CDATA[ The Birth of Buddha is an emmersive, spiritual story, that goes to the origins of one of the world's great religeons. ]]></description>
+					<description><![CDATA[ The Birth of Buddha is an immersive, spiritual story, that goes to the origins of one of the world's great religions. ]]></description>
 					<enclosure length="30697239 " type="audio/mpeg" url="https://traffic.libsyn.com/relaxivity/birth-of-buddha-relaxivity.mp3" />
 					<itunes:duration>19.51</itunes:duration>
 					<itunes:explicit>no</itunes:explicit>

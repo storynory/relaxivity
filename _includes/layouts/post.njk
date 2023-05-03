@@ -24,6 +24,7 @@ layout: layouts/base.njk
   {%- endif %}         
 
       
+{%-if coverart.src and videoart.src %}
 <picture class="img-fluid">
  <source media="(max-width: 576px)" srcset="https://relaxivity.app/images/400/{{coverart.src | webp}}">
   <source media="(min-width: 577px)" srcset="https://relaxivity.app/images/600/{{videoart.src | webp}}">
@@ -31,7 +32,7 @@ layout: layouts/base.njk
   <source media="(min-width: 577px)" srcset="https://relaxivity.app/images/600/{{videoart.src}}">
   <img class="img-fluid" src="https://relaxivity.app/images/560/{{videoart.src}}" alt="videoart.alt">
 </picture>
-
+  {%- endif %}  
 
 <div class="txt-lg">
 

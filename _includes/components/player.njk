@@ -173,9 +173,11 @@
 
    </script>
 
+  
+
    <figure id="figure" class="player container py-3"
       data-src="{{audio.mp3}}" >
-
+ 
 
       <div class="playbtn">
          <span id="back" class="wind left">⟲</span>
@@ -192,10 +194,11 @@
       <span class="left" id="time">00.00.00</span>
       <span class="right" id="dur">00.00.00</span>
       <span id="status">loading</span>
+       <audio id="storyplayer" src="{{audio.mp3}}"</audio>
    </figure>
 
    <script>
-
+// add a timestamp on the url new Audio('/audioSync?_=' + Date.now()); 
       const player = {
          data: {
             audio: undefined
@@ -230,8 +233,10 @@
       const lds = document.getElementById('lds');
       const status = document.getElementById('status');
 
-      player.data.audio = document.createElement('audio');
-      player.data.audio.src = figure.dataset.src;
+   player.data.audio = document.createElement('audio');  
+   player.data.audio.src = figure.dataset.src + "?_=" + Date.now(); 
+
+      //player.data.audio = document.getElementById('storyplayer')
 
       btn.addEventListener("click", function () {
 

@@ -5,7 +5,6 @@
 <meta name="descripton" content="Welcome to Relaxivity  - the new Podcast that brings you atmsopheric and relaxing stories.  Our debut episode is a poem from ancient Greece that celebrates the devine in the tiny."/>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<link rel="manifest" href="/manifest.json"/>
 <link rel="alternate" type="application/rss+xml" title="Relaxivity Podcast Feed" href="https://relaxivity.app/posts/podfeed.rss" />
 <meta name="theme-color" content="#8FADE7"/>
 <meta name="background-color" content="#0D1B3F"/>
@@ -264,9 +263,11 @@ var activate = function (el) { toggleClass(el, "show"); return; }
 
    </script>
 
+  
+
    <figure id="figure" class="player container py-3"
       data-src="https://traffic.libsyn.com/secure/relaxivity/happy-grasshopper-relaxivity.mp3" >
-
+ 
 
       <div class="playbtn">
          <span id="back" class="wind left">⟲</span>
@@ -283,10 +284,11 @@ var activate = function (el) { toggleClass(el, "show"); return; }
       <span class="left" id="time">00.00.00</span>
       <span class="right" id="dur">00.00.00</span>
       <span id="status">loading</span>
+       <audio id="storyplayer" src="https://traffic.libsyn.com/secure/relaxivity/happy-grasshopper-relaxivity.mp3"</audio>
    </figure>
 
    <script>
-
+// add a timestamp on the url new Audio('/audioSync?_=' + Date.now()); 
       const player = {
          data: {
             audio: undefined
@@ -321,8 +323,10 @@ var activate = function (el) { toggleClass(el, "show"); return; }
       const lds = document.getElementById('lds');
       const status = document.getElementById('status');
 
-      player.data.audio = document.createElement('audio');
-      player.data.audio.src = figure.dataset.src;
+   player.data.audio = document.createElement('audio');  
+   player.data.audio.src = figure.dataset.src + "?_=" + Date.now(); 
+
+      //player.data.audio = document.getElementById('storyplayer')
 
       btn.addEventListener("click", function () {
 
@@ -412,17 +416,14 @@ var activate = function (el) { toggleClass(el, "show"); return; }
 <ul class="one-whole list-group cf py-3">
     <li class="small left box-tiny-top-bottom box-tiny-top"><a href="https://traffic.libsyn.com/secure/relaxivity/happy-grasshopper-relaxivity.mp3" download="true" ><b class="icon icon-download" ></b>  Download</a></li>  
 	</ul>	
-         
 
-      
 <picture class="img-fluid">
  <source media="(max-width: 576px)" srcset="https://relaxivity.app/images/400/grasshopper-coverart.webp">
   <source media="(min-width: 577px)" srcset="https://relaxivity.app/images/600/grasshopper-videoart.webp">
   <source media="(max-width: 576px)" srcset="https://relaxivity.app/images/400/grasshopper-coverart.jpg">
   <source media="(min-width: 577px)" srcset="https://relaxivity.app/images/600/grasshopper-videoart.jpg">
   <img class="img-fluid" src="https://relaxivity.app/images/560/grasshopper-videoart.jpg" alt="videoart.alt">
-</picture>
-
+</picture>  
 
 <div class="txt-lg">
 

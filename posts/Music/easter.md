@@ -3,7 +3,6 @@ title: Our Saviour Christ (Munji Masiha Shafi)
 author: Emma Garewal
 type: post
 date: 2022-04-14
-series: easter
 excerpt: This is an Easter song sung in Urdu. Words by Rev Massey. Music composed by Alvat Garewal.Sung by Emma Garewal. Amber Roshni helped with the musical arrangement. Thanks to Mr. Majeed Masih from Pakistan for arranging the violinist and flautist.
 audio:
     mp3: https://traffic.libsyn.com/relaxivity/easter.mp3

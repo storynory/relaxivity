@@ -22,11 +22,6 @@
         </url>
     
         <url>
-            <loc>https://relaxivity.app/posts/promos/promo-one/</loc>
-            <lastmod>2022-01-04T00:00:00.000Z</lastmod>
-        </url>
-    
-        <url>
             <loc>https://relaxivity.app/posts/poems/elephant/</loc>
             <lastmod>2022-02-13T00:00:00.000Z</lastmod>
         </url>
@@ -62,8 +57,13 @@
         </url>
     
         <url>
-            <loc>https://relaxivity.app/content/posts/hello-world/</loc>
-            <lastmod>2023-04-22T07:06:20.961Z</lastmod>
+            <loc>https://relaxivity.app/public/admin/</loc>
+            <lastmod>2023-04-22T07:28:21.576Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://relaxivity.app/posts/arthur/lanval/</loc>
+            <lastmod>2023-05-03T11:01:48.770Z</lastmod>
         </url>
     
 </urlset>

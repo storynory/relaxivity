@@ -5,7 +5,6 @@
 <meta name="descripton" content="This is an Easter song sung in Urdu. Words by Rev Massey. Music composed by Alvat Garewal.Sung by Emma Garewal. Amber Roshni helped with the musical arrangement. Thanks to Mr. Majeed Masih from Pakistan for arranging the violinist and flautist."/>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<link rel="manifest" href="/manifest.json"/>
 <link rel="alternate" type="application/rss+xml" title="Relaxivity Podcast Feed" href="https://relaxivity.app/posts/podfeed.rss" />
 <meta name="theme-color" content="#8FADE7"/>
 <meta name="background-color" content="#0D1B3F"/>
@@ -71,7 +70,7 @@ var activate = function (el) { toggleClass(el, "show"); return; }
     <div class="row">
         <div class="col-md-12 blog-main">
         <h3 class="pb-3 mb-4 font-italic border-bottom text-capitalize">
-            easter
+            
         </h3>
      <p class="text-capitalize">   
 
@@ -266,9 +265,11 @@ var activate = function (el) { toggleClass(el, "show"); return; }
 
    </script>
 
+  
+
    <figure id="figure" class="player container py-3"
       data-src="https://traffic.libsyn.com/relaxivity/easter.mp3" >
-
+ 
 
       <div class="playbtn">
          <span id="back" class="wind left">⟲</span>
@@ -285,10 +286,11 @@ var activate = function (el) { toggleClass(el, "show"); return; }
       <span class="left" id="time">00.00.00</span>
       <span class="right" id="dur">00.00.00</span>
       <span id="status">loading</span>
+       <audio id="storyplayer" src="https://traffic.libsyn.com/relaxivity/easter.mp3"</audio>
    </figure>
 
    <script>
-
+// add a timestamp on the url new Audio('/audioSync?_=' + Date.now()); 
       const player = {
          data: {
             audio: undefined
@@ -323,8 +325,10 @@ var activate = function (el) { toggleClass(el, "show"); return; }
       const lds = document.getElementById('lds');
       const status = document.getElementById('status');
 
-      player.data.audio = document.createElement('audio');
-      player.data.audio.src = figure.dataset.src;
+   player.data.audio = document.createElement('audio');  
+   player.data.audio.src = figure.dataset.src + "?_=" + Date.now(); 
+
+      //player.data.audio = document.getElementById('storyplayer')
 
       btn.addEventListener("click", function () {
 
@@ -414,17 +418,14 @@ var activate = function (el) { toggleClass(el, "show"); return; }
 <ul class="one-whole list-group cf py-3">
     <li class="small left box-tiny-top-bottom box-tiny-top"><a href="https://traffic.libsyn.com/relaxivity/easter.mp3" download="true" ><b class="icon icon-download" ></b>  Download</a></li>  
 	</ul>	
-         
 
-      
 <picture class="img-fluid">
  <source media="(max-width: 576px)" srcset="https://relaxivity.app/images/400/easter-coverart.webp">
   <source media="(min-width: 577px)" srcset="https://relaxivity.app/images/600/easter-videoart.webp">
   <source media="(max-width: 576px)" srcset="https://relaxivity.app/images/400/easter-coverart.jpg">
   <source media="(min-width: 577px)" srcset="https://relaxivity.app/images/600/easter-videoart.jpg">
   <img class="img-fluid" src="https://relaxivity.app/images/560/easter-videoart.jpg" alt="videoart.alt">
-</picture>
-
+</picture>  
 
 <div class="txt-lg">
 
