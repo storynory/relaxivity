@@ -169,7 +169,7 @@ const schema = defineSchema({
 });
 
 export const config = defineConfig({
-  clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID,
+  clientId: process.env.TINA_PUBLIC_CLIENT_ID,
   branch:
     process.env.NEXT_PUBLIC_TINA_BRANCH,
   token: process.env.TINA_TOKEN,
