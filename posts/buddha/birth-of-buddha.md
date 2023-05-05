@@ -6,7 +6,7 @@ date: 2021-12-09T00:00:00.000Z
 series: Buddha
 excerpt: >-
   The Birth of Buddha is an immersive, spiritual story, that goes to the origins
-  of one of the world's great religions.
+  of one of the world's greatest religions.
 url: birth-buddha
 audio:
   mp3: 'https://traffic.libsyn.com/relaxivity/birth-of-buddha-relaxivity.mp3'
