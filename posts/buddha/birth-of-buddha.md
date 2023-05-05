@@ -18,9 +18,9 @@ tags:
   - podcast
 coverart:
   src: buddha-coverart.jpg
-  alt: resting buddha
+  alt: /imagesresting buddha
 videoart:
-  src: buddha-videoart.jpg
+  src: /imagesbuddha-videoart.jpg
   alt: resting buddha
 ---
 
