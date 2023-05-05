@@ -20,7 +20,7 @@ coverart:
   src: buddha-coverart.jpg
   alt: /imagesresting buddha
 videoart:
-  src: /imagesbuddha-videoart.jpg
+  src: /buddha-videoart.jpg
   alt: resting buddha
 ---
 
