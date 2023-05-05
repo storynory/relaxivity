@@ -6,7 +6,7 @@ date: 2021-12-09T00:00:00.000Z
 series: Buddha
 excerpt: >-
   The Birth of Buddha is an immersive, spiritual story, that goes to the origins
-  of one of the world's greatest religions.
+  of one of the world's great religions.
 url: birth-buddha
 audio:
   mp3: 'https://traffic.libsyn.com/relaxivity/birth-of-buddha-relaxivity.mp3'
@@ -123,4 +123,4 @@ And that was the story of The Birth of Buddha and the Four Signs read by me, Jan
 
 Source for our adaptation: Buddhism in Translations, by Henry Clarke Warren (1854-1899), published in 1896 as Volume III of the Harvard Oriental Series.
 
-ends
+ends here
