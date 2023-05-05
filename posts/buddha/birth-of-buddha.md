@@ -18,9 +18,9 @@ tags:
   - podcast
 coverart:
   src: buddha-coverart.jpg
-  alt: resting buddha
+  alt: /imagesresting buddha
 videoart:
-  src: buddha-videoart.jpg
+  src: /imagesbuddha-videoart.jpg
   alt: resting buddha
 ---
 
@@ -123,4 +123,4 @@ And that was the story of The Birth of Buddha and the Four Signs read by me, Jan
 
 Source for our adaptation: Buddhism in Translations, by Henry Clarke Warren (1854-1899), published in 1896 as Volume III of the Harvard Oriental Series.
 
-ends here
+ends
