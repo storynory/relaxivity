@@ -2,25 +2,30 @@
 title: The Grasshopper
 author: Anacreon
 type: post
-date: 2021-09-28
+date: 2021-09-28T00:00:00.000Z
 series: poems
-excerpt: Welcome to Relaxivity  - the new Podcast that brings you atmsopheric and relaxing stories.  Our debut episode is a poem from ancient Greece that celebrates the devine in the tiny. 
+excerpt: >-
+  Welcome to Relaxivity  - the new Podcast that brings you atmsopheric and
+  relaxing stories.  Our debut episode is a poem from ancient Greece that
+  celebrates the devine in the tiny.
 url: grasshopper
 audio:
-    mp3: https://traffic.libsyn.com/secure/relaxivity/happy-grasshopper-relaxivity.mp3
-    length: 8751521
-    duration: 5.08
-tags: 
-    - greece
-    - poems
-    - podcast
+  mp3: >-
+    https://traffic.libsyn.com/secure/relaxivity/happy-grasshopper-relaxivity.mp3
+  length: 8751521
+  duration: 5.08
+tags:
+  - greece
+  - poems
+  - podcast
 coverart:
-    src: grasshopper-coverart.jpg
-    alt: happy grasshopper on a leaf
-videoart: 
-    src: grasshopper-videoart.jpg
-    alt: happy grasshopper on a leaf
+  src: /imagesgrasshopper-coverart.jpg
+  alt: happy grasshopper on a leaf
+videoart:
+  src: /imagesgrasshopper-videoart.jpg
+  alt: happy grasshopper on a leaf
 ---
+
 THE GRASSHOPPER
 By Anacreon
 
@@ -30,7 +35,7 @@ And welcome to the first episode of Relaxivity, a new podcast that brings you re
 
 Our stories have a spiritual and diverting nature, and of course, a good dose of humour.
 
-For our debut, we’ve chosen a short poem from Ancient Greece. The verse celebrates the divine in the small - the little insect that sings the song of summer. Various translations call him a grasshopper, a cicada, or a cricket.  
+For our debut, we’ve chosen a short poem from Ancient Greece. The verse celebrates the divine in the small - the little insect that sings the song of summer. Various translations call him a grasshopper, a cicada, or a cricket.
 
 Cicadas are the chirpy insect that we associate with Greece, but our translation calls our tiny hero a grasshopper.
 
@@ -41,36 +46,36 @@ Socrates, the famous philosopher, whose life was written up by Plato,   taught t
 So now you know some background, let's get ready to listen to this enchanting poem, composed some 2,500 years ago.
 
 The Grasshopper, by Anacreon
-Happy insect! all agree  
-None can be more bless'd than thee;  
-Thou, for joy and pleasure born,  
-Sipp'st the honey'd dew of morn.  
-Happier than the sceptred king,  
-Mid the boughs we hear thee sing.  
-All the season's varied store,  
-All thy little eyes explore,  
-Fruits that tempt, and flowers that shine,  
-Happy insect! all are thine.  
-Injuring nothing, blamed by none,  
-Farmers love thee—pretty one!  
-All rejoice thy voice to hear  
-Singing blithe when summer's near.  
-Thee the tuneful Muses love,  
-Sweetly chirping in the grove;  
-Thee the great Apollo bless'd  
-With a voice above the rest.  
-Thou from wasting age art free,  
+Happy insect! all agree\
+None can be more bless'd than thee;\
+Thou, for joy and pleasure born,\
+Sipp'st the honey'd dew of morn.\
+Happier than the sceptred king,\
+Mid the boughs we hear thee sing.\
+All the season's varied store,\
+All thy little eyes explore,\
+Fruits that tempt, and flowers that shine,\
+Happy insect! all are thine.\
+Injuring nothing, blamed by none,\
+Farmers love thee—pretty one!\
+All rejoice thy voice to hear\
+Singing blithe when summer's near.\
+Thee the tuneful Muses love,\
+Sweetly chirping in the grove;\
+Thee the great Apollo bless'd\
+With a voice above the rest.\
+Thou from wasting age art free,\
 Time has naught to do with thee.
-Skilful creature, child of song,  
-Though to earth thou dost belong,  
-Free from Nature's woes and pains,  
-Free from flesh, or blood-fill'd veins,  
-Happy thing! thou seem'st to me  
-Almost a little god to be!  
+Skilful creature, child of song,\
+Though to earth thou dost belong,\
+Free from Nature's woes and pains,\
+Free from flesh, or blood-fill'd veins,\
+Happy thing! thou seem'st to me\
+Almost a little god to be!
 
 And you have been listening to The Grasshopper, written by Anacreon,  And TRANSLATED BY Thomas Bourne  in the 17th century.
 
-We do hope that you have enjoyed this first episode of Relaxivity and are now feeling nice and relaxed and ready to recharge yourself with positive energy.  
+We do hope that you have enjoyed this first episode of Relaxivity and are now feeling nice and relaxed and ready to recharge yourself with positive energy.
 
 I’ll be back soon with a story from old Japan. And we are working on plenty of mythological stories - all will be revealed soon.
 
@@ -78,4 +83,4 @@ In the meantime, may you maintain good positive energy.
 
 For now, from me, Jana,
 
-Goodbye.
+Goodbye..
