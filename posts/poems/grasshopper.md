@@ -22,7 +22,7 @@ coverart:
   src: grasshopper-coverart.jpg
   alt: happy grasshopper on a leaf
 videoart:
-  src: /imagesgrasshopper-videoart.jpg
+  src: grasshopper-videoart.jpg
   alt: happy grasshopper on a leaf
 ---
 
@@ -83,4 +83,4 @@ In the meantime, may you maintain good positive energy.
 
 For now, from me, Jana,
 
-Goodbye..
+Goodbye.
