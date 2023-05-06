@@ -2,28 +2,32 @@
 title: Our Saviour Christ (Munji Masiha Shafi)
 author: Emma Garewal
 type: post
-date: 2022-04-14
-excerpt: This is an Easter song sung in Urdu. Words by Rev Massey. Music composed by Alvat Garewal.Sung by Emma Garewal. Amber Roshni helped with the musical arrangement. Thanks to Mr. Majeed Masih from Pakistan for arranging the violinist and flautist.
+date: 2022-04-14T00:00:00.000Z
+excerpt: >-
+  This is an Easter song sung in Urdu. Words by Rev Massey. Music composed by
+  Alvat Garewal.Sung by Emma Garewal. Amber Roshni helped with the musical
+  arrangement. Thanks to Mr. Majeed Masih from Pakistan for arranging the
+  violinist and flautist.
 audio:
-    mp3: https://traffic.libsyn.com/relaxivity/easter.mp3
-    length: 0164205
-    duration: 6.57
-tags: 
-    - songs
-    - easter
-    - christianitys
-    - podcast
+  mp3: 'https://traffic.libsyn.com/relaxivity/easter.mp3'
+  length: 59525
+  duration: 6.57
+tags:
+  - songs
+  - easter
+  - christianitys
+  - podcast
 coverart:
-    src: easter-coverart.jpg
-    alt: easter Christ
-videoart: 
-    src: easter-videoart.jpg
-    alt: Easter Christ
+  src: /imageseaster-coverart.jpg
+  alt: easter Christ
+videoart:
+  src: /imageseaster-videoart.jpg
+  alt: Easter Christ
 ---
 
 A song for Easter with an Indian vibe sung by Emma Garewal.
 
-Jana was born in Oxford, England. Her family come from Northern India and are Christian. This song is composed and sung by members of Jana's family. 
+Jana was born in Oxford, England. Her family come from Northern India and are Christian. This song is composed and sung by members of Jana's family.
 
 Gospel song about Jesus Christ's journey to the cross. The song is an Urdu Ghazal, written by Rev. S. H. Massey (Oxford). The melody is composed by Alvat Garewal (Oxford). The singer is Emma Garewal. The musical arrangement is by Alvat assisted by Amber Roshni. A special thanks to Mr. Majeed Masih from Pakistan for arranging the violinist and flautist.
 
@@ -82,7 +86,7 @@ Where are they now
 Munji masiha shaafi
 Our Saviour Christ
 
- Rahe najaat paakay kiun gumrah tu ho gaye
+Rahe najaat paakay kiun gumrah tu ho gaye
 
 Oh sinner after finding your way to Salvation, why did you lose your way
 
@@ -102,12 +106,13 @@ Munji masiha shaafi
 Munji masiha shaafi Our Saviour Christ
 
 Humare kahan gaye where have you gone
-Tujh ko bula rahe hain 
+Tujh ko bula rahe hain
 Your loved ones are calling you
 
-Tujh ko bula rahe hain yeh 
+Tujh ko bula rahe hain yeh
 Your loved ones are calling you
 
 Pyare kahan gaye where have you gone
 Munji masiha shaafi Our Saviour Christ
 
+update
