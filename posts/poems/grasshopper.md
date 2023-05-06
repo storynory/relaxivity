@@ -19,7 +19,7 @@ tags:
   - poems
   - podcast
 coverart:
-  src: /imagesgrasshopper-coverart.jpg
+  src: grasshopper-coverart.jpg
   alt: happy grasshopper on a leaf
 videoart:
   src: /imagesgrasshopper-videoart.jpg
