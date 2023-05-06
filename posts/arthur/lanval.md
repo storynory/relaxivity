@@ -7,4 +7,4 @@ coverart:
   alt: /images/tigress-tears-videoart-600x390.webp
 ---
 
-This will be Lanval the knight who is not liked by the round table.
+This will be Lanval the knight who is not liked by the round table at all.
