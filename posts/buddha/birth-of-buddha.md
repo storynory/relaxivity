@@ -121,5 +121,6 @@ And so, the future Buddha, cast away the prospect of  worldly power, spitting it
 
 And that was the story of The Birth of Buddha and the Four Signs read by me, Jana, for Relaxivity. I hope you find our spiritual stories both absorbing and relaxing. We are building a collection that covers many cultures, religions and ideas. Keep listening to enrich your life.
 
-Source for our adaptation: Buddhism in Translations, by Henry Clarke Warren (1854-1899), published in 1896 as Volume III of the Harvard Oriental Series..
+Source for our adaptation: Buddhism in Translations, by Henry Clarke Warren (1854-1899), published in 1896 as Volume III of the Harvard Oriental Series.
 
+... just testing
