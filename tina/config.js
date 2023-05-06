@@ -125,12 +125,12 @@ const schema = defineSchema({
           {
             label: "src",
             name: "src",
-            type: "string"
+            type: "image"
           },
           {
             label: "alt text",
             name: "alt",
-            type: "image"
+            type: "string"
           }
         ]
       },
@@ -183,7 +183,7 @@ export const config = defineConfig({
     // },
     // this is the config for the tina cloud media store
     tina: {
-      publicFolder: "public",
+      publicFolder: "_site",
       mediaRoot: "images",
     },
   },

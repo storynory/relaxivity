@@ -17,11 +17,11 @@ tags:
   - India
   - podcast
 coverart:
-  src: buddha-coverart.jpg
-  alt: /imagesresting buddha
+  src: /images/buddha-coverart.jpg
+  alt: Resting Buddha
 videoart:
-  src: buddha-videoart.jpg
-  alt: resting buddha
+  src: /images/buddha-videoart.jpg
+  alt: Resting buddha
 ---
 
 Read by Jana <br />

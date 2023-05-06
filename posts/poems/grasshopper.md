@@ -9,7 +9,7 @@ url: grasshopper
 audio:
     mp3: https://traffic.libsyn.com/secure/relaxivity/happy-grasshopper-relaxivity.mp3
     length: 8751521
-    duration: 05.08
+    duration: 5.08
 tags: 
     - greece
     - poems

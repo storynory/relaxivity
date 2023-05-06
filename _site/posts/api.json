@@ -17,7 +17,7 @@
     "excerpt": "An etherial story from Japan about a Sumurai Knight and a beautiful but ghostly woman connected to a willow tree",
     "series": "poems",
     "url": "/posts/japan/willow",
-    "img": "green-willow-videoart.jpg"
+    "img": "/images/green-willow-videoart.jpg"
   } 
 
 
@@ -27,7 +27,7 @@
     "excerpt": "The Birth of Buddha is an immersive, spiritual story, that goes to the origins of one of the world&#39;s great religions.",
     "series": "Buddha",
     "url": "/posts/buddha/birth-of-buddha",
-    "img": "buddha-videoart.jpg"
+    "img": "/images/buddha-videoart.jpg"
   } 
 
 
@@ -47,7 +47,7 @@
     "excerpt": "We continue the story of the life of Buddha.",
     "series": "Buddha",
     "url": "/posts/buddha/buddha-enlightenment",
-    "img": "buddha-tree-videoart.jpg"
+    "img": "/images/buddha-tree-videoart.jpg"
   } 
 
 

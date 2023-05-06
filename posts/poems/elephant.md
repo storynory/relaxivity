@@ -9,7 +9,7 @@ url: elephant-slow
 audio:
     mp3: https://traffic.libsyn.com/relaxivity/elephant-slow-to-mate-relaxivity.mp3
     length: 6840810
-    duration: 04.06
+    duration: 4.06
 tags: 
     - love
     - poems

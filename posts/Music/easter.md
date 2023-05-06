@@ -7,7 +7,7 @@ excerpt: This is an Easter song sung in Urdu. Words by Rev Massey. Music compose
 audio:
     mp3: https://traffic.libsyn.com/relaxivity/easter.mp3
     length: 0164205
-    duration: 06.57
+    duration: 6.57
 tags: 
     - songs
     - easter

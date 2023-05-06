@@ -4,7 +4,7 @@
 <channel>
 	<title>Relaxivity</title>
 	
-	<lastBuildDate>Sat May 06 2023 08:38:41 GMT+0100 (British Summer Time)</lastBuildDate>
+	<lastBuildDate>Sat May 06 2023 18:42:26 GMT+0100 (British Summer Time)</lastBuildDate>
 	<generator>relaxivity.app</generator>
 	<link>https://www.relaxivity.app</link>
 	<language>en</language>
@@ -58,7 +58,7 @@
 					<pubDate>Sat, 26 Feb 2022 00:00:00 GMT</pubDate>
 					<guid isPermaLink="true">https://www.relaxivity.app/posts/buddha/buddha-enlightenment</guid>
 					<link><![CDATA[https://www.relaxivity.app/posts/buddha/buddha-enlightenment]]></link>
-					<itunes:image href="buddha-tree-coverart.jpg" />
+					<itunes:image href="/images/buddha-tree-coverart.jpg" />
 					<description><![CDATA[ We continue the story of the life of Buddha. ]]></description>
 					<enclosure length="45828401 " type="audio/mpeg" url="https://traffic.libsyn.com/relaxivity/budda-enlightenment-relaxivityb.mp3" />
 					<itunes:duration>31.3</itunes:duration>
@@ -90,7 +90,7 @@
 					<pubDate>Thu, 09 Dec 2021 00:00:00 GMT</pubDate>
 					<guid isPermaLink="true">https://www.relaxivity.app/posts/buddha/birth-of-buddha</guid>
 					<link><![CDATA[https://www.relaxivity.app/posts/buddha/birth-of-buddha]]></link>
-					<itunes:image href="buddha-coverart.jpg" />
+					<itunes:image href="/images/buddha-coverart.jpg" />
 					<description><![CDATA[ The Birth of Buddha is an immersive, spiritual story, that goes to the origins of one of the world's great religions. ]]></description>
 					<enclosure length="30697239 " type="audio/mpeg" url="https://traffic.libsyn.com/relaxivity/birth-of-buddha-relaxivity.mp3" />
 					<itunes:duration>19.51</itunes:duration>
@@ -106,7 +106,7 @@
 					<pubDate>Tue, 02 Nov 2021 00:00:00 GMT</pubDate>
 					<guid isPermaLink="true">https://www.relaxivity.app/posts/japan/willow</guid>
 					<link><![CDATA[https://www.relaxivity.app/posts/japan/willow]]></link>
-					<itunes:image href="green-willow-coverart.jpg" />
+					<itunes:image href="/images/green-willow-coverart.jpg" />
 					<description><![CDATA[ An etherial story from Japan about a Sumurai Knight and a beautiful but ghostly woman connected to a willow tree ]]></description>
 					<enclosure length="20904757 " type="audio/mpeg" url="https://traffic.libsyn.com/relaxivity/green-willow-mix-relaxivity.mp3" />
 					<itunes:duration>12.52</itunes:duration>
