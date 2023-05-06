@@ -18,10 +18,10 @@ tags:
   - christianitys
   - podcast
 coverart:
-  src: /imageseaster-coverart.jpg
+  src: /images/easter-coverart.jpg
   alt: easter Christ
 videoart:
-  src: /imageseaster-videoart.jpg
+  src: /images/easter-videoart.jpg
   alt: Easter Christ
 ---
 

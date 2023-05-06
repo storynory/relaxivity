@@ -4,7 +4,7 @@
 <channel>
 	<title>Relaxivity</title>
 	
-	<lastBuildDate>Sat May 06 2023 18:42:26 GMT+0100 (British Summer Time)</lastBuildDate>
+	<lastBuildDate>Sat May 06 2023 19:18:12 GMT+0100 (British Summer Time)</lastBuildDate>
 	<generator>relaxivity.app</generator>
 	<link>https://www.relaxivity.app</link>
 	<language>en</language>
@@ -42,10 +42,10 @@
 					<pubDate>Thu, 14 Apr 2022 00:00:00 GMT</pubDate>
 					<guid isPermaLink="true">https://www.relaxivity.app/posts/Music/easter</guid>
 					<link><![CDATA[https://www.relaxivity.app/posts/Music/easter]]></link>
-					<itunes:image href="easter-coverart.jpg" />
+					<itunes:image href="/images/easter-coverart.jpg" />
 					<description><![CDATA[ This is an Easter song sung in Urdu. Words by Rev Massey. Music composed by Alvat Garewal.Sung by Emma Garewal. Amber Roshni helped with the musical arrangement. Thanks to Mr. Majeed Masih from Pakistan for arranging the violinist and flautist. ]]></description>
 					<enclosure length="59525 " type="audio/mpeg" url="https://traffic.libsyn.com/relaxivity/easter.mp3" />
-					<itunes:duration>06.57</itunes:duration>
+					<itunes:duration>6.57</itunes:duration>
 					<itunes:explicit>no</itunes:explicit>
 					<itunes:keywords />
  					<itunes:episodeType>full</itunes:episodeType>
@@ -77,7 +77,7 @@
 					<itunes:image href="elephant-love-coverart.jpg" />
 					<description><![CDATA[ This is a love poem by DH Lawrence - just in time for Valentine’s day.  But it isn’t about fiery passion, it’s about a slow-burning and long-lasting love. ]]></description>
 					<enclosure length="6840810 " type="audio/mpeg" url="https://traffic.libsyn.com/relaxivity/elephant-slow-to-mate-relaxivity.mp3" />
-					<itunes:duration>04.06</itunes:duration>
+					<itunes:duration>4.06</itunes:duration>
 					<itunes:explicit>no</itunes:explicit>
 					<itunes:keywords />
  					<itunes:episodeType>full</itunes:episodeType>
@@ -125,7 +125,7 @@
 					<itunes:image href="grasshopper-coverart.jpg" />
 					<description><![CDATA[ Welcome to Relaxivity  - the new Podcast that brings you atmsopheric and relaxing stories.  Our debut episode is a poem from ancient Greece that celebrates the devine in the tiny. ]]></description>
 					<enclosure length="8751521 " type="audio/mpeg" url="https://traffic.libsyn.com/secure/relaxivity/happy-grasshopper-relaxivity.mp3" />
-					<itunes:duration>05.08</itunes:duration>
+					<itunes:duration>5.08</itunes:duration>
 					<itunes:explicit>no</itunes:explicit>
 					<itunes:keywords />
  					<itunes:episodeType>full</itunes:episodeType>
