@@ -1,7 +1,7 @@
 ---
 title: Lanval
 author: Bertie Fraser
-excerpt: The latest relaxing post is from the middle ages
+excerpt: The latest relaxing post is from the middle ages are here.
 date: 2023-05-03T11:01:48.770Z
 coverart:
   alt: /images/tigress-tears-videoart-600x390.webp
