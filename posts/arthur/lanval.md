@@ -25,7 +25,7 @@ series: Lanval
 audio:
   mp3: lanval-relaxivity.mp3
   length: 30926829
-  duration: 7
+  duration: 31.37
 ---
 
 A romantic tail from the mythological times of King Arthur.  Sir Lanval is a Knight of the Court of King Camelot.  He is brave and good looking, chivalrous, and moral.  But the other Knights of the Round Table do not like him.  Perhaps his high moral tone irks them.  As a result of his unpopularity, Lanval does not share in the rewards handed out by King Arthur. He falls into poverty, and, in despair, secretly leaves the court.  On his travels he is wooed by a fairy queen, who gives him her love, and riches. The fairy queen makes one condition - he must not mention her to anyone.  When he returns to Camelot, he attracts the eye of Queen Guinevere.  He refuses her advances, and she decides to take revenge, making false accusations against him.   It is based on the Lai of Lanval by Marie de France.
