@@ -28,6 +28,12 @@ audio:
   duration: 31.37
 ---
 
+Narrated for Relaxivity by Jana Elzabeth
+
+Written and produced by Bertie Fraser 
+
+Image by Midjourney/Relaxivity 
+
 A romantic tail from the mythological times of King Arthur.  Sir Lanval is a Knight of the Court of King Camelot.  He is brave and good looking, chivalrous, and moral.  But the other Knights of the Round Table do not like him.  Perhaps his high moral tone irks them.  As a result of his unpopularity, Lanval does not share in the rewards handed out by King Arthur. He falls into poverty, and, in despair, secretly leaves the court.  On his travels he is wooed by a fairy queen, who gives him her love, and riches. The fairy queen makes one condition - he must not mention her to anyone.  When he returns to Camelot, he attracts the eye of Queen Guinevere.  He refuses her advances, and she decides to take revenge, making false accusations against him.   It is based on the Lai of Lanval by Marie de France.
 
 The original was written in Anglo Norman.  Ours is a modern interpretation in easy to understand verse.
@@ -752,18 +758,6 @@ Are a queer! 
 
 “My lady I assure you I am not.” exclaimed Sir Lanval quite shocked
 
-And well you maybe
-
-To hear the queen speak so plainly
-
-Because back then
-
-And at times even now
-
-The accusation could be
-
-Quite deadly.
-
 “Your lies cannot disguise it any more.
 
 It’s well understood. 
@@ -912,7 +906,7 @@ She was crying
 
 She was sick
 
-And the more she was teerful
+And the more she was tearful
 
 The more fearful became the king
 
