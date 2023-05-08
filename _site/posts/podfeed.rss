@@ -4,16 +4,16 @@
 <channel>
 	<title>Relaxivity</title>
 	
-	<lastBuildDate>Mon May 08 2023 13:58:00 GMT+0100 (British Summer Time)</lastBuildDate>
+	<lastBuildDate>Mon May 08 2023 14:30:25 GMT+0100 (British Summer Time)</lastBuildDate>
 	<generator>relaxivity.app</generator>
 	<link>https://www.relaxivity.app</link>
 	<language>en</language>
-	<copyright><![CDATA[2021 Storynory ltd]]></copyright>
+	<copyright><![CDATA[2023 Storynory ltd]]></copyright>
 	<docs>https://www.relaxivity.app</docs>
 	<managingEditor>bertie@storynory.com (bertie@storynory.com)</managingEditor>
 	<itunes:summary><![CDATA[Our stories and verses have a spiritual and diverting nature, and a good dose of humour. The sources come from all over the world, past and present, but especially the past.Relaxivity is a diversion that will lead you far from anything that you might normally  think or obsess about. This little time out during your day will leave you feeling refreshed and full of positive energy.]]></itunes:summary>
 	<image>
-		<url>https://www.relaxivity.app/images/relaxivity-coverart-v2.jpg</url>
+		<url>https://www.relaxivity.app/images/relaxivity-coverart-v3.jpg</url>
 		<title>Relaxivity</title>
 		<link><![CDATA[https://www.relaxivity.app]]></link>
 	</image>
@@ -27,7 +27,7 @@
 	<itunes:category text="Health &amp; Fitness">
 		<itunes:category text="Mental Health"/>
 	</itunes:category>
-		<itunes:image href="https://www.relaxivity.app/images/relaxivity-coverart-v2.jpg" />
+		<itunes:image href="https://www.relaxivity.app/images/relaxivity-coverart-v3.jpg" />
 		<itunes:explicit>no</itunes:explicit>
 		<itunes:owner>
 			<itunes:name><![CDATA[Storynory Ltd]]></itunes:name>
