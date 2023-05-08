@@ -4,7 +4,7 @@
 <channel>
 	<title>Relaxivity</title>
 	
-	<lastBuildDate>Mon May 08 2023 13:56:20 GMT+0100 (British Summer Time)</lastBuildDate>
+	<lastBuildDate>Mon May 08 2023 13:58:00 GMT+0100 (British Summer Time)</lastBuildDate>
 	<generator>relaxivity.app</generator>
 	<link>https://www.relaxivity.app</link>
 	<language>en</language>
@@ -47,8 +47,8 @@
   
 					<itunes:image href="https://relaxivity.app/images/lanval-coverart.jpg" />
 					<description><![CDATA[ A romantic tail from the mythological times of King Arthur.  Sir Lanval is a Knight of the Court of King Camelot.  He is brave and good looking, chivalrous, and moral.  But the other Knights of the Round Table do not like him.  So he leaves their company and is wooed by a beautiful fairy queen, who gives him not only her love, but riches too.   The story refers to some grown-up themes. We trust you will find the magical and romantic story calming and diverting from the cares of modern life!  Sit or lie back, and enjoy the story of a medieval Knight.  ]]></description>
-					<enclosure length=" " type="audio/mpeg" url="" />
-					<itunes:duration></itunes:duration>
+					<enclosure length="30926829 " type="audio/mpeg" url="https://traffic.libsyn.com/relaxivity/lanval-relaxivity.mp3" />
+					<itunes:duration>31.37</itunes:duration>
 					<itunes:explicit>no</itunes:explicit>
 					<itunes:keywords />
  					<itunes:episodeType>full</itunes:episodeType>
