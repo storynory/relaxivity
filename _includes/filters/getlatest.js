@@ -1,7 +1,9 @@
-module.exports = function(collection, emptyFallbackDate) {
-  if( !collection || !collection.length ) {
-    return emptyFallbackDate || new Date();
-  }
+module.exports = function (collection, emptyFallbackDate) {
+    if (!collection || !collection.length) {
+        const fallbackDate = emptyFallbackDate || new Date();
+        return fallbackDate.toUTCString(); // Format as RFC-822 date-time
+    }
 
-  return new Date(Math.max(...collection.map(item => {return item.date})));
-}
+    const maxDate = new Date(Math.max(...collection.map(item => item.date)));
+    return maxDate.toUTCString(); // Format as RFC-822 date-time
+};
