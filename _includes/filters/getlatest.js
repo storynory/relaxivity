@@ -1,6 +1,5 @@
 module.exports = function getRFC822Date() {
     const date = new Date();
-
     const daysOfWeek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
     const monthsOfYear = [
         "Jan",
