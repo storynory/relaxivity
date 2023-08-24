@@ -40,9 +40,15 @@
 					<pubDate>{{post.data.date.toUTCString() }}</pubDate>
 					<guid isPermaLink="true">{{  url }}{{ post.filePathStem}}</guid>
 					<link><![CDATA[{{ url }}{{ post.filePathStem}}]]></link>
+{% if post.data.coverart and post.data.coverart.src %}
+    {% set coverstring = post.data.coverart.src %}
+    {% set cover = coverstring.replace("/images/", "") %}
+{% else %}
+    {% set coverstring = "" %}
+    {% set cover = "" %}
+{% endif %}
 
-					 {% set coverstring = post.data.coverart.src %}
-  {% set cover = coverstring.replace("/images/","") %}
+					
 					<itunes:image href="https://relaxivity.app/images/{{cover}}" />
 					<description><![CDATA[ {{ post.data.excerpt | safe }} ]]></description>
 					<enclosure length="{{post.data.audio.length}} " type="audio/mpeg" url="{{ post.data.audio.mp3 }}" />

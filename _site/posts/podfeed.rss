@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:cc="http://web.resource.org/cc/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/"  xmlns:podcast="https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md"  xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <channel>
 	<title>Relaxivity</title>
-	<lastBuildDate>Wed, 23 Aug 2023 11:19:35 GMT</lastBuildDate>
+	<lastBuildDate>Thu, 24 Aug 2023 18:32:12 GMT</lastBuildDate>
 	<generator>relaxivity.app</generator>
 	<link>https://www.relaxivity.app</link>
 	<language>en</language>
@@ -36,13 +36,38 @@
 	       
 
 			<item>
+           		 <title>The Prayer of St Francis of Assisi </title>
+					<pubDate>Thu, 24 Aug 2023 14:56:44 GMT</pubDate>
+					<guid isPermaLink="true">https://www.relaxivity.app/posts/saints/prayer-of-assisi.md</guid>
+					<link><![CDATA[https://www.relaxivity.app/posts/saints/prayer-of-assisi.md]]></link>
+
+    
+    
+
+
+					
+					<itunes:image href="https://relaxivity.app/images/assisi-coverart.jpg" />
+					<description><![CDATA[ The timeless Prayer of St. Francis of Assisi. A hymn to peace, understanding, and unconditional love, this prayer is a cornerstone of Christian thought and a universal call to inner peace and harmony with the world. Whether you're familiar with its soothing words or hearing them for the first time, join us, sit back, take a deep breath, and let the wisdom of St. Francis guide you to a place of quiet reflection and rejuvenation.  Read in the rich tones of Jana Elizabeth.  ]]></description>
+					<enclosure length="4495555 " type="audio/mpeg" url="https://traffic.libsyn.com/relaxivity/the-prayer-of-francis-of-assisi.mp3" />
+					<itunes:duration>4.14</itunes:duration>
+					<itunes:explicit>no</itunes:explicit>
+					<itunes:keywords />
+ 					<itunes:episodeType>full</itunes:episodeType>
+					
+			</item>
+            
+
+			<item>
            		 <title>Lanval </title>
 					<pubDate>Sun, 07 May 2023 23:00:00 GMT</pubDate>
 					<guid isPermaLink="true">https://www.relaxivity.app/posts/arthur/lanval</guid>
 					<link><![CDATA[https://www.relaxivity.app/posts/arthur/lanval]]></link>
 
-					 
-  
+    
+    
+
+
+					
 					<itunes:image href="https://relaxivity.app/images/lanval-coverart.jpg" />
 					<description><![CDATA[ A romantic tail from the mythological times of King Arthur.  Sir Lanval is a Knight of the Court of King Camelot.  He is brave and good looking, chivalrous, and moral.  But the other Knights of the Round Table do not like him.  So he leaves their company and is wooed by a beautiful fairy queen, who gives him not only her love, but riches too.   The story refers to some grown-up themes. We trust you will find the magical and romantic story calming and diverting from the cares of modern life!  Sit or lie back, and enjoy the story of a medieval Knight.  ]]></description>
 					<enclosure length="30926829 " type="audio/mpeg" url="https://traffic.libsyn.com/relaxivity/lanval-relaxivity.mp3" />
@@ -60,8 +85,11 @@
 					<guid isPermaLink="true">https://www.relaxivity.app/posts/Music/easter</guid>
 					<link><![CDATA[https://www.relaxivity.app/posts/Music/easter]]></link>
 
-					 
-  
+    
+    
+
+
+					
 					<itunes:image href="https://relaxivity.app/images/easter-coverart.jpg" />
 					<description><![CDATA[ This is an Easter song sung in Urdu. Words by Rev Massey. Music composed by Alvat Garewal.Sung by Emma Garewal. Amber Roshni helped with the musical arrangement. Thanks to Mr. Majeed Masih from Pakistan for arranging the violinist and flautist. ]]></description>
 					<enclosure length="59525 " type="audio/mpeg" url="https://traffic.libsyn.com/relaxivity/easter.mp3" />
@@ -79,8 +107,11 @@
 					<guid isPermaLink="true">https://www.relaxivity.app/posts/buddha/buddha-enlightenment</guid>
 					<link><![CDATA[https://www.relaxivity.app/posts/buddha/buddha-enlightenment]]></link>
 
-					 
-  
+    
+    
+
+
+					
 					<itunes:image href="https://relaxivity.app/images/buddha-tree-coverart.jpg" />
 					<description><![CDATA[ We continue the story of the life of Buddha. ]]></description>
 					<enclosure length="45828401 " type="audio/mpeg" url="https://traffic.libsyn.com/relaxivity/budda-enlightenment-relaxivityb.mp3" />
@@ -98,8 +129,11 @@
 					<guid isPermaLink="true">https://www.relaxivity.app/posts/poems/elephant</guid>
 					<link><![CDATA[https://www.relaxivity.app/posts/poems/elephant]]></link>
 
-					 
-  
+    
+    
+
+
+					
 					<itunes:image href="https://relaxivity.app/images/elephant-love-coverart.jpg" />
 					<description><![CDATA[ This is a love poem by DH Lawrence - just in time for Valentine’s day.  But it isn’t about fiery passion, it’s about a slow-burning and long-lasting love. ]]></description>
 					<enclosure length="6840810 " type="audio/mpeg" url="https://traffic.libsyn.com/relaxivity/elephant-slow-to-mate-relaxivity.mp3" />
@@ -117,8 +151,11 @@
 					<guid isPermaLink="true">https://www.relaxivity.app/posts/buddha/birth-of-buddha</guid>
 					<link><![CDATA[https://www.relaxivity.app/posts/buddha/birth-of-buddha]]></link>
 
-					 
-  
+    
+    
+
+
+					
 					<itunes:image href="https://relaxivity.app/images/buddha-coverart.jpg" />
 					<description><![CDATA[ The Birth of Buddha is an immersive, spiritual story, that goes to the origins of one of the world's great religions. ]]></description>
 					<enclosure length="30697239 " type="audio/mpeg" url="https://traffic.libsyn.com/relaxivity/birth-of-buddha-relaxivity.mp3" />
@@ -136,8 +173,11 @@
 					<guid isPermaLink="true">https://www.relaxivity.app/posts/japan/willow</guid>
 					<link><![CDATA[https://www.relaxivity.app/posts/japan/willow]]></link>
 
-					 
-  
+    
+    
+
+
+					
 					<itunes:image href="https://relaxivity.app/images/green-willow-coverart.jpg" />
 					<description><![CDATA[ An etherial story from Japan about a Sumurai Knight and a beautiful but ghostly woman connected to a willow tree ]]></description>
 					<enclosure length="20904757 " type="audio/mpeg" url="https://traffic.libsyn.com/relaxivity/green-willow-mix-relaxivity.mp3" />
@@ -155,8 +195,11 @@
 					<guid isPermaLink="true">https://www.relaxivity.app/posts/poems/grasshopper</guid>
 					<link><![CDATA[https://www.relaxivity.app/posts/poems/grasshopper]]></link>
 
-					 
-  
+    
+    
+
+
+					
 					<itunes:image href="https://relaxivity.app/images/grasshopper-coverart.jpg" />
 					<description><![CDATA[ Welcome to Relaxivity  - the new Podcast that brings you atmsopheric and relaxing stories.  Our debut episode is a poem from ancient Greece that celebrates the devine in the tiny. ]]></description>
 					<enclosure length="8751521 " type="audio/mpeg" url="https://traffic.libsyn.com/secure/relaxivity/happy-grasshopper-relaxivity.mp3" />
