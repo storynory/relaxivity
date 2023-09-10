@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:cc="http://web.resource.org/cc/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/"  xmlns:podcast="https://github.com/Podcastindex-org/podcast-namespace/blob/main/docs/1.0.md"  xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <channel>
 	<title>Relaxivity</title>
-	<lastBuildDate>Sun, 10 Sep 2023 09:13:45 GMT</lastBuildDate>
+	<lastBuildDate>Sun, 10 Sep 2023 09:21:37 GMT</lastBuildDate>
 	<generator>relaxivity.app</generator>
 	<link>https://www.relaxivity.app</link>
 	<language>en</language>
@@ -34,6 +34,30 @@
 		<description><![CDATA[Our stories and verses have a spiritual and diverting nature, and a good dose of humour. The sources come from all over the world, past and present, but especially the past.Relaxivity is a diversion that will lead you far from anything that you might normally  think or obsess about. This little time out during your day will leave you feeling refreshed and full of positive energy.]]></description>
 		<itunes:subtitle><![CDATA[Relaxing and Atmospheric Stories]]></itunes:subtitle>	
 	       
+
+			<item>
+           		 <title>The Canticle of Creation </title>
+					<pubDate>Sun, 10 Sep 2023 09:05:05 GMT</pubDate>
+					<guid isPermaLink="true">https://www.relaxivity.app/posts/the-canticle-of-creation</guid>
+					<link><![CDATA[https://www.relaxivity.app/posts/the-canticle-of-creation]]></link>
+
+    
+    
+
+
+					
+					<itunes:image href="https://relaxivity.app/images/sun-meme-coverart.jpg" />
+					<description><![CDATA[ When St Francis of Assisi was ageing and going blind, he wrote these words: a celebration of his brothers and sisters, the Sun, the Moon, Light, Animals, flowers, Fire and Water - all of them God's creations.
+
+ ]]></description>
+					<enclosure length=" " type="audio/mpeg" url="https://traffic.libsyn.com/relaxivity/chant-canticle-assisi.mp3" />
+					<itunes:duration></itunes:duration>
+					<itunes:explicit>no</itunes:explicit>
+					<itunes:keywords />
+ 					<itunes:episodeType>full</itunes:episodeType>
+					
+			</item>
+            
 
 			<item>
            		 <title>The Prayer of St Francis of Assisi </title>

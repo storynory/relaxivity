@@ -15,7 +15,8 @@ videoart:
   src: /images/sun-meme-videoart.jpg
   alt: 'Our Brother, the Sun'
 tags:
-  - 'podcast, Prayers'
+  - podcast
+  - ''
 audio:
   mp3: 'https://traffic.libsyn.com/relaxivity/chant-canticle-assisi.mp3'
 ---
