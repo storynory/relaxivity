@@ -29,6 +29,9 @@ Chants by Jana</br>
 Adaptation and production by Bertie</br>
 Buddha images courtesy of <a href="https://depositphotos.com/">Deposit Photos</a>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ou9ziAYvljk?si=AHvxobush5ai9nFX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
 Hello, this is Jana, and welcome to Relaxivity. In this episode, I will tell you the story of the birth of Buddha. But first, what is the difference between a Buddha and the Buddha?
 
 “Buddha” is an ancient Sanskrit word that means “a person who is awake.” A buddha is awake to the true nature of reality, and free from the fog of daily illusions, such as hate, greed, and folly. To become a Buddha, you must reach Nirvana, a transcendent state where there is  no sense of self.  It is a place of happiness and peace.
