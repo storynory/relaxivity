@@ -1,9 +1,6 @@
 ---
 title: The Birth of Buddha
 author: Bertie
-type: post
-date: 2021-12-09T00:00:00.000Z
-series: Buddha
 excerpt: >-
   The Birth of Buddha is an immersive, spiritual story, that goes to the origins
   of one of the world's great religions.
@@ -12,10 +9,12 @@ audio:
   mp3: 'https://traffic.libsyn.com/relaxivity/birth-of-buddha-relaxivity.mp3'
   length: 30697239
   duration: 19.51
+series: Buddha
 tags:
   - Buddha
   - India
   - podcast
+date: 2021-12-09T00:00:00.000Z
 coverart:
   src: /images/buddha-coverart.jpg
   alt: Resting Buddha
@@ -30,8 +29,6 @@ Adaptation and production by Bertie</br>
 Buddha images courtesy of <a href="https://depositphotos.com/">Deposit Photos</a>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ou9ziAYvljk?si=AHvxobush5ai9nFX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
 
 Hello, this is Jana, and welcome to Relaxivity. In this episode, I will tell you the story of the birth of Buddha. But first, what is the difference between a Buddha and the Buddha?
 
